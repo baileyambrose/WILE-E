@@ -1,0 +1,42 @@
+[0.037s] Invoking command in '/home/bailey/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters /usr/bin/cmake --build /home/bailey/ros2_ws/build/turtlesim -- -j4 -l4
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[0.308s] -- The CXX compiler identification is GNU 11.4.0
+[0.336s] -- Detecting C compiler ABI info
+[0.583s] -- Detecting C compiler ABI info - done
+[0.620s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.624s] -- Detecting C compile features
+[0.625s] -- Detecting C compile features - done
+[0.636s] -- Detecting CXX compiler ABI info
+[0.916s] -- Detecting CXX compiler ABI info - done
+[0.958s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.964s] -- Detecting CXX compile features
+[0.965s] -- Detecting CXX compile features - done
+[0.974s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.199s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.668s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.705s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.972s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.003s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.052s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.301s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[2.301s]   By not providing "FindQt5.cmake" in CMAKE_MODULE_PATH this project has
+[2.301s]   asked CMake to find a package configuration file provided by "Qt5", but
+[2.301s]   CMake did not find one.
+[2.301s] 
+[2.301s]   Could not find a package configuration file provided by "Qt5" with any of
+[2.301s]   the following names:
+[2.301s] 
+[2.301s]     Qt5Config.cmake
+[2.301s]     qt5-config.cmake
+[2.301s] 
+[2.302s]   Add the installation prefix of "Qt5" to CMAKE_PREFIX_PATH or set "Qt5_DIR"
+[2.302s]   to a directory containing one of the above files.  If "Qt5" provides a
+[2.302s]   separate development package or SDK, be sure it has been installed.
+[2.302s] 
+[2.302s] [0m
+[2.302s] -- Configuring incomplete, errors occurred!
+[2.302s] See also "/home/bailey/ros2_ws/build/turtlesim/CMakeFiles/CMakeOutput.log".
+[2.336s] gmake: *** [Makefile:2950: cmake_check_build_system] Error 1
+[2.348s] Invoked command in '/home/bailey/ros2_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters /usr/bin/cmake --build /home/bailey/ros2_ws/build/turtlesim -- -j4 -l4

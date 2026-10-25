@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (-) JobUnselected: {'identifier': 'imu_filter_madgwick'}
+[0.000825] (-) JobUnselected: {'identifier': 'imu_tools'}
+[0.001072] (-) JobUnselected: {'identifier': 'message_filters'}
+[0.001094] (-) JobUnselected: {'identifier': 'mpu6050driver'}
+[0.001275] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.001295] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001312] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001331] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001348] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.001366] (-) JobUnselected: {'identifier': 'rviz_imu_plugin'}
+[0.001383] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001400] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001418] (-) JobUnselected: {'identifier': 'wile_e'}
+[0.001436] (-) JobUnselected: {'identifier': 'wile_e_interfaces'}
+[0.001453] (-) JobUnselected: {'identifier': 'yle1'}
+[0.001475] (imu_complementary_filter) JobQueued: {'identifier': 'imu_complementary_filter', 'dependencies': OrderedDict([('message_filters', '/home/bailey/ros2_ws/install/message_filters')])}
+[0.001533] (imu_complementary_filter) JobStarted: {'identifier': 'imu_complementary_filter'}
+[0.010992] (imu_complementary_filter) JobProgress: {'identifier': 'imu_complementary_filter', 'progress': 'cmake'}
+[0.012649] (imu_complementary_filter) Command: {'cmd': ['/usr/bin/cmake', '/home/bailey/ros2_ws/imu_tools/imu_complementary_filter', '-DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/imu_complementary_filter'], 'cwd': '/home/bailey/ros2_ws/build/imu_complementary_filter', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/opt/ros/humble'), ('PWD', '/home/bailey/ros2_ws/build/imu_complementary_filter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble')]), 'shell': False}
+[0.027340] (imu_complementary_filter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099721] (-) TimerEvent: {}
+[0.204498] (-) TimerEvent: {}
+[0.207415] (imu_complementary_filter) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.230538] (imu_complementary_filter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.233854] (imu_complementary_filter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.240872] (imu_complementary_filter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.252715] (imu_complementary_filter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.267599] (imu_complementary_filter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.304601] (-) TimerEvent: {}
+[0.316395] (imu_complementary_filter) StdoutLine: {'line': b'-- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.387320] (imu_complementary_filter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.392831] (imu_complementary_filter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.404670] (-) TimerEvent: {}
+[0.500627] (imu_complementary_filter) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.504749] (-) TimerEvent: {}
+[0.521856] (imu_complementary_filter) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.554663] (imu_complementary_filter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.568891] (imu_complementary_filter) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.604862] (-) TimerEvent: {}
+[0.705190] (-) TimerEvent: {}
+[0.805554] (-) TimerEvent: {}
+[0.905887] (-) TimerEvent: {}
+[0.906491] (imu_complementary_filter) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.907217] (imu_complementary_filter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.995199] (imu_complementary_filter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.995414] (imu_complementary_filter) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.005984] (-) TimerEvent: {}
+[1.063777] (imu_complementary_filter) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.097768] (imu_complementary_filter) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[1.099210] (imu_complementary_filter) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.099366] (imu_complementary_filter) StdoutLine: {'line': b'See also "/home/bailey/ros2_ws/build/imu_complementary_filter/CMakeFiles/CMakeOutput.log".\n'}
+[1.099440] (imu_complementary_filter) StderrLine: {'line': b'  By not providing "Findtf2.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.099504] (imu_complementary_filter) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "tf2", but\n'}
+[1.099562] (imu_complementary_filter) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.099619] (imu_complementary_filter) StderrLine: {'line': b'\n'}
+[1.099674] (imu_complementary_filter) StderrLine: {'line': b'  Could not find a package configuration file provided by "tf2" with any of\n'}
+[1.099729] (imu_complementary_filter) StderrLine: {'line': b'  the following names:\n'}
+[1.099784] (imu_complementary_filter) StderrLine: {'line': b'\n'}
+[1.099839] (imu_complementary_filter) StderrLine: {'line': b'    tf2Config.cmake\n'}
+[1.099894] (imu_complementary_filter) StderrLine: {'line': b'    tf2-config.cmake\n'}
+[1.099948] (imu_complementary_filter) StderrLine: {'line': b'\n'}
+[1.100002] (imu_complementary_filter) StderrLine: {'line': b'  Add the installation prefix of "tf2" to CMAKE_PREFIX_PATH or set "tf2_DIR"\n'}
+[1.100057] (imu_complementary_filter) StderrLine: {'line': b'  to a directory containing one of the above files.  If "tf2" provides a\n'}
+[1.100111] (imu_complementary_filter) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[1.100166] (imu_complementary_filter) StderrLine: {'line': b'\n'}
+[1.100219] (imu_complementary_filter) StderrLine: {'line': b'\x1b[0m\n'}
+[1.106199] (-) TimerEvent: {}
+[1.107177] (imu_complementary_filter) CommandEnded: {'returncode': 1}
+[1.130636] (imu_complementary_filter) JobEnded: {'identifier': 'imu_complementary_filter', 'rc': 1}
+[1.141211] (-) EventReactorShutdown: {}

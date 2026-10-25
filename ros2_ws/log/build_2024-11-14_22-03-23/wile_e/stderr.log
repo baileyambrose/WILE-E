@@ -1,0 +1,5 @@
+  File "/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e/trigger.py", line 22
+    self.get_logger().info('Trigger status updated to: {self.triggered}")
+                           ^
+SyntaxError: unterminated string literal (detected at line 22)
+

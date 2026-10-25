@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.000461] (-) JobUnselected: {'identifier': 'imu_complementary_filter'}
+[0.000763] (-) JobUnselected: {'identifier': 'imu_filter_madgwick'}
+[0.000788] (-) JobUnselected: {'identifier': 'imu_tools'}
+[0.000933] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.000952] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000971] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000988] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001006] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.001175] (-) JobUnselected: {'identifier': 'rviz_imu_plugin'}
+[0.001194] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001241] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001260] (-) JobUnselected: {'identifier': 'wile_e'}
+[0.001278] (-) JobUnselected: {'identifier': 'wile_e_interfaces'}
+[0.001295] (-) JobUnselected: {'identifier': 'yle1'}
+[0.001317] (mpu6050driver) JobQueued: {'identifier': 'mpu6050driver', 'dependencies': OrderedDict()}
+[0.001339] (mpu6050driver) JobStarted: {'identifier': 'mpu6050driver'}
+[0.011139] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'cmake'}
+[0.012656] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'build'}
+[0.013412] (mpu6050driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bailey/ros2_ws/build/mpu6050driver', '--', '-j4', '-l4'], 'cwd': '/home/bailey/ros2_ws/build/mpu6050driver', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/opt/ros/humble'), ('PWD', '/home/bailey/ros2_ws/build/mpu6050driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble')]), 'shell': False}
+[0.042801] (mpu6050driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099718] (-) TimerEvent: {}
+[0.200076] (-) TimerEvent: {}
+[0.224890] (mpu6050driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.270498] (mpu6050driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.275519] (mpu6050driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.287306] (mpu6050driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.300180] (-) TimerEvent: {}
+[0.306542] (mpu6050driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.327617] (mpu6050driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.386879] (mpu6050driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.390886] (mpu6050driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400304] (-) TimerEvent: {}
+[0.501450] (-) TimerEvent: {}
+[0.509217] (mpu6050driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.597967] (mpu6050driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.603514] (-) TimerEvent: {}
+[0.703802] (-) TimerEvent: {}
+[0.753372] (mpu6050driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.803907] (-) TimerEvent: {}
+[0.880008] (mpu6050driver) StdoutLine: {'line': b'-- Generating done\n'}
+[0.906905] (-) TimerEvent: {}
+[0.907241] (mpu6050driver) StdoutLine: {'line': b'-- Build files have been written to: /home/bailey/ros2_ws/build/mpu6050driver\n'}
+[0.934178] (mpu6050driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpu6050driver\x1b[0m\n'}
+[0.952587] (mpu6050driver) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/complementaryfilter.dir/src/mpu6050_complementaryfilter.cpp.o\x1b[0m\n'}
+[0.952896] (mpu6050driver) StdoutLine: {'line': b'[ 80%] Built target mpu6050driver\n'}
+[1.007008] (-) TimerEvent: {}
+[1.107349] (-) TimerEvent: {}
+[1.207895] (-) TimerEvent: {}
+[1.308244] (-) TimerEvent: {}
+[1.411554] (-) TimerEvent: {}
+[1.511988] (-) TimerEvent: {}
+[1.612411] (-) TimerEvent: {}
+[1.712892] (-) TimerEvent: {}
+[1.813305] (-) TimerEvent: {}
+[1.913729] (-) TimerEvent: {}
+[2.014157] (-) TimerEvent: {}
+[2.114583] (-) TimerEvent: {}
+[2.215008] (-) TimerEvent: {}
+[2.315430] (-) TimerEvent: {}
+[2.419760] (-) TimerEvent: {}
+[2.520175] (-) TimerEvent: {}
+[2.620592] (-) TimerEvent: {}
+[2.721026] (-) TimerEvent: {}
+[2.821382] (-) TimerEvent: {}
+[2.921758] (-) TimerEvent: {}
+[3.022138] (-) TimerEvent: {}
+[3.122506] (-) TimerEvent: {}
+[3.222875] (-) TimerEvent: {}
+[3.323251] (-) TimerEvent: {}
+[3.423544] (-) TimerEvent: {}
+[3.523886] (-) TimerEvent: {}
+[3.624228] (-) TimerEvent: {}
+[3.724593] (-) TimerEvent: {}
+[3.824952] (-) TimerEvent: {}
+[3.925317] (-) TimerEvent: {}
+[4.025687] (-) TimerEvent: {}
+[4.126030] (-) TimerEvent: {}
+[4.226393] (-) TimerEvent: {}
+[4.326755] (-) TimerEvent: {}
+[4.427124] (-) TimerEvent: {}
+[4.527492] (-) TimerEvent: {}
+[4.627821] (-) TimerEvent: {}
+[4.728189] (-) TimerEvent: {}
+[4.828549] (-) TimerEvent: {}
+[4.928918] (-) TimerEvent: {}
+[5.029258] (-) TimerEvent: {}
+[5.129632] (-) TimerEvent: {}
+[5.229996] (-) TimerEvent: {}
+[5.330375] (-) TimerEvent: {}
+[5.430761] (-) TimerEvent: {}
+[5.531093] (-) TimerEvent: {}
+[5.631435] (-) TimerEvent: {}
+[5.731792] (-) TimerEvent: {}
+[5.832132] (-) TimerEvent: {}
+[5.932494] (-) TimerEvent: {}
+[6.032824] (-) TimerEvent: {}
+[6.133195] (-) TimerEvent: {}
+[6.233556] (-) TimerEvent: {}
+[6.333921] (-) TimerEvent: {}
+[6.434266] (-) TimerEvent: {}
+[6.534603] (-) TimerEvent: {}
+[6.634953] (-) TimerEvent: {}
+[6.735299] (-) TimerEvent: {}
+[6.835658] (-) TimerEvent: {}
+[6.939560] (-) TimerEvent: {}
+[7.039945] (-) TimerEvent: {}
+[7.140336] (-) TimerEvent: {}
+[7.240712] (-) TimerEvent: {}
+[7.341077] (-) TimerEvent: {}
+[7.441445] (-) TimerEvent: {}
+[7.541810] (-) TimerEvent: {}
+[7.642169] (-) TimerEvent: {}
+[7.742530] (-) TimerEvent: {}
+[7.842889] (-) TimerEvent: {}
+[7.943250] (-) TimerEvent: {}
+[8.043614] (-) TimerEvent: {}
+[8.147679] (-) TimerEvent: {}
+[8.248030] (-) TimerEvent: {}
+[8.348381] (-) TimerEvent: {}
+[8.448738] (-) TimerEvent: {}
+[8.549086] (-) TimerEvent: {}
+[8.649441] (-) TimerEvent: {}
+[8.749797] (-) TimerEvent: {}
+[8.850152] (-) TimerEvent: {}
+[8.950507] (-) TimerEvent: {}
+[9.050866] (-) TimerEvent: {}
+[9.151227] (-) TimerEvent: {}
+[9.251556] (-) TimerEvent: {}
+[9.355714] (-) TimerEvent: {}
+[9.456075] (-) TimerEvent: {}
+[9.556425] (-) TimerEvent: {}
+[9.656775] (-) TimerEvent: {}
+[9.757123] (-) TimerEvent: {}
+[9.857479] (-) TimerEvent: {}
+[9.957834] (-) TimerEvent: {}
+[10.058191] (-) TimerEvent: {}
+[10.158547] (-) TimerEvent: {}
+[10.258906] (-) TimerEvent: {}
+[10.359269] (-) TimerEvent: {}
+[10.459620] (-) TimerEvent: {}
+[10.559957] (-) TimerEvent: {}
+[10.660263] (-) TimerEvent: {}
+[10.760543] (-) TimerEvent: {}
+[10.860836] (-) TimerEvent: {}
+[10.961140] (-) TimerEvent: {}
+[11.061511] (-) TimerEvent: {}
+[11.161827] (-) TimerEvent: {}
+[11.263551] (-) TimerEvent: {}
+[11.363923] (-) TimerEvent: {}
+[11.464306] (-) TimerEvent: {}
+[11.564689] (-) TimerEvent: {}
+[11.665054] (-) TimerEvent: {}
+[11.765631] (-) TimerEvent: {}
+[11.784344] (mpu6050driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable complementaryfilter\x1b[0m\n'}
+[11.865749] (-) TimerEvent: {}
+[11.967987] (-) TimerEvent: {}
+[12.068483] (-) TimerEvent: {}
+[12.168899] (-) TimerEvent: {}
+[12.269397] (-) TimerEvent: {}
+[12.369924] (-) TimerEvent: {}
+[12.470301] (-) TimerEvent: {}
+[12.570707] (-) TimerEvent: {}
+[12.671177] (-) TimerEvent: {}
+[12.771670] (-) TimerEvent: {}
+[12.872093] (-) TimerEvent: {}
+[12.972550] (-) TimerEvent: {}
+[13.073305] (-) TimerEvent: {}
+[13.174526] (-) TimerEvent: {}
+[13.275058] (-) TimerEvent: {}
+[13.375533] (-) TimerEvent: {}
+[13.476058] (-) TimerEvent: {}
+[13.576516] (-) TimerEvent: {}
+[13.676961] (-) TimerEvent: {}
+[13.777402] (-) TimerEvent: {}
+[13.877946] (-) TimerEvent: {}
+[13.978348] (-) TimerEvent: {}
+[14.078783] (-) TimerEvent: {}
+[14.179196] (-) TimerEvent: {}
+[14.279652] (-) TimerEvent: {}
+[14.380108] (-) TimerEvent: {}
+[14.480592] (-) TimerEvent: {}
+[14.581257] (-) TimerEvent: {}
+[14.681757] (-) TimerEvent: {}
+[14.782231] (-) TimerEvent: {}
+[14.882764] (-) TimerEvent: {}
+[14.983194] (-) TimerEvent: {}
+[15.083569] (-) TimerEvent: {}
+[15.184023] (-) TimerEvent: {}
+[15.284606] (-) TimerEvent: {}
+[15.385202] (-) TimerEvent: {}
+[15.485815] (-) TimerEvent: {}
+[15.586237] (-) TimerEvent: {}
+[15.687894] (-) TimerEvent: {}
+[15.788555] (-) TimerEvent: {}
+[15.889042] (-) TimerEvent: {}
+[15.989549] (-) TimerEvent: {}
+[16.090031] (-) TimerEvent: {}
+[16.164310] (mpu6050driver) StdoutLine: {'line': b'[100%] Built target complementaryfilter\n'}
+[16.179981] (mpu6050driver) CommandEnded: {'returncode': 0}
+[16.181054] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'install'}
+[16.188643] (mpu6050driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bailey/ros2_ws/build/mpu6050driver'], 'cwd': '/home/bailey/ros2_ws/build/mpu6050driver', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/opt/ros/humble'), ('PWD', '/home/bailey/ros2_ws/build/mpu6050driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble')]), 'shell': False}
+[16.192595] (-) TimerEvent: {}
+[16.197595] (mpu6050driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.198432] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/mpu6050driver/lib/mpu6050driver/complementaryfilter\n'}
+[16.202222] (mpu6050driver) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/mpu6050driver/lib/mpu6050driver/complementaryfilter" to ""\n'}
+[16.202877] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver\n'}
+[16.203423] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//launch\n'}
+[16.203853] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py\n'}
+[16.204181] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//params\n'}
+[16.204566] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml\n'}
+[16.204928] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver\n'}
+[16.205312] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver\n'}
+[16.207527] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh\n'}
+[16.207940] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv\n'}
+[16.208593] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh\n'}
+[16.208778] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv\n'}
+[16.210448] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash\n'}
+[16.210882] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh\n'}
+[16.211914] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh\n'}
+[16.212332] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv\n'}
+[16.213015] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.dsv\n'}
+[16.213091] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver\n'}
+[16.213164] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake\n'}
+[16.213225] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake\n'}
+[16.213285] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.xml\n'}
+[16.213346] (mpu6050driver) CommandEnded: {'returncode': 0}
+[16.243613] (mpu6050driver) JobEnded: {'identifier': 'mpu6050driver', 'rc': 0}
+[16.244570] (-) EventReactorShutdown: {}

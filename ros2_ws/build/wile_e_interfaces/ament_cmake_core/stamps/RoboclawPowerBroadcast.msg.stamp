@@ -1,0 +1,2 @@
+uint8 battery_voltage
+int16 current_draw

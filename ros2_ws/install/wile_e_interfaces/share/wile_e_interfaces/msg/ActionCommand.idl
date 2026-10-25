@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wile_e_interfaces/msg/ActionCommand.msg
+// generated code does not contain a copyright notice
+
+
+module wile_e_interfaces {
+  module msg {
+    struct ActionCommand {
+      float right_shoulder;
+
+      float left_shoulder;
+
+      float right_elbow;
+
+      float left_elbow;
+
+      float right_wheel;
+
+      float left_wheel;
+
+      int16 tail;
+
+      int16 head_raise;
+
+      int16 head_turn;
+
+      uint8 eyes;
+
+      uint8 fan;
+
+      uint8 headlight;
+
+      uint8 data;
+    };
+  };
+};

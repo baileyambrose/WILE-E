@@ -1,0 +1,15 @@
+/home/bailey/ros2_ws/install/yle1/share/ament_index/resource_index/package_run_dependencies/yle1
+/home/bailey/ros2_ws/install/yle1/share/ament_index/resource_index/parent_prefix_path/yle1
+/home/bailey/ros2_ws/install/yle1/share/yle1/environment/ament_prefix_path.sh
+/home/bailey/ros2_ws/install/yle1/share/yle1/environment/ament_prefix_path.dsv
+/home/bailey/ros2_ws/install/yle1/share/yle1/environment/path.sh
+/home/bailey/ros2_ws/install/yle1/share/yle1/environment/path.dsv
+/home/bailey/ros2_ws/install/yle1/share/yle1/local_setup.bash
+/home/bailey/ros2_ws/install/yle1/share/yle1/local_setup.sh
+/home/bailey/ros2_ws/install/yle1/share/yle1/local_setup.zsh
+/home/bailey/ros2_ws/install/yle1/share/yle1/local_setup.dsv
+/home/bailey/ros2_ws/install/yle1/share/yle1/package.dsv
+/home/bailey/ros2_ws/install/yle1/share/ament_index/resource_index/packages/yle1
+/home/bailey/ros2_ws/install/yle1/share/yle1/cmake/yle1Config.cmake
+/home/bailey/ros2_ws/install/yle1/share/yle1/cmake/yle1Config-version.cmake
+/home/bailey/ros2_ws/install/yle1/share/yle1/package.xml

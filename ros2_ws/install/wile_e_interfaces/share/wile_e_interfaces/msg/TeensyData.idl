@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wile_e_interfaces/msg/TeensyData.msg
+// generated code does not contain a copyright notice
+
+
+module wile_e_interfaces {
+  module msg {
+    struct TeensyData {
+      int16 left_shoulder;
+
+      int16 right_shoulder;
+
+      uint16 left_elbow;
+
+      uint16 right_elbow;
+
+      int16 tail;
+
+      int16 tail_vel;
+    };
+  };
+};

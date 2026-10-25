@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/bailey/ros2_ws/build/message_filters': /usr/bin/cmake /home/bailey/ros2_ws/src/message_filters -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/message_filters
+[0.026s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.026s]   By not providing "Findament_cmake_python.cmake" in CMAKE_MODULE_PATH this
+[0.027s]   project has asked CMake to find a package configuration file provided by
+[0.027s]   "ament_cmake_python", but CMake did not find one.
+[0.028s] 
+[0.029s]   Could not find a package configuration file provided by
+[0.029s]   "ament_cmake_python" with any of the following names:
+[0.029s] 
+[0.029s]     ament_cmake_pythonConfig.cmake
+[0.029s]     ament_cmake_python-config.cmake
+[0.029s] 
+[0.029s]   Add the installation prefix of "ament_cmake_python" to CMAKE_PREFIX_PATH or
+[0.030s]   set "ament_cmake_python_DIR" to a directory containing one of the above
+[0.030s]   files.  If "ament_cmake_python" provides a separate development package or
+[0.030s]   SDK, be sure it has been installed.
+[0.030s] 
+[0.030s] [0m
+[0.030s] -- Configuring incomplete, errors occurred!
+[0.030s] See also "/home/bailey/ros2_ws/build/message_filters/CMakeFiles/CMakeOutput.log".
+[0.030s] Invoked command in '/home/bailey/ros2_ws/build/message_filters' returned '1': /usr/bin/cmake /home/bailey/ros2_ws/src/message_filters -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/message_filters

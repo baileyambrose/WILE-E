@@ -1,0 +1,2 @@
+Invoking command in '/home/bailey/ros2_ws/build/mpu_6050_driver': /usr/bin/cmake /home/bailey/ros2_ws/src/mpu_6050_driver -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/mpu_6050_driver
+Invoked command in '/home/bailey/ros2_ws/build/mpu_6050_driver' returned '1': /usr/bin/cmake /home/bailey/ros2_ws/src/mpu_6050_driver -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/mpu_6050_driver

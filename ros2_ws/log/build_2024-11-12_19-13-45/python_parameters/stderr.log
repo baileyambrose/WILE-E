@@ -1,0 +1,5 @@
+  File "/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/python_parameters_node.py", line 8
+    rom rcl_interfaces.msg import ParameterDescriptor
+        ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

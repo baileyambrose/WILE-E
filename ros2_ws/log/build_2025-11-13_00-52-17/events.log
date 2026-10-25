@@ -1,0 +1,438 @@
+[0.000000] (-) TimerEvent: {}
+[0.000686] (-) JobUnselected: {'identifier': 'imu_complementary_filter'}
+[0.000862] (-) JobUnselected: {'identifier': 'imu_filter_madgwick'}
+[0.000885] (-) JobUnselected: {'identifier': 'imu_tools'}
+[0.000904] (-) JobUnselected: {'identifier': 'mpu6050driver'}
+[0.001068] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.001088] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001106] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001155] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001173] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.001190] (-) JobUnselected: {'identifier': 'rviz_imu_plugin'}
+[0.001208] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001225] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001243] (-) JobUnselected: {'identifier': 'wile_e'}
+[0.001260] (-) JobUnselected: {'identifier': 'wile_e_interfaces'}
+[0.001278] (-) JobUnselected: {'identifier': 'yle1'}
+[0.001300] (message_filters) JobQueued: {'identifier': 'message_filters', 'dependencies': OrderedDict()}
+[0.001322] (message_filters) JobStarted: {'identifier': 'message_filters'}
+[0.010332] (message_filters) JobProgress: {'identifier': 'message_filters', 'progress': 'cmake'}
+[0.010825] (message_filters) Command: {'cmd': ['/usr/bin/cmake', '/home/bailey/ros2_ws/src/message_filters', '-DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/message_filters'], 'cwd': '/home/bailey/ros2_ws/build/message_filters', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/opt/ros/humble'), ('PWD', '/home/bailey/ros2_ws/build/message_filters'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble')]), 'shell': False}
+[0.068984] (message_filters) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099662] (-) TimerEvent: {}
+[0.126417] (message_filters) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.133345] (message_filters) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.198460] (message_filters) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199729] (-) TimerEvent: {}
+[0.208163] (message_filters) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.208436] (message_filters) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.208901] (message_filters) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.212396] (message_filters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.290024] (message_filters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299779] (message_filters) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.299944] (-) TimerEvent: {}
+[0.300240] (message_filters) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.300726] (message_filters) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.303097] (message_filters) StdoutLine: {'line': b'-- Found ament_cmake_python: 1.3.12 (/opt/ros/humble/share/ament_cmake_python/cmake)\n'}
+[0.305162] (message_filters) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400055] (-) TimerEvent: {}
+[0.465963] (message_filters) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500161] (-) TimerEvent: {}
+[0.581690] (message_filters) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600282] (-) TimerEvent: {}
+[0.627394] (message_filters) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.633170] (message_filters) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.642795] (message_filters) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.657226] (message_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.676969] (message_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700354] (-) TimerEvent: {}
+[0.730141] (message_filters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.733462] (message_filters) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800467] (-) TimerEvent: {}
+[0.801607] (message_filters) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.820678] (message_filters) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.852404] (message_filters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.862054] (message_filters) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.903412] (-) TimerEvent: {}
+[0.932980] (message_filters) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.933255] (message_filters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.003521] (-) TimerEvent: {}
+[1.005601] (message_filters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.006900] (message_filters) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.103611] (-) TimerEvent: {}
+[1.177774] (message_filters) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.178948] (message_filters) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.203710] (-) TimerEvent: {}
+[1.214538] (message_filters) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.303806] (-) TimerEvent: {}
+[1.359258] (message_filters) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.403901] (-) TimerEvent: {}
+[1.504281] (-) TimerEvent: {}
+[1.604597] (-) TimerEvent: {}
+[1.704918] (-) TimerEvent: {}
+[1.805258] (-) TimerEvent: {}
+[1.905647] (-) TimerEvent: {}
+[2.005955] (-) TimerEvent: {}
+[2.106418] (-) TimerEvent: {}
+[2.206747] (-) TimerEvent: {}
+[2.307380] (-) TimerEvent: {}
+[2.407908] (-) TimerEvent: {}
+[2.508576] (-) TimerEvent: {}
+[2.609302] (-) TimerEvent: {}
+[2.709672] (-) TimerEvent: {}
+[2.810175] (-) TimerEvent: {}
+[2.910962] (-) TimerEvent: {}
+[2.997268] (message_filters) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.001513] (message_filters) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.001771] (message_filters) StdoutLine: {'line': b'-- Configured cppcheck language: c++\n'}
+[3.002335] (message_filters) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bailey/ros2_ws/src/message_filters/include>\n'}
+[3.002458] (message_filters) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.006596] (message_filters) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.006792] (message_filters) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.007748] (message_filters) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.009241] (message_filters) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.010287] (message_filters) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.011016] (-) TimerEvent: {}
+[3.014738] (message_filters) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.014962] (message_filters) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.016104] (message_filters) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.019451] (message_filters) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.079454] (message_filters) StdoutLine: {'line': b'-- Generating done\n'}
+[3.107498] (message_filters) StdoutLine: {'line': b'-- Build files have been written to: /home/bailey/ros2_ws/build/message_filters\n'}
+[3.111123] (-) TimerEvent: {}
+[3.122566] (message_filters) CommandEnded: {'returncode': 0}
+[3.123255] (message_filters) JobProgress: {'identifier': 'message_filters', 'progress': 'build'}
+[3.124104] (message_filters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bailey/ros2_ws/build/message_filters', '--', '-j4', '-l4'], 'cwd': '/home/bailey/ros2_ws/build/message_filters', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/opt/ros/humble'), ('PWD', '/home/bailey/ros2_ws/build/message_filters'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble')]), 'shell': False}
+[3.179541] (message_filters) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.180084] (message_filters) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[3.180239] (message_filters) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/message_filters.dir/src/connection.cpp.o\x1b[0m\n'}
+[3.188255] (message_filters) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_copy_message_filters\n'}
+[3.211261] (-) TimerEvent: {}
+[3.315648] (-) TimerEvent: {}
+[3.416475] (-) TimerEvent: {}
+[3.517069] (-) TimerEvent: {}
+[3.524824] (message_filters) StdoutLine: {'line': b'running egg_info\n'}
+[3.527504] (message_filters) StdoutLine: {'line': b'creating message_filters.egg-info\n'}
+[3.528054] (message_filters) StdoutLine: {'line': b'writing message_filters.egg-info/PKG-INFO\n'}
+[3.528173] (message_filters) StdoutLine: {'line': b'writing dependency_links to message_filters.egg-info/dependency_links.txt\n'}
+[3.528251] (message_filters) StdoutLine: {'line': b'writing top-level names to message_filters.egg-info/top_level.txt\n'}
+[3.528321] (message_filters) StdoutLine: {'line': b"writing manifest file 'message_filters.egg-info/SOURCES.txt'\n"}
+[3.531269] (message_filters) StdoutLine: {'line': b"reading manifest file 'message_filters.egg-info/SOURCES.txt'\n"}
+[3.532229] (message_filters) StdoutLine: {'line': b"writing manifest file 'message_filters.egg-info/SOURCES.txt'\n"}
+[3.605539] (message_filters) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_message_filters_egg\n'}
+[3.619381] (-) TimerEvent: {}
+[3.629645] (message_filters) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_filters.so\x1b[0m\n'}
+[3.719492] (-) TimerEvent: {}
+[3.820015] (-) TimerEvent: {}
+[3.843434] (message_filters) StdoutLine: {'line': b'[ 11%] Built target message_filters\n'}
+[3.920122] (-) TimerEvent: {}
+[4.020730] (-) TimerEvent: {}
+[4.121469] (-) TimerEvent: {}
+[4.222198] (-) TimerEvent: {}
+[4.323207] (-) TimerEvent: {}
+[4.424192] (-) TimerEvent: {}
+[4.524804] (-) TimerEvent: {}
+[4.574686] (message_filters) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[4.611276] (message_filters) StdoutLine: {'line': b'[ 14%] Built target gtest_main\n'}
+[4.624895] (-) TimerEvent: {}
+[4.725272] (-) TimerEvent: {}
+[4.825709] (-) TimerEvent: {}
+[4.926102] (-) TimerEvent: {}
+[5.026540] (-) TimerEvent: {}
+[5.126953] (-) TimerEvent: {}
+[5.227418] (-) TimerEvent: {}
+[5.327858] (-) TimerEvent: {}
+[5.428293] (-) TimerEvent: {}
+[5.528760] (-) TimerEvent: {}
+[5.629261] (-) TimerEvent: {}
+[5.729658] (-) TimerEvent: {}
+[5.830040] (-) TimerEvent: {}
+[5.930475] (-) TimerEvent: {}
+[6.030854] (-) TimerEvent: {}
+[6.131309] (-) TimerEvent: {}
+[6.231736] (-) TimerEvent: {}
+[6.332236] (-) TimerEvent: {}
+[6.432601] (-) TimerEvent: {}
+[6.532994] (-) TimerEvent: {}
+[6.633407] (-) TimerEvent: {}
+[6.733809] (-) TimerEvent: {}
+[6.834200] (-) TimerEvent: {}
+[6.934637] (-) TimerEvent: {}
+[7.035049] (-) TimerEvent: {}
+[7.135465] (-) TimerEvent: {}
+[7.235926] (-) TimerEvent: {}
+[7.336348] (-) TimerEvent: {}
+[7.436827] (-) TimerEvent: {}
+[7.459946] (message_filters) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[7.536983] (-) TimerEvent: {}
+[7.576553] (message_filters) StdoutLine: {'line': b'[ 17%] Built target gtest\n'}
+[7.603458] (message_filters) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/message_filters-test_time_sequencer.dir/test/time_sequencer_unittest.cpp.o\x1b[0m\n'}
+[7.603843] (message_filters) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/message_filters-msg_cache_unittest.dir/test/msg_cache_unittest.cpp.o\x1b[0m\n'}
+[7.603970] (message_filters) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/message_filters-test_chain.dir/test/test_chain.cpp.o\x1b[0m\n'}
+[7.614009] (message_filters) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/message_filters-test_simple.dir/test/test_simple.cpp.o\x1b[0m\n'}
+[7.637092] (-) TimerEvent: {}
+[7.737717] (-) TimerEvent: {}
+[7.840345] (-) TimerEvent: {}
+[7.943489] (-) TimerEvent: {}
+[8.045044] (-) TimerEvent: {}
+[8.147190] (-) TimerEvent: {}
+[8.251439] (-) TimerEvent: {}
+[8.351938] (-) TimerEvent: {}
+[8.452500] (-) TimerEvent: {}
+[8.553046] (-) TimerEvent: {}
+[8.653594] (-) TimerEvent: {}
+[8.754158] (-) TimerEvent: {}
+[8.855834] (-) TimerEvent: {}
+[8.958769] (-) TimerEvent: {}
+[9.061047] (-) TimerEvent: {}
+[9.167509] (-) TimerEvent: {}
+[9.268420] (-) TimerEvent: {}
+[9.369373] (-) TimerEvent: {}
+[9.470093] (-) TimerEvent: {}
+[9.571070] (-) TimerEvent: {}
+[9.675901] (-) TimerEvent: {}
+[9.776698] (-) TimerEvent: {}
+[9.877364] (-) TimerEvent: {}
+[9.978273] (-) TimerEvent: {}
+[10.079062] (-) TimerEvent: {}
+[10.183564] (-) TimerEvent: {}
+[10.284365] (-) TimerEvent: {}
+[10.385069] (-) TimerEvent: {}
+[10.486141] (-) TimerEvent: {}
+[10.587117] (-) TimerEvent: {}
+[10.688197] (-) TimerEvent: {}
+[10.789048] (-) TimerEvent: {}
+[10.891994] (-) TimerEvent: {}
+[10.992865] (-) TimerEvent: {}
+[11.093653] (-) TimerEvent: {}
+[11.194424] (-) TimerEvent: {}
+[11.299875] (-) TimerEvent: {}
+[11.400388] (-) TimerEvent: {}
+[11.500904] (-) TimerEvent: {}
+[11.601435] (-) TimerEvent: {}
+[11.702068] (-) TimerEvent: {}
+[11.802817] (-) TimerEvent: {}
+[11.904143] (-) TimerEvent: {}
+[12.004693] (-) TimerEvent: {}
+[12.105243] (-) TimerEvent: {}
+[12.205838] (-) TimerEvent: {}
+[12.311466] (-) TimerEvent: {}
+[12.412029] (-) TimerEvent: {}
+[12.512500] (-) TimerEvent: {}
+[12.613010] (-) TimerEvent: {}
+[12.713554] (-) TimerEvent: {}
+[12.814169] (-) TimerEvent: {}
+[12.914669] (-) TimerEvent: {}
+[13.015173] (-) TimerEvent: {}
+[13.115703] (-) TimerEvent: {}
+[13.216207] (-) TimerEvent: {}
+[13.317618] (-) TimerEvent: {}
+[13.419058] (-) TimerEvent: {}
+[13.520522] (-) TimerEvent: {}
+[13.623706] (-) TimerEvent: {}
+[13.724199] (-) TimerEvent: {}
+[13.824730] (-) TimerEvent: {}
+[13.925248] (-) TimerEvent: {}
+[14.025771] (-) TimerEvent: {}
+[14.127832] (-) TimerEvent: {}
+[14.228337] (-) TimerEvent: {}
+[14.328835] (-) TimerEvent: {}
+[14.429814] (-) TimerEvent: {}
+[14.531229] (-) TimerEvent: {}
+[14.632498] (-) TimerEvent: {}
+[14.733997] (-) TimerEvent: {}
+[14.835650] (-) TimerEvent: {}
+[14.936109] (-) TimerEvent: {}
+[15.039674] (-) TimerEvent: {}
+[15.140328] (-) TimerEvent: {}
+[15.240988] (-) TimerEvent: {}
+[15.341637] (-) TimerEvent: {}
+[15.442130] (-) TimerEvent: {}
+[15.542652] (-) TimerEvent: {}
+[15.643553] (-) TimerEvent: {}
+[15.748085] (-) TimerEvent: {}
+[15.848645] (-) TimerEvent: {}
+[15.949177] (-) TimerEvent: {}
+[16.049648] (-) TimerEvent: {}
+[16.150149] (-) TimerEvent: {}
+[16.250687] (-) TimerEvent: {}
+[16.351222] (-) TimerEvent: {}
+[16.455476] (-) TimerEvent: {}
+[16.555950] (-) TimerEvent: {}
+[16.558211] (message_filters) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX executable message_filters-test_chain\x1b[0m\n'}
+[16.659499] (-) TimerEvent: {}
+[16.759275] (message_filters) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable message_filters-test_time_sequencer\x1b[0m\n'}
+[16.759662] (-) TimerEvent: {}
+[16.768918] (message_filters) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable message_filters-test_simple\x1b[0m\n'}
+[16.859941] (-) TimerEvent: {}
+[16.961137] (-) TimerEvent: {}
+[17.035520] (message_filters) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable message_filters-msg_cache_unittest\x1b[0m\n'}
+[17.061417] (-) TimerEvent: {}
+[17.163112] (-) TimerEvent: {}
+[17.217062] (message_filters) StdoutLine: {'line': b'[ 41%] Built target message_filters-test_chain\n'}
+[17.263253] (-) TimerEvent: {}
+[17.270427] (message_filters) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/message_filters-test_subscriber.dir/test/test_subscriber.cpp.o\x1b[0m\n'}
+[17.363457] (-) TimerEvent: {}
+[17.464001] (-) TimerEvent: {}
+[17.496708] (message_filters) StdoutLine: {'line': b'[ 44%] Built target message_filters-test_time_sequencer\n'}
+[17.527697] (message_filters) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/message_filters-test_synchronizer.dir/test/test_synchronizer.cpp.o\x1b[0m\n'}
+[17.533859] (message_filters) StdoutLine: {'line': b'[ 47%] Built target message_filters-test_simple\n'}
+[17.564118] (-) TimerEvent: {}
+[17.574482] (message_filters) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/message_filters-time_synchronizer_unittest.dir/test/time_synchronizer_unittest.cpp.o\x1b[0m\n'}
+[17.599534] (message_filters) StdoutLine: {'line': b'[ 50%] Built target message_filters-msg_cache_unittest\n'}
+[17.619122] (message_filters) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/message_filters-test_exact_time_policy.dir/test/test_exact_time_policy.cpp.o\x1b[0m\n'}
+[17.663519] (message_filters) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bailey/ros2_ws/src/message_filters/test/test_subscriber.cpp:37\x1b[m\x1b[K:\n'}
+[17.663777] (message_filters) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bailey/ros2_ws/src/message_filters/include/message_filters/subscriber.hpp:38:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/node_interfaces/node_interfaces.hpp: No such file or directory\n'}
+[17.663854] (message_filters) StderrLine: {'line': b'   38 | #include \x1b[01;31m\x1b[K<rclcpp/node_interfaces/node_interfaces.hpp>\x1b[m\x1b[K\n'}
+[17.663916] (message_filters) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.663976] (message_filters) StderrLine: {'line': b'compilation terminated.\n'}
+[17.664033] (message_filters) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/message_filters-test_subscriber.dir/build.make:76: CMakeFiles/message_filters-test_subscriber.dir/test/test_subscriber.cpp.o] Error 1\n'}
+[17.664091] (message_filters) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:378: CMakeFiles/message_filters-test_subscriber.dir/all] Error 2\n'}
+[17.664149] (-) TimerEvent: {}
+[17.664305] (message_filters) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[17.766322] (-) TimerEvent: {}
+[17.866769] (-) TimerEvent: {}
+[17.967251] (-) TimerEvent: {}
+[18.067789] (-) TimerEvent: {}
+[18.168270] (-) TimerEvent: {}
+[18.271440] (-) TimerEvent: {}
+[18.371892] (-) TimerEvent: {}
+[18.472350] (-) TimerEvent: {}
+[18.572855] (-) TimerEvent: {}
+[18.673429] (-) TimerEvent: {}
+[18.774019] (-) TimerEvent: {}
+[18.874610] (-) TimerEvent: {}
+[18.979436] (-) TimerEvent: {}
+[19.080015] (-) TimerEvent: {}
+[19.180552] (-) TimerEvent: {}
+[19.281040] (-) TimerEvent: {}
+[19.381511] (-) TimerEvent: {}
+[19.482011] (-) TimerEvent: {}
+[19.582487] (-) TimerEvent: {}
+[19.683007] (-) TimerEvent: {}
+[19.787489] (-) TimerEvent: {}
+[19.888773] (-) TimerEvent: {}
+[19.989951] (-) TimerEvent: {}
+[20.094255] (-) TimerEvent: {}
+[20.194732] (-) TimerEvent: {}
+[20.295952] (-) TimerEvent: {}
+[20.397473] (-) TimerEvent: {}
+[20.498973] (-) TimerEvent: {}
+[20.600206] (-) TimerEvent: {}
+[20.700782] (-) TimerEvent: {}
+[20.801769] (-) TimerEvent: {}
+[20.903031] (-) TimerEvent: {}
+[21.004018] (-) TimerEvent: {}
+[21.106546] (-) TimerEvent: {}
+[21.207007] (-) TimerEvent: {}
+[21.308181] (-) TimerEvent: {}
+[21.408930] (-) TimerEvent: {}
+[21.509858] (-) TimerEvent: {}
+[21.610846] (-) TimerEvent: {}
+[21.712071] (-) TimerEvent: {}
+[21.812503] (-) TimerEvent: {}
+[21.913511] (-) TimerEvent: {}
+[22.014613] (-) TimerEvent: {}
+[22.115671] (-) TimerEvent: {}
+[22.216103] (-) TimerEvent: {}
+[22.317218] (-) TimerEvent: {}
+[22.419093] (-) TimerEvent: {}
+[22.520169] (-) TimerEvent: {}
+[22.621221] (-) TimerEvent: {}
+[22.722658] (-) TimerEvent: {}
+[22.823826] (-) TimerEvent: {}
+[22.924248] (-) TimerEvent: {}
+[23.025557] (-) TimerEvent: {}
+[23.126564] (-) TimerEvent: {}
+[23.227094] (-) TimerEvent: {}
+[23.327931] (-) TimerEvent: {}
+[23.429102] (-) TimerEvent: {}
+[23.530531] (-) TimerEvent: {}
+[23.631869] (-) TimerEvent: {}
+[23.732359] (-) TimerEvent: {}
+[23.833662] (-) TimerEvent: {}
+[23.934714] (-) TimerEvent: {}
+[24.035803] (-) TimerEvent: {}
+[24.137215] (-) TimerEvent: {}
+[24.237656] (-) TimerEvent: {}
+[24.339239] (-) TimerEvent: {}
+[24.440372] (-) TimerEvent: {}
+[24.541582] (-) TimerEvent: {}
+[24.642768] (-) TimerEvent: {}
+[24.744305] (-) TimerEvent: {}
+[24.844756] (-) TimerEvent: {}
+[24.945935] (-) TimerEvent: {}
+[25.023373] (message_filters) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable message_filters-test_exact_time_policy\x1b[0m\n'}
+[25.046206] (-) TimerEvent: {}
+[25.147004] (-) TimerEvent: {}
+[25.247731] (-) TimerEvent: {}
+[25.348248] (-) TimerEvent: {}
+[25.449312] (-) TimerEvent: {}
+[25.472965] (message_filters) StdoutLine: {'line': b'[ 55%] Built target message_filters-test_exact_time_policy\n'}
+[25.549426] (-) TimerEvent: {}
+[25.650677] (-) TimerEvent: {}
+[25.751652] (-) TimerEvent: {}
+[25.852623] (-) TimerEvent: {}
+[25.953631] (-) TimerEvent: {}
+[26.054743] (-) TimerEvent: {}
+[26.155147] (-) TimerEvent: {}
+[26.255609] (-) TimerEvent: {}
+[26.356692] (-) TimerEvent: {}
+[26.457580] (-) TimerEvent: {}
+[26.558222] (-) TimerEvent: {}
+[26.659165] (-) TimerEvent: {}
+[26.759878] (-) TimerEvent: {}
+[26.860846] (-) TimerEvent: {}
+[26.961243] (-) TimerEvent: {}
+[27.062195] (-) TimerEvent: {}
+[27.162568] (-) TimerEvent: {}
+[27.263267] (-) TimerEvent: {}
+[27.367776] (-) TimerEvent: {}
+[27.468687] (-) TimerEvent: {}
+[27.569628] (-) TimerEvent: {}
+[27.657846] (message_filters) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable message_filters-test_synchronizer\x1b[0m\n'}
+[27.669755] (-) TimerEvent: {}
+[27.770763] (-) TimerEvent: {}
+[27.872430] (-) TimerEvent: {}
+[27.972928] (-) TimerEvent: {}
+[28.073971] (-) TimerEvent: {}
+[28.174374] (-) TimerEvent: {}
+[28.211101] (message_filters) StdoutLine: {'line': b'[ 58%] Built target message_filters-test_synchronizer\n'}
+[28.274480] (-) TimerEvent: {}
+[28.375198] (-) TimerEvent: {}
+[28.475985] (-) TimerEvent: {}
+[28.576843] (-) TimerEvent: {}
+[28.677783] (-) TimerEvent: {}
+[28.778472] (-) TimerEvent: {}
+[28.879640] (-) TimerEvent: {}
+[28.980505] (-) TimerEvent: {}
+[29.081329] (-) TimerEvent: {}
+[29.181662] (-) TimerEvent: {}
+[29.282581] (-) TimerEvent: {}
+[29.383208] (-) TimerEvent: {}
+[29.483576] (-) TimerEvent: {}
+[29.584443] (-) TimerEvent: {}
+[29.684984] (-) TimerEvent: {}
+[29.785563] (-) TimerEvent: {}
+[29.885913] (-) TimerEvent: {}
+[29.986834] (-) TimerEvent: {}
+[30.087244] (-) TimerEvent: {}
+[30.187829] (-) TimerEvent: {}
+[30.288175] (-) TimerEvent: {}
+[30.388707] (-) TimerEvent: {}
+[30.489286] (-) TimerEvent: {}
+[30.590059] (-) TimerEvent: {}
+[30.690635] (-) TimerEvent: {}
+[30.721568] (message_filters) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX executable message_filters-time_synchronizer_unittest\x1b[0m\n'}
+[30.790754] (-) TimerEvent: {}
+[30.895660] (-) TimerEvent: {}
+[30.996438] (-) TimerEvent: {}
+[31.097191] (-) TimerEvent: {}
+[31.197628] (-) TimerEvent: {}
+[31.298004] (-) TimerEvent: {}
+[31.377551] (message_filters) StdoutLine: {'line': b'[ 61%] Built target message_filters-time_synchronizer_unittest\n'}
+[31.378481] (message_filters) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[31.380055] (message_filters) CommandEnded: {'returncode': 2}
+[31.394090] (message_filters) JobEnded: {'identifier': 'message_filters', 'rc': 2}
+[31.398069] (-) TimerEvent: {}
+[31.404647] (-) EventReactorShutdown: {}

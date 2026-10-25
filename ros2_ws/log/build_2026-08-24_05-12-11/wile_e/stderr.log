@@ -1,0 +1,5 @@
+  File "/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/accelerometer_interface.py", line 92
+    ((R.from_quat([0 0.774 0 -.633])).as_euler('xyz', degrees=True))
+                   ^^^^^^^
+SyntaxError: f-string: invalid syntax. Perhaps you forgot a comma?
+

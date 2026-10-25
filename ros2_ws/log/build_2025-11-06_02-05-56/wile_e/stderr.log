@@ -1,0 +1,5 @@
+  File "/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/roboclaw_controller.py", line 32
+    Exception as e:
+    ^^^^^^^^^
+SyntaxError: expected 'except' or 'finally' block
+

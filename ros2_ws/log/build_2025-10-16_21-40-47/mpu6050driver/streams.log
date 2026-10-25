@@ -1,0 +1,19 @@
+[0.012s] Invoking command in '/home/bailey/ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters /usr/bin/cmake --build /home/bailey/ros2_ws/build/mpu6050driver -- -j4 -l4
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target mpu6050driver[0m
+[0.073s] [ 66%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050driver.cpp.o[0m
+[0.074s] [ 66%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050sensor.cpp.o[0m
+[0.472s] [01m[K/home/bailey/ros2_ws/src/ros2_mpu6050_driver/src/mpu6050sensor.cpp:[m[K In constructor ‘[01m[KMPU6050Sensor::MPU6050Sensor(int)[m[K’:
+[0.472s] [01m[K/home/bailey/ros2_ws/src/ros2_mpu6050_driver/src/mpu6050sensor.cpp:21:16:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[0.472s]    21 |   file_ = open([01;31m[Kfilename_[m[K, O_RDWR);
+[0.472s]       |                [01;31m[K^~~~~~~~~[m[K
+[0.473s]       |                [01;31m[K|[m[K
+[0.473s]       |                [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[0.473s] In file included from [01m[K/home/bailey/ros2_ws/src/ros2_mpu6050_driver/src/mpu6050sensor.cpp:5[m[K:
+[0.473s] [01m[K/usr/include/fcntl.h:181:30:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint open(const char*, int, ...)[m[K’
+[0.473s]   181 | extern int open ([01;36m[Kconst char *__file[m[K, int __oflag, ...) __nonnull ((1));
+[0.473s]       |                  [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[0.564s] gmake[2]: *** [CMakeFiles/mpu6050driver.dir/build.make:90: CMakeFiles/mpu6050driver.dir/src/mpu6050sensor.cpp.o] Error 1
+[0.565s] gmake[2]: *** Waiting for unfinished jobs....
+[5.333s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpu6050driver.dir/all] Error 2
+[5.333s] gmake: *** [Makefile:146: all] Error 2
+[5.335s] Invoked command in '/home/bailey/ros2_ws/build/mpu6050driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters /usr/bin/cmake --build /home/bailey/ros2_ws/build/mpu6050driver -- -j4 -l4

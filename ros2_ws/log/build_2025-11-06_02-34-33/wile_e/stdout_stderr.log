@@ -1,0 +1,38 @@
+running egg_info
+writing ../../build/wile_e/wile_e.egg-info/PKG-INFO
+writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt
+writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt
+writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt
+writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt
+reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+running build
+running build_py
+copying wile_e/roboclaw_interface.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+copying wile_e/NN_interface.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+copying wile_e/teensy_interface.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+running install
+running install_lib
+copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/roboclaw_interface.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e
+copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/NN_interface.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e
+copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/teensy_interface.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e
+byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/roboclaw_interface.py to roboclaw_interface.cpython-310.pyc
+byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/NN_interface.py to NN_interface.cpython-310.pyc
+byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/teensy_interface.py to teensy_interface.cpython-310.pyc
+running install_data
+copying launch/wile_e_launch.py -> /home/bailey/ros2_ws/install/wile_e/share/wile_e
+running install_egg_info
+removing '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/wile_e/wile_e.egg-info to /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e-0.0.0-py3.10.egg-info
+running install_scripts
+Installing NN_interface script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+Installing accelerometer script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+Installing command_interpreter script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+Installing file_reader script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+Installing roboclaw_interface script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+Installing sound_generator script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+Installing teensy_interface script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+Installing trigger script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+Installing visualizer script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+writing list of installed files to '/home/bailey/ros2_ws/build/wile_e/install.log'

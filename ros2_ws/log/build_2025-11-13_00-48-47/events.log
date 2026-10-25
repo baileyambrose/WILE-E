@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000394] (-) JobUnselected: {'identifier': 'imu_filter_madgwick'}
+[0.000713] (-) JobUnselected: {'identifier': 'imu_tools'}
+[0.000869] (-) JobUnselected: {'identifier': 'mpu6050driver'}
+[0.000890] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.001066] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001119] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001138] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001156] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.001174] (-) JobUnselected: {'identifier': 'rviz_imu_plugin'}
+[0.001192] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001209] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001245] (-) JobUnselected: {'identifier': 'wile_e'}
+[0.001263] (-) JobUnselected: {'identifier': 'wile_e_interfaces'}
+[0.001281] (-) JobUnselected: {'identifier': 'yle1'}
+[0.001303] (imu_complementary_filter) JobQueued: {'identifier': 'imu_complementary_filter', 'dependencies': OrderedDict()}
+[0.001327] (imu_complementary_filter) JobStarted: {'identifier': 'imu_complementary_filter'}
+[0.010121] (imu_complementary_filter) JobProgress: {'identifier': 'imu_complementary_filter', 'progress': 'cmake'}
+[0.010581] (imu_complementary_filter) Command: {'cmd': ['/usr/bin/cmake', '/home/bailey/ros2_ws/src/imu_complementary_filter', '-DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/imu_complementary_filter'], 'cwd': '/home/bailey/ros2_ws/build/imu_complementary_filter', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/opt/ros/humble'), ('PWD', '/home/bailey/ros2_ws/build/imu_complementary_filter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble')]), 'shell': False}
+[0.072348] (imu_complementary_filter) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099736] (-) TimerEvent: {}
+[0.130743] (imu_complementary_filter) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.137835] (imu_complementary_filter) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199848] (-) TimerEvent: {}
+[0.206259] (imu_complementary_filter) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.216096] (imu_complementary_filter) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.216310] (imu_complementary_filter) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.216388] (imu_complementary_filter) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.219385] (imu_complementary_filter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299955] (-) TimerEvent: {}
+[0.309127] (imu_complementary_filter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.314122] (imu_complementary_filter) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.314445] (imu_complementary_filter) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.315020] (imu_complementary_filter) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.317891] (imu_complementary_filter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400047] (-) TimerEvent: {}
+[0.473113] (imu_complementary_filter) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500136] (-) TimerEvent: {}
+[0.582370] (imu_complementary_filter) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.600271] (-) TimerEvent: {}
+[0.621859] (imu_complementary_filter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.627898] (imu_complementary_filter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.637625] (imu_complementary_filter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.652049] (imu_complementary_filter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.671563] (imu_complementary_filter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700352] (-) TimerEvent: {}
+[0.722702] (imu_complementary_filter) StdoutLine: {'line': b'-- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.770872] (imu_complementary_filter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.774160] (imu_complementary_filter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800449] (-) TimerEvent: {}
+[0.842610] (imu_complementary_filter) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.861516] (imu_complementary_filter) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.893651] (imu_complementary_filter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900525] (-) TimerEvent: {}
+[0.903159] (imu_complementary_filter) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.974767] (imu_complementary_filter) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.980491] (imu_complementary_filter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000674] (-) TimerEvent: {}
+[1.053000] (imu_complementary_filter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.053252] (imu_complementary_filter) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.100745] (-) TimerEvent: {}
+[1.103661] (imu_complementary_filter) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.136103] (imu_complementary_filter) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.147676] (imu_complementary_filter) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.200838] (-) TimerEvent: {}
+[1.305002] (-) TimerEvent: {}
+[1.368634] (imu_complementary_filter) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.386750] (imu_complementary_filter) StdoutLine: {'line': b'-- Generating done\n'}
+[1.394626] (imu_complementary_filter) StdoutLine: {'line': b'-- Build files have been written to: /home/bailey/ros2_ws/build/imu_complementary_filter\n'}
+[1.405130] (imu_complementary_filter) CommandEnded: {'returncode': 0}
+[1.405793] (-) TimerEvent: {}
+[1.407059] (imu_complementary_filter) JobProgress: {'identifier': 'imu_complementary_filter', 'progress': 'build'}
+[1.407444] (imu_complementary_filter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bailey/ros2_ws/build/imu_complementary_filter', '--', '-j4', '-l4'], 'cwd': '/home/bailey/ros2_ws/build/imu_complementary_filter', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/opt/ros/humble'), ('PWD', '/home/bailey/ros2_ws/build/imu_complementary_filter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble')]), 'shell': False}
+[1.456584] (imu_complementary_filter) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o\x1b[0m\n'}
+[1.457328] (imu_complementary_filter) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o\x1b[0m\n'}
+[1.508187] (-) TimerEvent: {}
+[1.608683] (-) TimerEvent: {}
+[1.709114] (-) TimerEvent: {}
+[1.809588] (-) TimerEvent: {}
+[1.910246] (-) TimerEvent: {}
+[2.010615] (-) TimerEvent: {}
+[2.111008] (-) TimerEvent: {}
+[2.211399] (-) TimerEvent: {}
+[2.311760] (-) TimerEvent: {}
+[2.412133] (-) TimerEvent: {}
+[2.512501] (-) TimerEvent: {}
+[2.612891] (-) TimerEvent: {}
+[2.713281] (-) TimerEvent: {}
+[2.813664] (-) TimerEvent: {}
+[2.914050] (-) TimerEvent: {}
+[3.014431] (-) TimerEvent: {}
+[3.114795] (-) TimerEvent: {}
+[3.215188] (-) TimerEvent: {}
+[3.315557] (-) TimerEvent: {}
+[3.415945] (-) TimerEvent: {}
+[3.516324] (-) TimerEvent: {}
+[3.616686] (-) TimerEvent: {}
+[3.717092] (-) TimerEvent: {}
+[3.817452] (-) TimerEvent: {}
+[3.917819] (-) TimerEvent: {}
+[4.018175] (-) TimerEvent: {}
+[4.118548] (-) TimerEvent: {}
+[4.218936] (-) TimerEvent: {}
+[4.319316] (-) TimerEvent: {}
+[4.419698] (-) TimerEvent: {}
+[4.520057] (-) TimerEvent: {}
+[4.563793] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bailey/ros2_ws/src/imu_complementary_filter/src/complementary_filter_ros.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kimu_tools::ComplementaryFilterROS::ComplementaryFilterROS()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.564458] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bailey/ros2_ws/src/imu_complementary_filter/src/complementary_filter_ros.cpp:81:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<sensor_msgs::msg::Imu_<std::allocator<void> > >::Subscriber(imu_tools::ComplementaryFilterROS*, const char [13], rclcpp::QoS, rclcpp::SubscriptionOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.564966] (imu_complementary_filter) StderrLine: {'line': b'   81 |                                             rclcpp::QoS(queue_size), sub_opts\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[4.565485] (imu_complementary_filter) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.565941] (imu_complementary_filter) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.hpp:32\x1b[m\x1b[K,\n'}
+[4.566396] (imu_complementary_filter) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bailey/ros2_ws/src/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h:39\x1b[m\x1b[K,\n'}
+[4.566857] (imu_complementary_filter) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bailey/ros2_ws/src/imu_complementary_filter/src/complementary_filter_ros.cpp:34\x1b[m\x1b[K:\n'}
+[4.567305] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<M, NodeType>::Subscriber() [with M = sensor_msgs::msg::Imu_<std::allocator<void> >; NodeType = rclcpp::Node]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.567772] (imu_complementary_filter) StderrLine: {'line': b'  203 |   \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K() = default;\n'}
+[4.568239] (imu_complementary_filter) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.568697] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 4 provided\n'}
+[4.569158] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:191:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::Imu_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.569633] (imu_complementary_filter) StderrLine: {'line': b'  191 |   \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K(\n'}
+[4.570086] (imu_complementary_filter) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.570536] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:194:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::QoS\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krmw_qos_profile_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Krmw_qos_profile_s\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.571001] (imu_complementary_filter) StderrLine: {'line': b'  194 |     \x1b[01;36m\x1b[Kconst rmw_qos_profile_t qos\x1b[m\x1b[K,\n'}
+[4.571454] (imu_complementary_filter) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.571904] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:182:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::Imu_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.572369] (imu_complementary_filter) StderrLine: {'line': b'  182 |   \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K(\n'}
+[4.572819] (imu_complementary_filter) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.573306] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:183:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimu_tools::ComplementaryFilterROS*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<sensor_msgs::msg::Imu_<std::allocator<void> > >::NodePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.573769] (imu_complementary_filter) StderrLine: {'line': b'  183 |     \x1b[01;36m\x1b[KNodePtr node\x1b[m\x1b[K,\n'}
+[4.574210] (imu_complementary_filter) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.574665] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::Imu_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.575131] (imu_complementary_filter) StderrLine: {'line': b'  167 |   \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)\n'}
+[4.575579] (imu_complementary_filter) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.576029] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[4.576478] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::Imu_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.576920] (imu_complementary_filter) StderrLine: {'line': b'  162 |   \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)\n'}
+[4.577405] (imu_complementary_filter) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.577857] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[4.618647] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bailey/ros2_ws/src/imu_complementary_filter/src/complementary_filter_ros.cpp:87:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<sensor_msgs::msg::MagneticField_<std::allocator<void> > >::Subscriber(imu_tools::ComplementaryFilterROS*, const char [8], rclcpp::QoS, rclcpp::SubscriptionOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.619294] (imu_complementary_filter) StderrLine: {'line': b'   87 |             this, "imu/mag", rclcpp::QoS(queue_size), sub_opts\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[4.619832] (imu_complementary_filter) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.620331] (-) TimerEvent: {}
+[4.620560] (imu_complementary_filter) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.hpp:32\x1b[m\x1b[K,\n'}
+[4.620962] (imu_complementary_filter) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bailey/ros2_ws/src/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h:39\x1b[m\x1b[K,\n'}
+[4.621080] (imu_complementary_filter) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bailey/ros2_ws/src/imu_complementary_filter/src/complementary_filter_ros.cpp:34\x1b[m\x1b[K:\n'}
+[4.621145] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<M, NodeType>::Subscriber() [with M = sensor_msgs::msg::MagneticField_<std::allocator<void> >; NodeType = rclcpp::Node]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.621207] (imu_complementary_filter) StderrLine: {'line': b'  203 |   \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K() = default;\n'}
+[4.621263] (imu_complementary_filter) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.621319] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 4 provided\n'}
+[4.621377] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:191:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::MagneticField_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.621440] (imu_complementary_filter) StderrLine: {'line': b'  191 |   \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K(\n'}
+[4.621495] (imu_complementary_filter) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.621548] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:194:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::QoS\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krmw_qos_profile_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Krmw_qos_profile_s\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.621612] (imu_complementary_filter) StderrLine: {'line': b'  194 |     \x1b[01;36m\x1b[Kconst rmw_qos_profile_t qos\x1b[m\x1b[K,\n'}
+[4.621670] (imu_complementary_filter) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.621726] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:182:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::MagneticField_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.621791] (imu_complementary_filter) StderrLine: {'line': b'  182 |   \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K(\n'}
+[4.621845] (imu_complementary_filter) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.621899] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:183:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kimu_tools::ComplementaryFilterROS*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<sensor_msgs::msg::MagneticField_<std::allocator<void> > >::NodePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.621961] (imu_complementary_filter) StderrLine: {'line': b'  183 |     \x1b[01;36m\x1b[KNodePtr node\x1b[m\x1b[K,\n'}
+[4.622016] (imu_complementary_filter) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.622072] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::MagneticField_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.622131] (imu_complementary_filter) StderrLine: {'line': b'  167 |   \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)\n'}
+[4.622189] (imu_complementary_filter) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.622242] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[4.622299] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::MagneticField_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.622365] (imu_complementary_filter) StderrLine: {'line': b'  162 |   \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)\n'}
+[4.622421] (imu_complementary_filter) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.622486] (imu_complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[4.720448] (-) TimerEvent: {}
+[4.820798] (-) TimerEvent: {}
+[4.921509] (-) TimerEvent: {}
+[5.022087] (-) TimerEvent: {}
+[5.122773] (-) TimerEvent: {}
+[5.223445] (-) TimerEvent: {}
+[5.324069] (-) TimerEvent: {}
+[5.424627] (-) TimerEvent: {}
+[5.525317] (-) TimerEvent: {}
+[5.625985] (-) TimerEvent: {}
+[5.726362] (-) TimerEvent: {}
+[5.826906] (-) TimerEvent: {}
+[5.927451] (-) TimerEvent: {}
+[6.027986] (-) TimerEvent: {}
+[6.128587] (-) TimerEvent: {}
+[6.229116] (-) TimerEvent: {}
+[6.329645] (-) TimerEvent: {}
+[6.430273] (-) TimerEvent: {}
+[6.530614] (-) TimerEvent: {}
+[6.631254] (-) TimerEvent: {}
+[6.731933] (-) TimerEvent: {}
+[6.832528] (-) TimerEvent: {}
+[6.937311] (-) TimerEvent: {}
+[7.037634] (-) TimerEvent: {}
+[7.138054] (-) TimerEvent: {}
+[7.238517] (-) TimerEvent: {}
+[7.256105] (imu_complementary_filter) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:90: CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o] Error 1\n'}
+[7.256525] (imu_complementary_filter) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/complementary_filter.dir/all] Error 2\n'}
+[7.256616] (imu_complementary_filter) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.258995] (imu_complementary_filter) CommandEnded: {'returncode': 2}
+[7.270825] (imu_complementary_filter) JobEnded: {'identifier': 'imu_complementary_filter', 'rc': 2}
+[7.281740] (-) EventReactorShutdown: {}

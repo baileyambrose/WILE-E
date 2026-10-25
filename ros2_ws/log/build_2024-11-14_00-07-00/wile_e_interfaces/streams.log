@@ -1,0 +1,42 @@
+[0.058s] Invoking command in '/home/bailey/ros2_ws/build/wile_e_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bailey/ros2_ws/src/wile_e_interfaces -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/wile_e_interfaces
+[1.011s] -- The C compiler identification is GNU 13.2.0
+[2.068s] -- The CXX compiler identification is GNU 13.2.0
+[2.186s] -- Detecting C compiler ABI info
+[2.762s] -- Detecting C compiler ABI info - done
+[2.798s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.800s] -- Detecting C compile features
+[2.802s] -- Detecting C compile features - done
+[2.860s] -- Detecting CXX compiler ABI info
+[3.415s] -- Detecting CXX compiler ABI info - done
+[3.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.456s] -- Detecting CXX compile features
+[3.458s] -- Detecting CXX compile features - done
+[3.490s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.291s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.076s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.720s] -- Added test 'lint_cmake' to check CMake code style
+[5.733s] -- Added test 'xmllint' to check XML markup files
+[5.743s] -- Configuring done (5.4s)
+[5.766s] -- Generating done (0.0s)
+[5.771s] -- Build files have been written to: /home/bailey/ros2_ws/build/wile_e_interfaces
+[5.795s] Invoked command in '/home/bailey/ros2_ws/build/wile_e_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bailey/ros2_ws/src/wile_e_interfaces -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/wile_e_interfaces
+[5.802s] Invoking command in '/home/bailey/ros2_ws/build/wile_e_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bailey/ros2_ws/build/wile_e_interfaces -- -j4 -l4
+[6.012s] Invoked command in '/home/bailey/ros2_ws/build/wile_e_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bailey/ros2_ws/build/wile_e_interfaces -- -j4 -l4
+[6.210s] Invoking command in '/home/bailey/ros2_ws/build/wile_e_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bailey/ros2_ws/build/wile_e_interfaces
+[6.255s] -- Install configuration: ""
+[6.257s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/ament_index/resource_index/package_run_dependencies/wile_e_interfaces
+[6.258s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/ament_index/resource_index/parent_prefix_path/wile_e_interfaces
+[6.260s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/ament_prefix_path.sh
+[6.261s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/ament_prefix_path.dsv
+[6.262s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/path.sh
+[6.263s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/path.dsv
+[6.265s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/local_setup.bash
+[6.266s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/local_setup.sh
+[6.267s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/local_setup.zsh
+[6.268s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/local_setup.dsv
+[6.269s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/package.dsv
+[6.270s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/ament_index/resource_index/packages/wile_e_interfaces
+[6.272s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfacesConfig.cmake
+[6.273s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfacesConfig-version.cmake
+[6.274s] -- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/package.xml
+[6.282s] Invoked command in '/home/bailey/ros2_ws/build/wile_e_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bailey/ros2_ws/build/wile_e_interfaces

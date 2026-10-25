@@ -1,0 +1,31 @@
+[0.659s] Invoking command in '/home/bailey/ros2_ws/src/wile_e': CMAKE_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data
+[0.868s] running egg_info
+[0.870s] writing ../../build/wile_e/wile_e.egg-info/PKG-INFO
+[0.870s] writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt
+[0.872s] writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt
+[0.873s] writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt
+[0.874s] writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt
+[0.878s] reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[0.878s] adding license file 'LICENSE'
+[0.879s] writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[0.880s] running build
+[0.880s] running build_py
+[0.880s] copying wile_e/visualizer.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+[0.881s] running install
+[0.882s] running install_lib
+[0.883s] copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/visualizer.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e
+[0.884s] byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/visualizer.py to visualizer.cpython-310.pyc
+[0.885s] running install_data
+[0.885s] running install_egg_info
+[0.889s] removing '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e-0.0.0-py3.10.egg-info' (and everything under it)
+[0.892s] Copying ../../build/wile_e/wile_e.egg-info to /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e-0.0.0-py3.10.egg-info
+[0.892s] running install_scripts
+[0.916s] Installing accelerometer script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.917s] Installing arduino_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.917s] Installing command_interpreter script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.918s] Installing file_reader script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.918s] Installing roboclaw_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.919s] Installing trigger script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.920s] Installing visualizer script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.921s] writing list of installed files to '/home/bailey/ros2_ws/build/wile_e/install.log'
+[0.971s] Invoked command in '/home/bailey/ros2_ws/src/wile_e' returned '0': CMAKE_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data

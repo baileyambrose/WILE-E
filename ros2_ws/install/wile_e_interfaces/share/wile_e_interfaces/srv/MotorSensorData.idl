@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from wile_e_interfaces/srv/MotorSensorData.srv
+// generated code does not contain a copyright notice
+
+
+module wile_e_interfaces {
+  module srv {
+    struct MotorSensorData_Request {
+      boolean call;
+    };
+    struct MotorSensorData_Response {
+      int16 left_shoulder;
+
+      int16 right_shoulder;
+
+      uint16 left_elbow;
+
+      uint16 right_elbow;
+    };
+  };
+};

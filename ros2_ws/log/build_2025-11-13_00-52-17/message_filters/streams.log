@@ -1,0 +1,105 @@
+[0.010s] Invoking command in '/home/bailey/ros2_ws/build/message_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble /usr/bin/cmake /home/bailey/ros2_ws/src/message_filters -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/message_filters
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.211s] -- Detecting CXX compiler ABI info
+[0.289s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.299s] -- Detecting CXX compile features
+[0.299s] -- Detecting CXX compile features - done
+[0.302s] -- Found ament_cmake_python: 1.3.12 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.304s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.465s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.581s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.626s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.632s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.642s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.656s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.729s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.732s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.800s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.820s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.851s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.861s] -- Looking for pthread.h
+[0.932s] -- Looking for pthread.h - found
+[0.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.004s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.006s] -- Found Threads: TRUE  
+[1.177s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.178s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.213s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.358s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.996s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.000s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.000s] -- Configured cppcheck language: c++
+[3.001s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bailey/ros2_ws/src/message_filters/include>
+[3.001s] -- Configured cppcheck exclude dirs and/or files: 
+[3.005s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.006s] -- Configured cpplint exclude dirs and/or files: 
+[3.007s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.008s] -- Added test 'lint_cmake' to check CMake code style
+[3.009s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.014s] -- Added test 'uncrustify' to check C / C++ code style
+[3.014s] -- Configured uncrustify additional arguments: 
+[3.015s] -- Added test 'xmllint' to check XML markup files
+[3.018s] -- Configuring done
+[3.078s] -- Generating done
+[3.106s] -- Build files have been written to: /home/bailey/ros2_ws/build/message_filters
+[3.122s] Invoked command in '/home/bailey/ros2_ws/build/message_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble /usr/bin/cmake /home/bailey/ros2_ws/src/message_filters -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/message_filters
+[3.123s] Invoking command in '/home/bailey/ros2_ws/build/message_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble /usr/bin/cmake --build /home/bailey/ros2_ws/build/message_filters -- -j4 -l4
+[3.179s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.179s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.179s] [  8%] [32mBuilding CXX object CMakeFiles/message_filters.dir/src/connection.cpp.o[0m
+[3.187s] [  8%] Built target ament_cmake_python_copy_message_filters
+[3.524s] running egg_info
+[3.527s] creating message_filters.egg-info
+[3.527s] writing message_filters.egg-info/PKG-INFO
+[3.527s] writing dependency_links to message_filters.egg-info/dependency_links.txt
+[3.527s] writing top-level names to message_filters.egg-info/top_level.txt
+[3.527s] writing manifest file 'message_filters.egg-info/SOURCES.txt'
+[3.530s] reading manifest file 'message_filters.egg-info/SOURCES.txt'
+[3.531s] writing manifest file 'message_filters.egg-info/SOURCES.txt'
+[3.604s] [  8%] Built target ament_cmake_python_build_message_filters_egg
+[3.629s] [ 11%] [32m[1mLinking CXX shared library libmessage_filters.so[0m
+[3.842s] [ 11%] Built target message_filters
+[4.574s] [ 14%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.610s] [ 14%] Built target gtest_main
+[7.459s] [ 17%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.575s] [ 17%] Built target gtest
+[7.602s] [ 20%] [32mBuilding CXX object CMakeFiles/message_filters-test_time_sequencer.dir/test/time_sequencer_unittest.cpp.o[0m
+[7.603s] [ 26%] [32mBuilding CXX object CMakeFiles/message_filters-msg_cache_unittest.dir/test/msg_cache_unittest.cpp.o[0m
+[7.603s] [ 26%] [32mBuilding CXX object CMakeFiles/message_filters-test_chain.dir/test/test_chain.cpp.o[0m
+[7.613s] [ 29%] [32mBuilding CXX object CMakeFiles/message_filters-test_simple.dir/test/test_simple.cpp.o[0m
+[16.557s] [ 32%] [32m[1mLinking CXX executable message_filters-test_chain[0m
+[16.758s] [ 35%] [32m[1mLinking CXX executable message_filters-test_time_sequencer[0m
+[16.768s] [ 38%] [32m[1mLinking CXX executable message_filters-test_simple[0m
+[17.035s] [ 41%] [32m[1mLinking CXX executable message_filters-msg_cache_unittest[0m
+[17.216s] [ 41%] Built target message_filters-test_chain
+[17.270s] [ 44%] [32mBuilding CXX object CMakeFiles/message_filters-test_subscriber.dir/test/test_subscriber.cpp.o[0m
+[17.496s] [ 44%] Built target message_filters-test_time_sequencer
+[17.527s] [ 47%] [32mBuilding CXX object CMakeFiles/message_filters-test_synchronizer.dir/test/test_synchronizer.cpp.o[0m
+[17.533s] [ 47%] Built target message_filters-test_simple
+[17.573s] [ 50%] [32mBuilding CXX object CMakeFiles/message_filters-time_synchronizer_unittest.dir/test/time_synchronizer_unittest.cpp.o[0m
+[17.598s] [ 50%] Built target message_filters-msg_cache_unittest
+[17.618s] [ 52%] [32mBuilding CXX object CMakeFiles/message_filters-test_exact_time_policy.dir/test/test_exact_time_policy.cpp.o[0m
+[17.662s] In file included from [01m[K/home/bailey/ros2_ws/src/message_filters/test/test_subscriber.cpp:37[m[K:
+[17.663s] [01m[K/home/bailey/ros2_ws/src/message_filters/include/message_filters/subscriber.hpp:38:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/node_interfaces/node_interfaces.hpp: No such file or directory
+[17.663s]    38 | #include [01;31m[K<rclcpp/node_interfaces/node_interfaces.hpp>[m[K
+[17.663s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.663s] compilation terminated.
+[17.663s] gmake[2]: *** [CMakeFiles/message_filters-test_subscriber.dir/build.make:76: CMakeFiles/message_filters-test_subscriber.dir/test/test_subscriber.cpp.o] Error 1
+[17.663s] gmake[1]: *** [CMakeFiles/Makefile2:378: CMakeFiles/message_filters-test_subscriber.dir/all] Error 2
+[17.663s] gmake[1]: *** Waiting for unfinished jobs....
+[25.023s] [ 55%] [32m[1mLinking CXX executable message_filters-test_exact_time_policy[0m
+[25.472s] [ 55%] Built target message_filters-test_exact_time_policy
+[27.657s] [ 58%] [32m[1mLinking CXX executable message_filters-test_synchronizer[0m
+[28.210s] [ 58%] Built target message_filters-test_synchronizer
+[30.720s] [ 61%] [32m[1mLinking CXX executable message_filters-time_synchronizer_unittest[0m
+[31.376s] [ 61%] Built target message_filters-time_synchronizer_unittest
+[31.377s] gmake: *** [Makefile:146: all] Error 2
+[31.379s] Invoked command in '/home/bailey/ros2_ws/build/message_filters' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble /usr/bin/cmake --build /home/bailey/ros2_ws/build/message_filters -- -j4 -l4

@@ -1,0 +1,41 @@
+[0.017s] Invoking command in '/home/bailey/ros2_ws/build/mpu_6050_driver': /usr/bin/cmake /home/bailey/ros2_ws/src/mpu_6050_driver -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/mpu_6050_driver
+[0.234s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.234s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.234s]   CMake.
+[0.234s] 
+[0.234s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.234s]   CMake that the project does not need compatibility with older versions.
+[0.234s] 
+[0.234s] [0m
+[0.580s] -- The C compiler identification is GNU 11.4.0
+[0.841s] -- The CXX compiler identification is GNU 11.4.0
+[0.856s] -- Detecting C compiler ABI info
+[0.958s] -- Detecting C compiler ABI info - done
+[0.966s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.967s] -- Detecting C compile features
+[0.968s] -- Detecting C compile features - done
+[0.973s] -- Detecting CXX compiler ABI info
+[1.057s] -- Detecting CXX compiler ABI info - done
+[1.068s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.068s] -- Detecting CXX compile features
+[1.069s] -- Detecting CXX compile features - done
+[1.079s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[1.079s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.079s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.079s]   CMake did not find one.
+[1.079s] 
+[1.079s]   Could not find a package configuration file provided by "catkin" with any
+[1.079s]   of the following names:
+[1.079s] 
+[1.079s]     catkinConfig.cmake
+[1.080s]     catkin-config.cmake
+[1.080s] 
+[1.080s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.080s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.080s]   provides a separate development package or SDK, be sure it has been
+[1.080s]   installed.
+[1.080s] 
+[1.080s] [0m
+[1.080s] -- Configuring incomplete, errors occurred!
+[1.080s] See also "/home/bailey/ros2_ws/build/mpu_6050_driver/CMakeFiles/CMakeOutput.log".
+[1.083s] Invoked command in '/home/bailey/ros2_ws/build/mpu_6050_driver' returned '1': /usr/bin/cmake /home/bailey/ros2_ws/src/mpu_6050_driver -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/mpu_6050_driver

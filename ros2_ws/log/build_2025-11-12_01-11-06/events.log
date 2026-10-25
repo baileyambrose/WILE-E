@@ -1,0 +1,516 @@
+[0.000000] (-) TimerEvent: {}
+[0.000362] (-) JobUnselected: {'identifier': 'message_filters'}
+[0.000722] (-) JobUnselected: {'identifier': 'mpu6050driver'}
+[0.000748] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.000768] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000935] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000954] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.000972] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.000990] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001007] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001025] (-) JobUnselected: {'identifier': 'wile_e'}
+[0.001042] (-) JobUnselected: {'identifier': 'yle1'}
+[0.001062] (wile_e_interfaces) JobQueued: {'identifier': 'wile_e_interfaces', 'dependencies': OrderedDict()}
+[0.001084] (wile_e_interfaces) JobStarted: {'identifier': 'wile_e_interfaces'}
+[0.010548] (wile_e_interfaces) JobProgress: {'identifier': 'wile_e_interfaces', 'progress': 'cmake'}
+[0.012119] (wile_e_interfaces) JobProgress: {'identifier': 'wile_e_interfaces', 'progress': 'build'}
+[0.012894] (wile_e_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bailey/ros2_ws/build/wile_e_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/bailey/ros2_ws/build/wile_e_interfaces', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/opt/ros/humble'), ('PWD', '/home/bailey/ros2_ws/build/wile_e_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble')]), 'shell': False}
+[0.043102] (wile_e_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099891] (-) TimerEvent: {}
+[0.189113] (wile_e_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.199826] (-) TimerEvent: {}
+[0.275116] (wile_e_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.275790] (wile_e_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.278492] (wile_e_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.299921] (-) TimerEvent: {}
+[0.308586] (wile_e_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400031] (-) TimerEvent: {}
+[0.500579] (-) TimerEvent: {}
+[0.561773] (wile_e_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600689] (-) TimerEvent: {}
+[0.701193] (-) TimerEvent: {}
+[0.751273] (wile_e_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.801296] (-) TimerEvent: {}
+[0.901848] (-) TimerEvent: {}
+[0.998847] (wile_e_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001929] (-) TimerEvent: {}
+[1.016627] (wile_e_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.035353] (wile_e_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.035891] (wile_e_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.035978] (wile_e_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[1.061978] (wile_e_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.063187] (wile_e_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.071496] (wile_e_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.102041] (-) TimerEvent: {}
+[1.202468] (-) TimerEvent: {}
+[1.231852] (wile_e_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.263098] (wile_e_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bailey/ros2_ws/build/wile_e_interfaces\n'}
+[1.289926] (wile_e_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.300916] (wile_e_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.302565] (-) TimerEvent: {}
+[1.361501] (wile_e_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_wile_e_interfaces\n'}
+[1.402685] (-) TimerEvent: {}
+[1.503126] (-) TimerEvent: {}
+[1.603761] (-) TimerEvent: {}
+[1.607883] (wile_e_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.609290] (wile_e_interfaces) StdoutLine: {'line': b'writing wile_e_interfaces.egg-info/PKG-INFO\n'}
+[1.610352] (wile_e_interfaces) StdoutLine: {'line': b'writing dependency_links to wile_e_interfaces.egg-info/dependency_links.txt\n'}
+[1.611591] (wile_e_interfaces) StdoutLine: {'line': b'writing top-level names to wile_e_interfaces.egg-info/top_level.txt\n'}
+[1.617103] (wile_e_interfaces) StdoutLine: {'line': b"reading manifest file 'wile_e_interfaces.egg-info/SOURCES.txt'\n"}
+[1.622690] (wile_e_interfaces) StdoutLine: {'line': b"writing manifest file 'wile_e_interfaces.egg-info/SOURCES.txt'\n"}
+[1.675540] (wile_e_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_wile_e_interfaces_egg\n'}
+[1.703854] (-) TimerEvent: {}
+[1.804332] (-) TimerEvent: {}
+[1.904874] (-) TimerEvent: {}
+[2.006191] (-) TimerEvent: {}
+[2.018563] (wile_e_interfaces) StdoutLine: {'line': b'[  3%] Built target wile_e_interfaces__cpp\n'}
+[2.038720] (wile_e_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.042077] (wile_e_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.078571] (wile_e_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.105449] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.107327] (-) TimerEvent: {}
+[2.122535] (wile_e_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__functions.c.o\x1b[0m\n'}
+[2.196662] (wile_e_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wile_e_interfaces/msg/detail/action_command__functions.c.o\x1b[0m\n'}
+[2.211169] (-) TimerEvent: {}
+[2.260777] (wile_e_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__functions.c.o\x1b[0m\n'}
+[2.311276] (-) TimerEvent: {}
+[2.320229] (wile_e_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wile_e_interfaces/msg/detail/teensy_data__functions.c.o\x1b[0m\n'}
+[2.377184] (wile_e_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wile_e_interfaces/msg/detail/velocity_command__functions.c.o\x1b[0m\n'}
+[2.411384] (-) TimerEvent: {}
+[2.437478] (wile_e_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libwile_e_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.485281] (wile_e_interfaces) StdoutLine: {'line': b'[ 17%] Built target wile_e_interfaces__rosidl_generator_c\n'}
+[2.499484] (wile_e_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.511509] (-) TimerEvent: {}
+[2.586193] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.603947] (wile_e_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wile_e_interfaces/msg/roboclaw_state_broadcast__type_support.cpp.o\x1b[0m\n'}
+[2.615090] (-) TimerEvent: {}
+[2.715578] (-) TimerEvent: {}
+[2.781423] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.799934] (wile_e_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__type_support.cpp.o\x1b[0m\n'}
+[2.804985] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.815695] (-) TimerEvent: {}
+[2.830206] (wile_e_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wile_e_interfaces/msg/detail/dds_fastrtps/roboclaw_state_broadcast__type_support.cpp.o\x1b[0m\n'}
+[2.915817] (-) TimerEvent: {}
+[3.016308] (-) TimerEvent: {}
+[3.027104] (wile_e_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wile_e_interfaces/msg/action_command__type_support.cpp.o\x1b[0m\n'}
+[3.116446] (-) TimerEvent: {}
+[3.216971] (-) TimerEvent: {}
+[3.305768] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.317127] (-) TimerEvent: {}
+[3.327315] (wile_e_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__type_support_c.cpp.o\x1b[0m\n'}
+[3.393121] (wile_e_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wile_e_interfaces/msg/detail/action_command__type_support.cpp.o\x1b[0m\n'}
+[3.417243] (-) TimerEvent: {}
+[3.429187] (wile_e_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wile_e_interfaces/msg/roboclaw_power_broadcast__type_support.cpp.o\x1b[0m\n'}
+[3.443133] (wile_e_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wile_e_interfaces/msg/detail/dds_fastrtps/action_command__type_support.cpp.o\x1b[0m\n'}
+[3.517383] (-) TimerEvent: {}
+[3.617877] (-) TimerEvent: {}
+[3.718423] (-) TimerEvent: {}
+[3.816663] (wile_e_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wile_e_interfaces/msg/teensy_data__type_support.cpp.o\x1b[0m\n'}
+[3.818561] (-) TimerEvent: {}
+[3.836990] (wile_e_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wile_e_interfaces/msg/detail/action_command__type_support_c.cpp.o\x1b[0m\n'}
+[3.918703] (-) TimerEvent: {}
+[3.982442] (wile_e_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__type_support.cpp.o\x1b[0m\n'}
+[4.018919] (-) TimerEvent: {}
+[4.057518] (wile_e_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wile_e_interfaces/msg/detail/dds_fastrtps/roboclaw_power_broadcast__type_support.cpp.o\x1b[0m\n'}
+[4.119088] (-) TimerEvent: {}
+[4.211689] (wile_e_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wile_e_interfaces/msg/velocity_command__type_support.cpp.o\x1b[0m\n'}
+[4.219221] (-) TimerEvent: {}
+[4.319959] (-) TimerEvent: {}
+[4.355505] (wile_e_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__type_support_c.cpp.o\x1b[0m\n'}
+[4.420094] (-) TimerEvent: {}
+[4.523582] (-) TimerEvent: {}
+[4.569234] (wile_e_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wile_e_interfaces/msg/detail/teensy_data__type_support.cpp.o\x1b[0m\n'}
+[4.616991] (wile_e_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libwile_e_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.623718] (-) TimerEvent: {}
+[4.676675] (wile_e_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wile_e_interfaces/msg/detail/dds_fastrtps/teensy_data__type_support.cpp.o\x1b[0m\n'}
+[4.679799] (wile_e_interfaces) StdoutLine: {'line': b'[ 46%] Built target wile_e_interfaces__rosidl_typesupport_cpp\n'}
+[4.693443] (wile_e_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.723880] (-) TimerEvent: {}
+[4.827402] (-) TimerEvent: {}
+[4.884256] (wile_e_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wile_e_interfaces/msg/detail/teensy_data__type_support_c.cpp.o\x1b[0m\n'}
+[4.927529] (-) TimerEvent: {}
+[5.028081] (-) TimerEvent: {}
+[5.128595] (-) TimerEvent: {}
+[5.143247] (wile_e_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wile_e_interfaces/msg/detail/velocity_command__type_support.cpp.o\x1b[0m\n'}
+[5.228735] (-) TimerEvent: {}
+[5.280247] (wile_e_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wile_e_interfaces/msg/detail/dds_fastrtps/velocity_command__type_support.cpp.o\x1b[0m\n'}
+[5.328912] (-) TimerEvent: {}
+[5.376880] (wile_e_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wile_e_interfaces/msg/detail/velocity_command__type_support_c.cpp.o\x1b[0m\n'}
+[5.429051] (-) TimerEvent: {}
+[5.488934] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.508165] (wile_e_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__type_support.c.o\x1b[0m\n'}
+[5.531113] (-) TimerEvent: {}
+[5.557550] (wile_e_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wile_e_interfaces/msg/detail/action_command__type_support.c.o\x1b[0m\n'}
+[5.610518] (wile_e_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__type_support.c.o\x1b[0m\n'}
+[5.631235] (-) TimerEvent: {}
+[5.662118] (wile_e_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wile_e_interfaces/msg/detail/teensy_data__type_support.c.o\x1b[0m\n'}
+[5.715125] (wile_e_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wile_e_interfaces/msg/detail/velocity_command__type_support.c.o\x1b[0m\n'}
+[5.731356] (-) TimerEvent: {}
+[5.743010] (wile_e_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libwile_e_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.767382] (wile_e_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libwile_e_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.831228] (wile_e_interfaces) StdoutLine: {'line': b'[ 65%] Built target wile_e_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.831610] (-) TimerEvent: {}
+[5.848015] (wile_e_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.868941] (wile_e_interfaces) StdoutLine: {'line': b'[ 66%] Built target wile_e_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.931092] (wile_e_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libwile_e_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.931894] (-) TimerEvent: {}
+[5.932251] (wile_e_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libwile_e_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.035081] (-) TimerEvent: {}
+[6.049631] (wile_e_interfaces) StdoutLine: {'line': b'[ 69%] Built target wile_e_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.050291] (wile_e_interfaces) StdoutLine: {'line': b'[ 69%] Built target wile_e_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.135266] (-) TimerEvent: {}
+[6.235633] (-) TimerEvent: {}
+[6.305991] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[6.321120] (wile_e_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wile_e_interfaces/msg/roboclaw_power_broadcast__type_support.cpp.o\x1b[0m\n'}
+[6.321468] (wile_e_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wile_e_interfaces/msg/teensy_data__type_support.cpp.o\x1b[0m\n'}
+[6.321604] (wile_e_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wile_e_interfaces/msg/roboclaw_state_broadcast__type_support.cpp.o\x1b[0m\n'}
+[6.321701] (wile_e_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wile_e_interfaces/msg/action_command__type_support.cpp.o\x1b[0m\n'}
+[6.338524] (-) TimerEvent: {}
+[6.358389] (wile_e_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wile_e_interfaces/msg/velocity_command__type_support.cpp.o\x1b[0m\n'}
+[6.388665] (wile_e_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libwile_e_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.434030] (wile_e_interfaces) StdoutLine: {'line': b'[ 79%] Built target wile_e_interfaces__rosidl_typesupport_c\n'}
+[6.438625] (-) TimerEvent: {}
+[6.453471] (wile_e_interfaces) StdoutLine: {'line': b'[ 79%] Built target wile_e_interfaces\n'}
+[6.472608] (wile_e_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.538717] (-) TimerEvent: {}
+[6.639136] (-) TimerEvent: {}
+[6.739672] (-) TimerEvent: {}
+[6.840073] (-) TimerEvent: {}
+[6.940573] (-) TimerEvent: {}
+[7.041006] (-) TimerEvent: {}
+[7.141467] (-) TimerEvent: {}
+[7.241944] (-) TimerEvent: {}
+[7.343781] (-) TimerEvent: {}
+[7.370530] (wile_e_interfaces) StdoutLine: {'line': b'[ 80%] Built target wile_e_interfaces__py\n'}
+[7.382935] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_generator_py\x1b[0m\n'}
+[7.400770] (wile_e_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_py.dir/rosidl_generator_py/wile_e_interfaces/msg/_action_command_s.c.o\x1b[0m\n'}
+[7.401016] (wile_e_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_py.dir/rosidl_generator_py/wile_e_interfaces/msg/_teensy_data_s.c.o\x1b[0m\n'}
+[7.401093] (wile_e_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_py.dir/rosidl_generator_py/wile_e_interfaces/msg/_roboclaw_power_broadcast_s.c.o\x1b[0m\n'}
+[7.401161] (wile_e_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_py.dir/rosidl_generator_py/wile_e_interfaces/msg/_roboclaw_state_broadcast_s.c.o\x1b[0m\n'}
+[7.447125] (-) TimerEvent: {}
+[7.539803] (wile_e_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_py.dir/rosidl_generator_py/wile_e_interfaces/msg/_velocity_command_s.c.o\x1b[0m\n'}
+[7.548484] (-) TimerEvent: {}
+[7.648862] (-) TimerEvent: {}
+[7.655065] (wile_e_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wile_e_interfaces/libwile_e_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.702191] (wile_e_interfaces) StdoutLine: {'line': b'[ 90%] Built target wile_e_interfaces__rosidl_generator_py\n'}
+[7.714541] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.714756] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.714830] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.728124] (wile_e_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wile_e_interfaces/_wile_e_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.730330] (wile_e_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wile_e_interfaces/_wile_e_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.733580] (wile_e_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wile_e_interfaces/_wile_e_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.751132] (-) TimerEvent: {}
+[7.851678] (-) TimerEvent: {}
+[7.861755] (wile_e_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.867647] (wile_e_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.869039] (wile_e_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.905690] (wile_e_interfaces) StdoutLine: {'line': b'[100%] Built target wile_e_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.915088] (wile_e_interfaces) StdoutLine: {'line': b'[100%] Built target wile_e_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.922355] (wile_e_interfaces) StdoutLine: {'line': b'[100%] Built target wile_e_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.933272] (wile_e_interfaces) CommandEnded: {'returncode': 0}
+[7.951823] (-) TimerEvent: {}
+[8.023205] (wile_e_interfaces) JobProgress: {'identifier': 'wile_e_interfaces', 'progress': 'install'}
+[8.031849] (wile_e_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bailey/ros2_ws/build/wile_e_interfaces'], 'cwd': '/home/bailey/ros2_ws/build/wile_e_interfaces', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/opt/ros/humble'), ('PWD', '/home/bailey/ros2_ws/build/wile_e_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble')]), 'shell': False}
+[8.040623] (wile_e_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.040882] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/ament_index/resource_index/rosidl_interfaces/wile_e_interfaces\n'}
+[8.042998] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces\n'}
+[8.043101] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg\n'}
+[8.043169] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/roboclaw_command.h\n'}
+[8.043230] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/roboclaw_broadcast.h\n'}
+[8.043289] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.043354] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/velocity_command.h\n'}
+[8.043414] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail\n'}
+[8.043475] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__functions.h\n'}
+[8.043536] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__type_support.h\n'}
+[8.043595] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__functions.c\n'}
+[8.043654] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__type_support.h\n'}
+[8.043712] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__struct.h\n'}
+[8.043770] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__functions.h\n'}
+[8.043827] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__functions.c\n'}
+[8.043884] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__type_support.h\n'}
+[8.043940] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__functions.h\n'}
+[8.044000] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__description.c\n'}
+[8.044067] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__type_support.h\n'}
+[8.044125] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__type_support.h\n'}
+[8.044182] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__struct.h\n'}
+[8.044246] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__functions.h\n'}
+[8.044308] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__struct.h\n'}
+[8.044369] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__functions.c\n'}
+[8.044433] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__struct.h\n'}
+[8.044494] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__type_support.c\n'}
+[8.044624] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__functions.c\n'}
+[8.044692] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__functions.h\n'}
+[8.044752] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__type_support.h\n'}
+[8.044814] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__description.c\n'}
+[8.044875] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__type_support.h\n'}
+[8.044936] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__struct.h\n'}
+[8.044997] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__type_support.h\n'}
+[8.045058] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__description.c\n'}
+[8.045118] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__struct.h\n'}
+[8.045238] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__type_support.c\n'}
+[8.045303] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__functions.h\n'}
+[8.045369] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__struct.h\n'}
+[8.045434] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__struct.h\n'}
+[8.045496] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__functions.c\n'}
+[8.045556] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__type_support.c\n'}
+[8.045674] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__functions.h\n'}
+[8.045771] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__functions.h\n'}
+[8.045831] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__struct.h\n'}
+[8.045915] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__type_support.h\n'}
+[8.045979] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__functions.c\n'}
+[8.046074] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__functions.c\n'}
+[8.046136] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__functions.c\n'}
+[8.046198] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__functions.h\n'}
+[8.046259] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__functions.c\n'}
+[8.046355] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/arduino_command.h\n'}
+[8.046417] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/file_command.h\n'}
+[8.046509] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/roboclaw_power_broadcast.h\n'}
+[8.046574] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/teensy_data.h\n'}
+[8.046665] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/roboclaw_state_broadcast.h\n'}
+[8.046743] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/action_command.h\n'}
+[8.046966] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/library_path.sh\n'}
+[8.047136] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/library_path.dsv\n'}
+[8.047429] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_generator_c.so\n'}
+[8.048038] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.048127] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces\n'}
+[8.048216] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg\n'}
+[8.048296] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.048376] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail\n'}
+[8.048439] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__rosidl_typesupport_fastrtps_c.h\n'}
+[8.048516] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__rosidl_typesupport_fastrtps_c.h\n'}
+[8.048775] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__rosidl_typesupport_fastrtps_c.h\n'}
+[8.048914] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__rosidl_typesupport_fastrtps_c.h\n'}
+[8.049288] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__rosidl_typesupport_fastrtps_c.h\n'}
+[8.049399] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__rosidl_typesupport_fastrtps_c.h\n'}
+[8.049482] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__rosidl_typesupport_fastrtps_c.h\n'}
+[8.049573] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__rosidl_typesupport_fastrtps_c.h\n'}
+[8.049635] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__rosidl_typesupport_fastrtps_c.h\n'}
+[8.049719] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.050005] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.050080] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces\n'}
+[8.050160] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg\n'}
+[8.050242] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.050420] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail\n'}
+[8.050549] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__type_support.c\n'}
+[8.050674] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__rosidl_typesupport_introspection_c.h\n'}
+[8.050793] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__rosidl_typesupport_introspection_c.h\n'}
+[8.050871] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__type_support.c\n'}
+[8.050949] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__rosidl_typesupport_introspection_c.h\n'}
+[8.051067] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__rosidl_typesupport_introspection_c.h\n'}
+[8.051176] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__type_support.c\n'}
+[8.051284] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__type_support.c\n'}
+[8.051368] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__rosidl_typesupport_introspection_c.h\n'}
+[8.051449] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__type_support.c\n'}
+[8.051529] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__type_support.c\n'}
+[8.051871] (-) TimerEvent: {}
+[8.052146] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__rosidl_typesupport_introspection_c.h\n'}
+[8.052298] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__type_support.c\n'}
+[8.052696] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__type_support.c\n'}
+[8.053135] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__rosidl_typesupport_introspection_c.h\n'}
+[8.053228] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__rosidl_typesupport_introspection_c.h\n'}
+[8.053310] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__type_support.c\n'}
+[8.053623] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__rosidl_typesupport_introspection_c.h\n'}
+[8.053816] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.054140] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.054287] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_c.so\n'}
+[8.054577] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.054662] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces\n'}
+[8.054754] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg\n'}
+[8.054818] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.054913] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/arduino_command.hpp\n'}
+[8.055027] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/file_command.hpp\n'}
+[8.055226] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/roboclaw_command.hpp\n'}
+[8.055293] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/teensy_data.hpp\n'}
+[8.055387] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail\n'}
+[8.055454] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__type_support.hpp\n'}
+[8.055548] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__traits.hpp\n'}
+[8.055610] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__type_support.hpp\n'}
+[8.055674] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__builder.hpp\n'}
+[8.055736] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__type_support.hpp\n'}
+[8.055797] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__builder.hpp\n'}
+[8.055859] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__traits.hpp\n'}
+[8.055946] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__type_support.hpp\n'}
+[8.056051] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__struct.hpp\n'}
+[8.056117] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__traits.hpp\n'}
+[8.056202] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__builder.hpp\n'}
+[8.056282] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__struct.hpp\n'}
+[8.056343] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__traits.hpp\n'}
+[8.056406] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__traits.hpp\n'}
+[8.056498] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__builder.hpp\n'}
+[8.056563] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__traits.hpp\n'}
+[8.056625] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__struct.hpp\n'}
+[8.056705] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__builder.hpp\n'}
+[8.056807] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__traits.hpp\n'}
+[8.056867] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__struct.hpp\n'}
+[8.056928] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__type_support.hpp\n'}
+[8.057008] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__builder.hpp\n'}
+[8.057105] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__struct.hpp\n'}
+[8.057165] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__type_support.hpp\n'}
+[8.057226] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__struct.hpp\n'}
+[8.057288] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__builder.hpp\n'}
+[8.057374] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__struct.hpp\n'}
+[8.057434] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__type_support.hpp\n'}
+[8.057508] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__struct.hpp\n'}
+[8.057570] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__builder.hpp\n'}
+[8.057646] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__traits.hpp\n'}
+[8.057709] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__traits.hpp\n'}
+[8.057780] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__struct.hpp\n'}
+[8.058095] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__type_support.hpp\n'}
+[8.058179] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__type_support.hpp\n'}
+[8.058258] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__builder.hpp\n'}
+[8.058320] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/action_command.hpp\n'}
+[8.058380] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/roboclaw_broadcast.hpp\n'}
+[8.058443] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/roboclaw_state_broadcast.hpp\n'}
+[8.058505] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/roboclaw_power_broadcast.hpp\n'}
+[8.058568] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/velocity_command.hpp\n'}
+[8.058668] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces\n'}
+[8.058762] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg\n'}
+[8.058825] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail\n'}
+[8.058903] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.058969] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.059194] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.059284] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.059349] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/dds_fastrtps\n'}
+[8.059418] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.059500] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.059561] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.059640] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.059703] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.059791] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.060748] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.061101] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.061185] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces\n'}
+[8.061272] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg\n'}
+[8.061368] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail\n'}
+[8.061460] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.061522] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.061584] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.061680] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.061746] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.061810] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/file_command__type_support.cpp\n'}
+[8.061902] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.061963] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.062040] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__type_support.cpp\n'}
+[8.062102] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/action_command__type_support.cpp\n'}
+[8.062198] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_broadcast__type_support.cpp\n'}
+[8.062257] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.062319] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_command__type_support.cpp\n'}
+[8.062409] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/velocity_command__type_support.cpp\n'}
+[8.062466] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/teensy_data__type_support.cpp\n'}
+[8.062529] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_power_broadcast__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.062620] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/roboclaw_state_broadcast__type_support.cpp\n'}
+[8.062682] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/include/wile_e_interfaces/wile_e_interfaces/msg/detail/arduino_command__type_support.cpp\n'}
+[8.063318] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.063656] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.064219] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.064519] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.064606] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/pythonpath.sh\n'}
+[8.064693] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/pythonpath.dsv\n'}
+[8.064788] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces-0.0.0-py3.12.egg-info\n'}
+[8.064874] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[8.064956] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[8.065049] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[8.065143] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[8.065285] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces\n'}
+[8.065379] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.065444] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/libwile_e_interfaces__rosidl_generator_py.so\n'}
+[8.065522] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/__init__.py\n'}
+[8.065602] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[8.065687] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/_wile_e_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.065769] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg\n'}
+[8.065851] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_action_command.py\n'}
+[8.065931] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_arduino_command_s.c\n'}
+[8.066007] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/__init__.py\n'}
+[8.066094] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_arduino_command.py\n'}
+[8.066155] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_teensy_data_s.c\n'}
+[8.066244] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_roboclaw_command.py\n'}
+[8.066319] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_file_command_s.c\n'}
+[8.066380] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_roboclaw_broadcast.py\n'}
+[8.066459] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_velocity_command.py\n'}
+[8.066544] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_teensy_data.py\n'}
+[8.066625] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_roboclaw_state_broadcast.py\n'}
+[8.066697] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_action_command_s.c\n'}
+[8.066772] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_roboclaw_broadcast_s.c\n'}
+[8.066835] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_roboclaw_state_broadcast_s.c\n'}
+[8.066911] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_velocity_command_s.c\n'}
+[8.067007] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_roboclaw_power_broadcast.py\n'}
+[8.067093] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_roboclaw_power_broadcast_s.c\n'}
+[8.067180] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_roboclaw_command_s.c\n'}
+[8.067248] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_file_command.py\n'}
+[8.067325] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[8.067405] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/_wile_e_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.067480] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/_wile_e_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.067581] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[8.067716] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[8.067840] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_c.so\n'}
+[8.122471] (wile_e_interfaces) StdoutLine: {'line': b"Listing '/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces'...\n"}
+[8.122756] (wile_e_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/__init__.py'...\n"}
+[8.122874] (wile_e_interfaces) StdoutLine: {'line': b"Listing '/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg'...\n"}
+[8.122959] (wile_e_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/__init__.py'...\n"}
+[8.123094] (wile_e_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_action_command.py'...\n"}
+[8.123176] (wile_e_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_roboclaw_power_broadcast.py'...\n"}
+[8.123247] (wile_e_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_roboclaw_state_broadcast.py'...\n"}
+[8.123313] (wile_e_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_teensy_data.py'...\n"}
+[8.123377] (wile_e_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/msg/_velocity_command.py'...\n"}
+[8.130809] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[8.131190] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[8.131426] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[8.131772] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[8.131974] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[8.132288] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[8.132450] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_generator_py.so\n'}
+[8.132803] (wile_e_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/wile_e_interfaces/lib/libwile_e_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.132904] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/msg/RoboclawStateBroadcast.idl\n'}
+[8.133019] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/msg/ActionCommand.idl\n'}
+[8.133127] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/msg/RoboclawPowerBroadcast.idl\n'}
+[8.133190] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/msg/TeensyData.idl\n'}
+[8.133259] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/msg/VelocityCommand.idl\n'}
+[8.133380] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/msg/RoboclawStateBroadcast.msg\n'}
+[8.133485] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/msg/ActionCommand.msg\n'}
+[8.133547] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/msg/RoboclawPowerBroadcast.msg\n'}
+[8.133630] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/msg/TeensyData.msg\n'}
+[8.133717] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/msg/VelocityCommand.msg\n'}
+[8.133814] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/ament_index/resource_index/package_run_dependencies/wile_e_interfaces\n'}
+[8.133876] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/ament_index/resource_index/parent_prefix_path/wile_e_interfaces\n'}
+[8.133946] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/ament_prefix_path.sh\n'}
+[8.134048] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.134108] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/path.sh\n'}
+[8.134175] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/environment/path.dsv\n'}
+[8.134282] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/local_setup.bash\n'}
+[8.134383] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/local_setup.sh\n'}
+[8.134443] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/local_setup.zsh\n'}
+[8.134526] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/local_setup.dsv\n'}
+[8.134587] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/package.dsv\n'}
+[8.134675] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/ament_index/resource_index/packages/wile_e_interfaces\n'}
+[8.135456] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/export_wile_e_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.135562] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/export_wile_e_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.135891] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/export_wile_e_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.135985] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/export_wile_e_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.136363] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.136450] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.136793] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.136875] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.137165] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/export_wile_e_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.137527] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/export_wile_e_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.137617] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/export_wile_e_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.137935] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.138026] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.138344] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.138433] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.138793] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/export_wile_e_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.138882] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/export_wile_e_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.138971] (wile_e_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.139099] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.139192] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.139302] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.139409] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.139505] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.139582] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.139640] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfacesConfig.cmake\n'}
+[8.139699] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/cmake/wile_e_interfacesConfig-version.cmake\n'}
+[8.139758] (wile_e_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/wile_e_interfaces/share/wile_e_interfaces/package.xml\n'}
+[8.141415] (wile_e_interfaces) CommandEnded: {'returncode': 0}
+[8.152004] (-) TimerEvent: {}
+[8.252278] (-) TimerEvent: {}
+[8.270219] (wile_e_interfaces) JobEnded: {'identifier': 'wile_e_interfaces', 'rc': 0}
+[8.271198] (-) EventReactorShutdown: {}

@@ -1,0 +1,43 @@
+[5.146s] Invoking command in '/home/bailey/ros2_ws/src/python_parameters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/bailey/ros2_ws/build/python_parameters/build install --record /home/bailey/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[6.722s] running egg_info
+[6.723s] creating ../../build/python_parameters/python_parameters.egg-info
+[6.822s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[6.823s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[6.824s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[6.825s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[6.825s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[6.826s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[7.053s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[7.054s] adding license file 'LICENSE'
+[7.056s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[7.057s] running build
+[7.057s] running build_py
+[7.058s] creating /home/bailey/ros2_ws/build/python_parameters/build
+[7.058s] creating /home/bailey/ros2_ws/build/python_parameters/build/lib
+[7.059s] creating /home/bailey/ros2_ws/build/python_parameters/build/lib/python_parameters
+[7.059s] copying python_parameters/__init__.py -> /home/bailey/ros2_ws/build/python_parameters/build/lib/python_parameters
+[7.060s] copying python_parameters/python_parameters_node.py -> /home/bailey/ros2_ws/build/python_parameters/build/lib/python_parameters
+[7.061s] running install
+[7.091s] running install_lib
+[7.199s] creating /home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[7.200s] copying /home/bailey/ros2_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[7.200s] copying /home/bailey/ros2_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[7.203s] byte-compiling /home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/__init__.py to __init__.cpython-312.pyc
+[7.205s] byte-compiling /home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-312.pyc
+[7.206s]   File "/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/python_parameters_node.py", line 8
+[7.207s]     rom rcl_interfaces.msg import ParameterDescriptor
+[7.207s]         ^^^^^^^^^^^^^^
+[7.208s] SyntaxError: invalid syntax
+[7.208s] 
+[7.209s] running install_data
+[7.209s] creating /home/bailey/ros2_ws/install/python_parameters/share/ament_index
+[7.210s] creating /home/bailey/ros2_ws/install/python_parameters/share/ament_index/resource_index
+[7.210s] creating /home/bailey/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[7.211s] copying resource/python_parameters -> /home/bailey/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[7.211s] copying package.xml -> /home/bailey/ros2_ws/install/python_parameters/share/python_parameters
+[7.212s] running install_egg_info
+[7.325s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info
+[7.330s] running install_scripts
+[8.212s] Installing minimal_param_node script to /home/bailey/ros2_ws/install/python_parameters/lib/python_parameters
+[8.214s] writing list of installed files to '/home/bailey/ros2_ws/build/python_parameters/install.log'
+[8.389s] Invoked command in '/home/bailey/ros2_ws/src/python_parameters' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/bailey/ros2_ws/build/python_parameters/build install --record /home/bailey/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data

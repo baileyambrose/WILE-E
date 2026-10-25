@@ -1,0 +1,83 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bailey/ros2_ws/build/imu_complementary_filter
+[ 40%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o[0m
+[01m[K/home/bailey/ros2_ws/imu_tools/imu_complementary_filter/src/complementary_filter_ros.cpp:[m[K In constructor ‘[01m[Kimu_tools::ComplementaryFilterROS::ComplementaryFilterROS()[m[K’:
+[01m[K/home/bailey/ros2_ws/imu_tools/imu_complementary_filter/src/complementary_filter_ros.cpp:81:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::Imu_<std::allocator<void> > >::Subscriber(imu_tools::ComplementaryFilterROS*, const char [13], rclcpp::QoS, rclcpp::SubscriptionOptions&)[m[K’
+   81 |                                             rclcpp::QoS(queue_size), sub_opts[01;31m[K)[m[K);
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.hpp:32[m[K,
+                 from [01m[K/home/bailey/ros2_ws/imu_tools/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h:39[m[K,
+                 from [01m[K/home/bailey/ros2_ws/imu_tools/imu_complementary_filter/src/complementary_filter_ros.cpp:34[m[K:
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber() [with M = sensor_msgs::msg::Imu_<std::allocator<void> >; NodeType = rclcpp::Node][m[K’
+  203 |   [01;36m[KSubscriber[m[K() = default;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:191:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::Imu_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+  191 |   [01;36m[KSubscriber[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:194:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Krclcpp::QoS[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+  194 |     [01;36m[Kconst rmw_qos_profile_t qos[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:182:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::Imu_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+  182 |   [01;36m[KSubscriber[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:183:13:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimu_tools::ComplementaryFilterROS*[m[K’ to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::Imu_<std::allocator<void> > >::NodePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+  183 |     [01;36m[KNodePtr node[m[K,
+      |     [01;36m[K~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::Imu_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+  167 |   [01;36m[KSubscriber[m[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::Imu_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+  162 |   [01;36m[KSubscriber[m[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/bailey/ros2_ws/imu_tools/imu_complementary_filter/src/complementary_filter_ros.cpp:87:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::MagneticField_<std::allocator<void> > >::Subscriber(imu_tools::ComplementaryFilterROS*, const char [8], rclcpp::QoS, rclcpp::SubscriptionOptions&)[m[K’
+   87 |             this, "imu/mag", rclcpp::QoS(queue_size), sub_opts[01;31m[K)[m[K);
+      |                                                               [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.hpp:32[m[K,
+                 from [01m[K/home/bailey/ros2_ws/imu_tools/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h:39[m[K,
+                 from [01m[K/home/bailey/ros2_ws/imu_tools/imu_complementary_filter/src/complementary_filter_ros.cpp:34[m[K:
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber() [with M = sensor_msgs::msg::MagneticField_<std::allocator<void> >; NodeType = rclcpp::Node][m[K’
+  203 |   [01;36m[KSubscriber[m[K() = default;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:191:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::MagneticField_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+  191 |   [01;36m[KSubscriber[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:194:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Krclcpp::QoS[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+  194 |     [01;36m[Kconst rmw_qos_profile_t qos[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:182:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::MagneticField_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+  182 |   [01;36m[KSubscriber[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:183:13:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimu_tools::ComplementaryFilterROS*[m[K’ to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::MagneticField_<std::allocator<void> > >::NodePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+  183 |     [01;36m[KNodePtr node[m[K,
+      |     [01;36m[K~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::MagneticField_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+  167 |   [01;36m[KSubscriber[m[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::MagneticField_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+  162 |   [01;36m[KSubscriber[m[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:90: CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

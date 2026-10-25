@@ -1,0 +1,23 @@
+[4.106s] Invoking command in '/home/bailey/ros2_ws/src/wile_e': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data
+[5.419s] running egg_info
+[5.517s] writing ../../build/wile_e/wile_e.egg-info/PKG-INFO
+[5.518s] writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt
+[5.520s] writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt
+[5.521s] writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt
+[5.523s] writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt
+[5.728s] reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[5.729s] adding license file 'LICENSE'
+[5.731s] writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[5.732s] running build
+[5.732s] running build_py
+[5.735s] running install
+[5.764s] running install_lib
+[5.873s] running install_data
+[5.875s] running install_egg_info
+[5.989s] removing '/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e-0.0.0-py3.12.egg-info' (and everything under it)
+[5.990s] Copying ../../build/wile_e/wile_e.egg-info to /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e-0.0.0-py3.12.egg-info
+[5.996s] running install_scripts
+[6.718s] Installing file_reader script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[6.720s] Installing trigger script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[6.722s] writing list of installed files to '/home/bailey/ros2_ws/build/wile_e/install.log'
+[6.893s] Invoked command in '/home/bailey/ros2_ws/src/wile_e' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data

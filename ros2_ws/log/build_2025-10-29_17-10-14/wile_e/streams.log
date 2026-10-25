@@ -1,0 +1,32 @@
+[0.646s] Invoking command in '/home/bailey/ros2_ws/src/wile_e': CMAKE_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data
+[0.875s] running egg_info
+[0.876s] writing ../../build/wile_e/wile_e.egg-info/PKG-INFO
+[0.876s] writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt
+[0.878s] writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt
+[0.882s] writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt
+[0.882s] writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt
+[0.885s] reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[0.886s] adding license file 'LICENSE'
+[0.887s] writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[0.887s] running build
+[0.887s] running build_py
+[0.888s] copying wile_e/visualizer.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+[0.888s] running install
+[0.889s] running install_lib
+[0.890s] copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/visualizer.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e
+[0.891s] byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/visualizer.py to visualizer.cpython-310.pyc
+[0.894s] running install_data
+[0.894s] running install_egg_info
+[0.897s] removing '/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e-0.0.0-py3.10.egg-info' (and everything under it)
+[0.898s] Copying ../../build/wile_e/wile_e.egg-info to /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e-0.0.0-py3.10.egg-info
+[0.899s] running install_scripts
+[0.927s] Installing accelerometer script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.927s] Installing arduino_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.928s] Installing command_interpreter script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.929s] Installing file_reader script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.930s] Installing roboclaw_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.931s] Installing sound_generator script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.933s] Installing trigger script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.934s] Installing visualizer script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[0.935s] writing list of installed files to '/home/bailey/ros2_ws/build/wile_e/install.log'
+[0.985s] Invoked command in '/home/bailey/ros2_ws/src/wile_e' returned '0': CMAKE_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/yle1:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/home/bailey/ros2_ws/install/mpu6050driver PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data

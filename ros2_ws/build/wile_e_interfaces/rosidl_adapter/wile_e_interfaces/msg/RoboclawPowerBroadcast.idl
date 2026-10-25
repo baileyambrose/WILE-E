@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wile_e_interfaces/msg/RoboclawPowerBroadcast.msg
+// generated code does not contain a copyright notice
+
+
+module wile_e_interfaces {
+  module msg {
+    struct RoboclawPowerBroadcast {
+      uint8 battery_voltage;
+
+      int16 current_draw;
+    };
+  };
+};

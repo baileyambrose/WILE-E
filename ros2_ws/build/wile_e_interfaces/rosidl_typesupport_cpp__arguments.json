@@ -1,0 +1,27 @@
+{
+  "package_name": "wile_e_interfaces",
+  "output_dir": "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_typesupport_cpp/wile_e_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/RoboclawStateBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/ActionCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/RoboclawPowerBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/TeensyData.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/VelocityCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:srv/MotorSensorData.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/RoboclawStateBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/ActionCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/RoboclawPowerBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/TeensyData.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/VelocityCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/srv/MotorSensorData.idl"
+  ]
+}

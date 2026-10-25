@@ -1,0 +1,13 @@
+uint16 right_bicep
+uint16 left_bicep
+uint16 right_forearm
+uint16 left_forearm
+uint16 right_wheel
+uint16 left_wheel
+uint16 tail
+uint16 head_raise
+uint16 head_turn
+uint8 eyes
+uint8 fan
+uint8 headlight
+uint8 face_detection

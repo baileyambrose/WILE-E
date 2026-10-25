@@ -1,0 +1,49 @@
+[0.033s] Invoking command in '/home/bailey/ros2_ws/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble /usr/bin/cmake /home/bailey/ros2_ws/src/imu_tools/rviz_imu_plugin -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/rviz_imu_plugin
+[0.182s] -- The C compiler identification is GNU 11.4.0
+[0.299s] -- The CXX compiler identification is GNU 11.4.0
+[0.311s] -- Detecting C compiler ABI info
+[0.435s] -- Detecting C compiler ABI info - done
+[0.446s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.447s] -- Detecting C compile features
+[0.447s] -- Detecting C compile features - done
+[0.451s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.572s] -- Detecting CXX compile features
+[0.573s] -- Detecting CXX compile features - done
+[0.577s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.754s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.868s] -- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)
+[0.918s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.924s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.934s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.950s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.029s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.032s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.105s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.124s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.157s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.167s] -- Looking for pthread.h
+[1.241s] -- Looking for pthread.h - found
+[1.242s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.317s] -- Found Threads: TRUE  
+[1.391s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.391s]   By not providing "FindQt5.cmake" in CMAKE_MODULE_PATH this project has
+[1.392s]   asked CMake to find a package configuration file provided by "Qt5", but
+[1.392s]   CMake did not find one.
+[1.392s] 
+[1.392s]   Could not find a package configuration file provided by "Qt5" with any of
+[1.392s]   the following names:
+[1.392s] 
+[1.392s]     Qt5Config.cmake
+[1.392s]     qt5-config.cmake
+[1.392s] 
+[1.392s]   Add the installation prefix of "Qt5" to CMAKE_PREFIX_PATH or set "Qt5_DIR"
+[1.392s]   to a directory containing one of the above files.  If "Qt5" provides a
+[1.392s]   separate development package or SDK, be sure it has been installed.
+[1.392s] 
+[1.392s] [0m
+[1.393s] -- Configuring incomplete, errors occurred!
+[1.394s] See also "/home/bailey/ros2_ws/build/rviz_imu_plugin/CMakeFiles/CMakeOutput.log".

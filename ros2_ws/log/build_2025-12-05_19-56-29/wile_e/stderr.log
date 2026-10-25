@@ -1,0 +1,5 @@
+  File "/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/my_roboclaw.py", line 128
+    			byte &= &0xFF
+    			        ^
+SyntaxError: invalid syntax
+

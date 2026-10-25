@@ -1,0 +1,51 @@
+[4.666s] Invoking command in '/home/bailey/ros2_ws/src/roboclaw_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/roboclaw_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/roboclaw_ros build --build-base /home/bailey/ros2_ws/build/roboclaw_ros/build install --record /home/bailey/ros2_ws/build/roboclaw_ros/install.log --single-version-externally-managed install_data
+[6.135s] running egg_info
+[6.138s] creating ../../build/roboclaw_ros/roboclaw_ros.egg-info
+[6.274s] writing ../../build/roboclaw_ros/roboclaw_ros.egg-info/PKG-INFO
+[6.275s] writing dependency_links to ../../build/roboclaw_ros/roboclaw_ros.egg-info/dependency_links.txt
+[6.276s] writing entry points to ../../build/roboclaw_ros/roboclaw_ros.egg-info/entry_points.txt
+[6.276s] writing requirements to ../../build/roboclaw_ros/roboclaw_ros.egg-info/requires.txt
+[6.277s] writing top-level names to ../../build/roboclaw_ros/roboclaw_ros.egg-info/top_level.txt
+[6.277s] writing manifest file '../../build/roboclaw_ros/roboclaw_ros.egg-info/SOURCES.txt'
+[6.593s] reading manifest file '../../build/roboclaw_ros/roboclaw_ros.egg-info/SOURCES.txt'
+[6.594s] adding license file 'LICENCE.md'
+[6.596s] writing manifest file '../../build/roboclaw_ros/roboclaw_ros.egg-info/SOURCES.txt'
+[6.597s] running build
+[6.598s] running build_py
+[6.598s] creating /home/bailey/ros2_ws/build/roboclaw_ros/build
+[6.599s] creating /home/bailey/ros2_ws/build/roboclaw_ros/build/lib
+[6.599s] creating /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros
+[6.600s] copying roboclaw_ros/__init__.py -> /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros
+[6.600s] copying roboclaw_ros/utils.py -> /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros
+[6.602s] copying roboclaw_ros/roboclaw_node.py -> /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros
+[6.603s] copying roboclaw_ros/encoder_wrapper.py -> /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros
+[6.605s] copying roboclaw_ros/electrical_wrapper.py -> /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros
+[6.606s] running install
+[6.631s] running install_lib
+[6.731s] creating /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros
+[6.731s] copying /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros/__init__.py -> /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros
+[6.732s] copying /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros/utils.py -> /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros
+[6.733s] copying /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros/roboclaw_node.py -> /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros
+[6.734s] copying /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros/encoder_wrapper.py -> /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros
+[6.735s] copying /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros/electrical_wrapper.py -> /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros
+[6.738s] byte-compiling /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros/__init__.py to __init__.cpython-312.pyc
+[6.739s] byte-compiling /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros/utils.py to utils.cpython-312.pyc
+[6.743s] byte-compiling /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros/roboclaw_node.py to roboclaw_node.cpython-312.pyc
+[6.756s] byte-compiling /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros/encoder_wrapper.py to encoder_wrapper.cpython-312.pyc
+[6.763s] byte-compiling /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros/electrical_wrapper.py to electrical_wrapper.cpython-312.pyc
+[6.766s] running install_data
+[6.767s] creating /home/bailey/ros2_ws/install/roboclaw_ros/share/ament_index
+[6.767s] creating /home/bailey/ros2_ws/install/roboclaw_ros/share/ament_index/resource_index
+[6.768s] creating /home/bailey/ros2_ws/install/roboclaw_ros/share/ament_index/resource_index/packages
+[6.768s] copying resource/roboclaw_ros -> /home/bailey/ros2_ws/install/roboclaw_ros/share/ament_index/resource_index/packages
+[6.769s] copying package.xml -> /home/bailey/ros2_ws/install/roboclaw_ros/share/roboclaw_ros
+[6.769s] creating /home/bailey/ros2_ws/install/roboclaw_ros/share/roboclaw_ros/launch
+[6.770s] copying launch/roboclaw_node.launch.py -> /home/bailey/ros2_ws/install/roboclaw_ros/share/roboclaw_ros/launch
+[6.771s] creating /home/bailey/ros2_ws/install/roboclaw_ros/share/roboclaw_ros/config
+[6.772s] copying config/roboclaw.yaml -> /home/bailey/ros2_ws/install/roboclaw_ros/share/roboclaw_ros/config
+[6.773s] running install_egg_info
+[6.889s] Copying ../../build/roboclaw_ros/roboclaw_ros.egg-info to /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages/roboclaw_ros-0.0.2-py3.12.egg-info
+[6.894s] running install_scripts
+[7.748s] Installing roboclaw_node script to /home/bailey/ros2_ws/install/roboclaw_ros/lib/roboclaw_ros
+[7.753s] writing list of installed files to '/home/bailey/ros2_ws/build/roboclaw_ros/install.log'
+[7.937s] Invoked command in '/home/bailey/ros2_ws/src/roboclaw_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/roboclaw_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/roboclaw_ros build --build-base /home/bailey/ros2_ws/build/roboclaw_ros/build install --record /home/bailey/ros2_ws/build/roboclaw_ros/install.log --single-version-externally-managed install_data

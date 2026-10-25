@@ -1,0 +1,642 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (norlab_custom_interfaces) JobQueued: {'identifier': 'norlab_custom_interfaces', 'dependencies': OrderedDict()}
+[0.000392] (python_parameters) JobQueued: {'identifier': 'python_parameters', 'dependencies': OrderedDict()}
+[0.000747] (roboclaw_ros) JobQueued: {'identifier': 'roboclaw_ros', 'dependencies': OrderedDict()}
+[0.000772] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000791] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000928] (wile_e_interfaces) JobQueued: {'identifier': 'wile_e_interfaces', 'dependencies': OrderedDict()}
+[0.000960] (yle1) JobQueued: {'identifier': 'yle1', 'dependencies': OrderedDict()}
+[0.001140] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/bailey/ros2_ws/install/tutorial_interfaces')])}
+[0.001165] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/bailey/ros2_ws/install/tutorial_interfaces')])}
+[0.001185] (wile_e) JobQueued: {'identifier': 'wile_e', 'dependencies': OrderedDict([('wile_e_interfaces', '/home/bailey/ros2_ws/install/wile_e_interfaces')])}
+[0.001206] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.008604] (wile_e_interfaces) JobStarted: {'identifier': 'wile_e_interfaces'}
+[0.012871] (norlab_custom_interfaces) JobStarted: {'identifier': 'norlab_custom_interfaces'}
+[0.017377] (python_parameters) JobStarted: {'identifier': 'python_parameters'}
+[0.030111] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.030894] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.031704] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bailey/ros2_ws/build/tutorial_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/bailey/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib'), ('HOME', '/root'), ('OLDPWD', '/home/bailey/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces'), ('PWD', '/home/bailey/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters')]), 'shell': False}
+[0.034593] (wile_e_interfaces) JobProgress: {'identifier': 'wile_e_interfaces', 'progress': 'cmake'}
+[0.035695] (wile_e_interfaces) JobProgress: {'identifier': 'wile_e_interfaces', 'progress': 'build'}
+[0.036095] (wile_e_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bailey/ros2_ws/build/wile_e_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/bailey/ros2_ws/build/wile_e_interfaces', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib'), ('HOME', '/root'), ('OLDPWD', '/home/bailey/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces'), ('PWD', '/home/bailey/ros2_ws/build/wile_e_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters')]), 'shell': False}
+[0.038942] (norlab_custom_interfaces) JobProgress: {'identifier': 'norlab_custom_interfaces', 'progress': 'cmake'}
+[0.040358] (norlab_custom_interfaces) JobProgress: {'identifier': 'norlab_custom_interfaces', 'progress': 'build'}
+[0.040910] (norlab_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bailey/ros2_ws/build/norlab_custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/bailey/ros2_ws/build/norlab_custom_interfaces', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib'), ('HOME', '/root'), ('OLDPWD', '/home/bailey/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces'), ('PWD', '/home/bailey/ros2_ws/build/norlab_custom_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters')]), 'shell': False}
+[0.101098] (-) TimerEvent: {}
+[0.156863] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.157169] (norlab_custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.157280] (wile_e_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.201230] (-) TimerEvent: {}
+[0.253047] (norlab_custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.257123] (wile_e_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.257436] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.265172] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.265445] (wile_e_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.280371] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301333] (-) TimerEvent: {}
+[0.389195] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.393835] (wile_e_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.394830] (wile_e_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.396638] (wile_e_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.397443] (wile_e_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.400751] (wile_e_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401956] (-) TimerEvent: {}
+[0.406222] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.409122] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.409262] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.415779] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.416125] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.428173] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.428431] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.429156] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.434692] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.502167] (-) TimerEvent: {}
+[0.545111] (wile_e_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.561359] (wile_e_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.561791] (wile_e_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.562708] (wile_e_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.566240] (wile_e_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.582165] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.601068] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.601384] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.602220] (-) TimerEvent: {}
+[0.604157] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.605323] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.610435] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.610885] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.611630] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.613472] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.616343] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.658700] (wile_e_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.702359] (-) TimerEvent: {}
+[0.710953] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.711675] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.802471] (-) TimerEvent: {}
+[0.824990] (wile_e_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.871609] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.873535] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.902593] (-) TimerEvent: {}
+[0.962566] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.971016] (wile_e_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.972910] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.984852] (wile_e_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.995441] (wile_e_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.996383] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.002785] (-) TimerEvent: {}
+[1.017556] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.021449] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.052708] (wile_e_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.053741] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.064102] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.070963] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.073537] (python_parameters) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/python_parameters', 'build', '--build-base', '/home/bailey/ros2_ws/build/python_parameters/build', 'install', '--record', '/home/bailey/ros2_ws/build/python_parameters/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bailey/ros2_ws/src/python_parameters', 'env': {'HOSTNAME': 'wile-e', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib', 'HOME': '/root', 'OLDPWD': '/home/bailey/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/bailey/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces', 'PWD': '/home/bailey/ros2_ws/build/python_parameters', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/bailey/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces'}, 'shell': False}
+[1.082404] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.100399] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102867] (-) TimerEvent: {}
+[1.124083] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.147364] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.154339] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.203221] (-) TimerEvent: {}
+[1.213318] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.277093] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.303378] (-) TimerEvent: {}
+[1.311325] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include  \n'}
+[1.352437] (norlab_custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.354024] (python_parameters) StdoutLine: {'line': b'running egg_info\n'}
+[1.360242] (python_parameters) StdoutLine: {'line': b'writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO\n'}
+[1.360544] (python_parameters) StdoutLine: {'line': b'writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt\n'}
+[1.360667] (python_parameters) StdoutLine: {'line': b'writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt\n'}
+[1.360785] (python_parameters) StdoutLine: {'line': b'writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt\n'}
+[1.360890] (python_parameters) StdoutLine: {'line': b'writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt\n'}
+[1.362866] (python_parameters) StdoutLine: {'line': b"reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[1.363637] (python_parameters) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.364515] (python_parameters) StdoutLine: {'line': b"writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[1.364724] (python_parameters) StdoutLine: {'line': b'running build\n'}
+[1.364868] (python_parameters) StdoutLine: {'line': b'running build_py\n'}
+[1.365024] (python_parameters) StdoutLine: {'line': b'copying python_parameters/__init__.py -> /home/bailey/ros2_ws/build/python_parameters/build/lib/python_parameters\n'}
+[1.365237] (python_parameters) StdoutLine: {'line': b'copying python_parameters/python_parameters_node.py -> /home/bailey/ros2_ws/build/python_parameters/build/lib/python_parameters\n'}
+[1.367169] (python_parameters) StdoutLine: {'line': b'running install\n'}
+[1.367738] (python_parameters) StdoutLine: {'line': b'running install_lib\n'}
+[1.368766] (python_parameters) StdoutLine: {'line': b'creating /home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters\n'}
+[1.368993] (python_parameters) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters\n'}
+[1.369177] (python_parameters) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters\n'}
+[1.372782] (python_parameters) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py to __init__.cpython-310.pyc\n'}
+[1.373132] (python_parameters) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-310.pyc\n'}
+[1.373431] (python_parameters) StdoutLine: {'line': b'running install_data\n'}
+[1.373672] (python_parameters) StdoutLine: {'line': b'copying resource/python_parameters -> /home/bailey/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages\n'}
+[1.373916] (python_parameters) StdoutLine: {'line': b'copying package.xml -> /home/bailey/ros2_ws/install/python_parameters/share/python_parameters\n'}
+[1.374427] (python_parameters) StdoutLine: {'line': b'copying launch/python_parameters_launch.py -> /home/bailey/ros2_ws/install/python_parameters/share/python_parameters\n'}
+[1.374775] (python_parameters) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.378548] (python_parameters) StdoutLine: {'line': b'Copying ../../build/python_parameters/python_parameters.egg-info to /home/bailey/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info\n'}
+[1.379191] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.379826] (python_parameters) StdoutLine: {'line': b'running install_scripts\n'}
+[1.403504] (-) TimerEvent: {}
+[1.414812] (python_parameters) StdoutLine: {'line': b'Installing minimal_param_node script to /home/bailey/ros2_ws/install/python_parameters/lib/python_parameters\n'}
+[1.415533] (python_parameters) StdoutLine: {'line': b"writing list of installed files to '/home/bailey/ros2_ws/build/python_parameters/install.log'\n"}
+[1.475578] (wile_e_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.492425] (python_parameters) CommandEnded: {'returncode': 0}
+[1.507586] (-) TimerEvent: {}
+[1.530216] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.530956] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.537083] (python_parameters) JobEnded: {'identifier': 'python_parameters', 'rc': 0}
+[1.540759] (roboclaw_ros) JobStarted: {'identifier': 'roboclaw_ros'}
+[1.607728] (-) TimerEvent: {}
+[1.673148] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.674678] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.694160] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.709280] (-) TimerEvent: {}
+[1.795001] (wile_e_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.805949] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.809346] (-) TimerEvent: {}
+[1.826785] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.909525] (-) TimerEvent: {}
+[2.010232] (-) TimerEvent: {}
+[2.110749] (-) TimerEvent: {}
+[2.186434] (wile_e_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.210882] (-) TimerEvent: {}
+[2.219094] (wile_e_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.222110] (wile_e_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.257041] (wile_e_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.257325] (wile_e_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.257412] (wile_e_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.257486] (wile_e_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.278075] (wile_e_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.311021] (-) TimerEvent: {}
+[2.314844] (wile_e_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.315100] (wile_e_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.321723] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.333126] (wile_e_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.359803] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.411151] (-) TimerEvent: {}
+[2.478517] (roboclaw_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/roboclaw_ros', 'build', '--build-base', '/home/bailey/ros2_ws/build/roboclaw_ros/build', 'install', '--record', '/home/bailey/ros2_ws/build/roboclaw_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bailey/ros2_ws/src/roboclaw_ros', 'env': {'HOSTNAME': 'wile-e', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib', 'HOME': '/root', 'OLDPWD': '/home/bailey/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/bailey/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces', 'PWD': '/home/bailey/ros2_ws/build/roboclaw_ros', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/bailey/ros2_ws/build/roboclaw_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces'}, 'shell': False}
+[2.511249] (-) TimerEvent: {}
+[2.521159] (wile_e_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.551472] (wile_e_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bailey/ros2_ws/build/wile_e_interfaces\n'}
+[2.597051] (wile_e_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.608304] (wile_e_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.611363] (-) TimerEvent: {}
+[2.675567] (wile_e_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_wile_e_interfaces\n'}
+[2.679890] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.713683] (-) TimerEvent: {}
+[2.730319] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.735156] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.801782] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.802165] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.802297] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.802374] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.813796] (-) TimerEvent: {}
+[2.833083] (roboclaw_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.833528] (roboclaw_ros) StdoutLine: {'line': b'writing ../../build/roboclaw_ros/roboclaw_ros.egg-info/PKG-INFO\n'}
+[2.835540] (roboclaw_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/roboclaw_ros/roboclaw_ros.egg-info/dependency_links.txt\n'}
+[2.845022] (roboclaw_ros) StdoutLine: {'line': b'writing entry points to ../../build/roboclaw_ros/roboclaw_ros.egg-info/entry_points.txt\n'}
+[2.845273] (roboclaw_ros) StdoutLine: {'line': b'writing requirements to ../../build/roboclaw_ros/roboclaw_ros.egg-info/requires.txt\n'}
+[2.845359] (roboclaw_ros) StdoutLine: {'line': b'writing top-level names to ../../build/roboclaw_ros/roboclaw_ros.egg-info/top_level.txt\n'}
+[2.847535] (roboclaw_ros) StdoutLine: {'line': b"reading manifest file '../../build/roboclaw_ros/roboclaw_ros.egg-info/SOURCES.txt'\n"}
+[2.849766] (roboclaw_ros) StdoutLine: {'line': b"adding license file 'LICENCE.md'\n"}
+[2.850842] (roboclaw_ros) StdoutLine: {'line': b"writing manifest file '../../build/roboclaw_ros/roboclaw_ros.egg-info/SOURCES.txt'\n"}
+[2.851455] (roboclaw_ros) StdoutLine: {'line': b'running build\n'}
+[2.851843] (roboclaw_ros) StdoutLine: {'line': b'running build_py\n'}
+[2.852376] (roboclaw_ros) StdoutLine: {'line': b'copying roboclaw_ros/roboclaw_node.py -> /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros\n'}
+[2.857538] (roboclaw_ros) StdoutLine: {'line': b'copying roboclaw_ros/utils.py -> /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros\n'}
+[2.858054] (roboclaw_ros) StdoutLine: {'line': b'copying roboclaw_ros/__init__.py -> /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros\n'}
+[2.858195] (roboclaw_ros) StdoutLine: {'line': b'copying roboclaw_ros/encoder_wrapper.py -> /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros\n'}
+[2.859614] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.861350] (roboclaw_ros) StdoutLine: {'line': b'copying roboclaw_ros/electrical_wrapper.py -> /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros\n'}
+[2.862178] (roboclaw_ros) StdoutLine: {'line': b'running install\n'}
+[2.862757] (roboclaw_ros) StdoutLine: {'line': b'running install_lib\n'}
+[2.864071] (roboclaw_ros) StdoutLine: {'line': b'creating /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros\n'}
+[2.869411] (roboclaw_ros) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros/roboclaw_node.py -> /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros\n'}
+[2.876330] (roboclaw_ros) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros/utils.py -> /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros\n'}
+[2.876694] (roboclaw_ros) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros/__init__.py -> /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros\n'}
+[2.876932] (roboclaw_ros) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros/encoder_wrapper.py -> /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros\n'}
+[2.877144] (roboclaw_ros) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/roboclaw_ros/build/lib/roboclaw_ros/electrical_wrapper.py -> /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros\n'}
+[2.877261] (roboclaw_ros) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros/roboclaw_node.py to roboclaw_node.cpython-310.pyc\n'}
+[2.888302] (roboclaw_ros) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros/utils.py to utils.cpython-310.pyc\n'}
+[2.889143] (roboclaw_ros) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros/__init__.py to __init__.cpython-310.pyc\n'}
+[2.890067] (roboclaw_ros) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros/encoder_wrapper.py to encoder_wrapper.cpython-310.pyc\n'}
+[2.897562] (roboclaw_ros) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros/electrical_wrapper.py to electrical_wrapper.cpython-310.pyc\n'}
+[2.899587] (roboclaw_ros) StdoutLine: {'line': b'running install_data\n'}
+[2.899822] (roboclaw_ros) StdoutLine: {'line': b'copying resource/roboclaw_ros -> /home/bailey/ros2_ws/install/roboclaw_ros/share/ament_index/resource_index/packages\n'}
+[2.899927] (roboclaw_ros) StdoutLine: {'line': b'copying package.xml -> /home/bailey/ros2_ws/install/roboclaw_ros/share/roboclaw_ros\n'}
+[2.900589] (roboclaw_ros) StdoutLine: {'line': b'copying launch/roboclaw_node.launch.py -> /home/bailey/ros2_ws/install/roboclaw_ros/share/roboclaw_ros/launch\n'}
+[2.901392] (roboclaw_ros) StdoutLine: {'line': b'copying config/roboclaw.yaml -> /home/bailey/ros2_ws/install/roboclaw_ros/share/roboclaw_ros/config\n'}
+[2.901679] (roboclaw_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.910538] (roboclaw_ros) StdoutLine: {'line': b'Copying ../../build/roboclaw_ros/roboclaw_ros.egg-info to /home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.10/site-packages/roboclaw_ros-0.0.2-py3.10.egg-info\n'}
+[2.911136] (roboclaw_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[2.913912] (-) TimerEvent: {}
+[2.978610] (roboclaw_ros) StdoutLine: {'line': b'Installing roboclaw_node script to /home/bailey/ros2_ws/install/roboclaw_ros/lib/roboclaw_ros\n'}
+[2.979228] (roboclaw_ros) StdoutLine: {'line': b"writing list of installed files to '/home/bailey/ros2_ws/build/roboclaw_ros/install.log'\n"}
+[2.997072] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.002424] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.014017] (-) TimerEvent: {}
+[3.017980] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.058099] (wile_e_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.058342] (wile_e_interfaces) StdoutLine: {'line': b'writing wile_e_interfaces.egg-info/PKG-INFO\n'}
+[3.058452] (wile_e_interfaces) StdoutLine: {'line': b'writing dependency_links to wile_e_interfaces.egg-info/dependency_links.txt\n'}
+[3.058999] (wile_e_interfaces) StdoutLine: {'line': b'writing top-level names to wile_e_interfaces.egg-info/top_level.txt\n'}
+[3.064009] (wile_e_interfaces) StdoutLine: {'line': b"reading manifest file 'wile_e_interfaces.egg-info/SOURCES.txt'\n"}
+[3.073108] (wile_e_interfaces) StdoutLine: {'line': b"writing manifest file 'wile_e_interfaces.egg-info/SOURCES.txt'\n"}
+[3.089560] (roboclaw_ros) CommandEnded: {'returncode': 0}
+[3.111681] (roboclaw_ros) JobEnded: {'identifier': 'roboclaw_ros', 'rc': 0}
+[3.113241] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[3.114383] (-) TimerEvent: {}
+[3.137080] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[3.148892] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[3.149299] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bailey/ros2_ws/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/bailey/ros2_ws/build/turtlesim', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/home/bailey/ros2_ws/install/tutorial_interfaces/lib:/home/bailey/ros2_ws/install/turtlesim/lib:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib'), ('HOME', '/root'), ('OLDPWD', '/home/bailey/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/bailey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/home/bailey/ros2_ws/install/norlab_custom_interfaces'), ('PWD', '/home/bailey/ros2_ws/build/turtlesim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bailey/ros2_ws/install/wile_e_interfaces:/home/bailey/ros2_ws/install/tutorial_interfaces:/home/bailey/ros2_ws/install/turtlesim:/home/bailey/ros2_ws/install/norlab_custom_interfaces:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters')]), 'shell': False}
+[3.156301] (wile_e_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_wile_e_interfaces_egg\n'}
+[3.174056] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.193080] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.214598] (-) TimerEvent: {}
+[3.216701] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bailey/ros2_ws/build/tutorial_interfaces\n'}
+[3.277158] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.297832] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.302045] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.314856] (-) TimerEvent: {}
+[3.419602] (-) TimerEvent: {}
+[3.421470] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.431395] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[3.449137] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.519723] (-) TimerEvent: {}
+[3.581067] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.619915] (-) TimerEvent: {}
+[3.665061] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.665451] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.696476] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.720068] (-) TimerEvent: {}
+[3.733527] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.737021] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.737467] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.738038] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.748055] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.749169] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.749312] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.749402] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.789155] (wile_e_interfaces) StdoutLine: {'line': b'[  4%] Built target wile_e_interfaces__cpp\n'}
+[3.802609] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.819227] (wile_e_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.820160] (-) TimerEvent: {}
+[3.865493] (wile_e_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.867157] (wile_e_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.886502] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.920281] (-) TimerEvent: {}
+[3.941931] (wile_e_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wile_e_interfaces/msg/detail/file_command__functions.c.o\x1b[0m\n'}
+[4.002070] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.020392] (-) TimerEvent: {}
+[4.023346] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.024767] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[4.025387] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[4.027483] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[4.029015] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.032564] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[4.034795] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[4.071234] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.077033] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.078148] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.086806] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.110766] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[4.120527] (-) TimerEvent: {}
+[4.222951] (-) TimerEvent: {}
+[4.225782] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.253097] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bailey/ros2_ws/build/norlab_custom_interfaces\n'}
+[4.311954] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.316270] (wile_e_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wile_e_interfaces/msg/detail/roboclaw_command__functions.c.o\x1b[0m\n'}
+[4.323066] (-) TimerEvent: {}
+[4.373576] (norlab_custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.413054] (norlab_custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.423206] (-) TimerEvent: {}
+[4.452132] (norlab_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_norlab_custom_interfaces\n'}
+[4.526000] (wile_e_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wile_e_interfaces/msg/detail/arduino_command__functions.c.o\x1b[0m\n'}
+[4.526354] (-) TimerEvent: {}
+[4.627066] (-) TimerEvent: {}
+[4.660562] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target tutorial_interfaces__cpp\n'}
+[4.685606] (wile_e_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libwile_e_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.695328] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.698052] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.705078] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.727204] (-) TimerEvent: {}
+[4.781099] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[4.817926] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.821100] (wile_e_interfaces) StdoutLine: {'line': b'[ 19%] Built target wile_e_interfaces__rosidl_generator_c\n'}
+[4.827379] (-) TimerEvent: {}
+[4.867983] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.868315] (wile_e_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.912473] (wile_e_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wile_e_interfaces/msg/file_command__type_support.cpp.o\x1b[0m\n'}
+[4.927513] (-) TimerEvent: {}
+[5.033052] (-) TimerEvent: {}
+[5.085067] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.116362] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.137092] (-) TimerEvent: {}
+[5.164633] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.241071] (-) TimerEvent: {}
+[5.262161] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.303297] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.345086] (-) TimerEvent: {}
+[5.361142] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[5.386232] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.388562] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[5.413851] (turtlesim) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[5.414113] (turtlesim) StderrLine: {'line': b'  By not providing "FindQt5.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[5.414206] (turtlesim) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "Qt5", but\n'}
+[5.414277] (turtlesim) StderrLine: {'line': b'  CMake did not find one.\n'}
+[5.414341] (turtlesim) StderrLine: {'line': b'\n'}
+[5.414405] (turtlesim) StderrLine: {'line': b'  Could not find a package configuration file provided by "Qt5" with any of\n'}
+[5.414468] (turtlesim) StderrLine: {'line': b'  the following names:\n'}
+[5.414524] (turtlesim) StderrLine: {'line': b'\n'}
+[5.414583] (turtlesim) StderrLine: {'line': b'    Qt5Config.cmake\n'}
+[5.414656] (turtlesim) StderrLine: {'line': b'    qt5-config.cmake\n'}
+[5.414721] (turtlesim) StderrLine: {'line': b'\n'}
+[5.414777] (turtlesim) StderrLine: {'line': b'  Add the installation prefix of "Qt5" to CMAKE_PREFIX_PATH or set "Qt5_DIR"\n'}
+[5.414836] (turtlesim) StderrLine: {'line': b'  to a directory containing one of the above files.  If "Qt5" provides a\n'}
+[5.414900] (turtlesim) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[5.414963] (turtlesim) StderrLine: {'line': b'\n'}
+[5.415019] (turtlesim) StderrLine: {'line': b'\x1b[0m\n'}
+[5.415078] (turtlesim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.415155] (turtlesim) StdoutLine: {'line': b'See also "/home/bailey/ros2_ws/build/turtlesim/CMakeFiles/CMakeOutput.log".\n'}
+[5.449058] (turtlesim) StderrLine: {'line': b'gmake: *** [Makefile:2950: cmake_check_build_system] Error 1\n'}
+[5.449375] (-) TimerEvent: {}
+[5.449639] (wile_e_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wile_e_interfaces/msg/detail/dds_fastrtps/file_command__type_support.cpp.o\x1b[0m\n'}
+[5.461125] (turtlesim) CommandEnded: {'returncode': 2}
+[5.549822] (-) TimerEvent: {}
+[5.619239] (tutorial_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[5.654807] (-) TimerEvent: {}
+[5.666481] (norlab_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.670234] (norlab_custom_interfaces) StdoutLine: {'line': b'writing norlab_custom_interfaces.egg-info/PKG-INFO\n'}
+[5.677068] (norlab_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to norlab_custom_interfaces.egg-info/dependency_links.txt\n'}
+[5.686964] (norlab_custom_interfaces) StdoutLine: {'line': b'writing top-level names to norlab_custom_interfaces.egg-info/top_level.txt\n'}
+[5.701486] (norlab_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'norlab_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[5.703716] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.706020] (norlab_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'norlab_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[5.743962] (wile_e_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wile_e_interfaces/msg/detail/file_command__type_support.cpp.o\x1b[0m\n'}
+[5.754979] (-) TimerEvent: {}
+[5.784339] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.828678] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[5.855112] (-) TimerEvent: {}
+[5.881270] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[5.912260] (norlab_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_norlab_custom_interfaces_egg\n'}
+[5.961078] (-) TimerEvent: {}
+[6.064853] (-) TimerEvent: {}
+[6.074882] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.129623] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[6.145278] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.165346] (-) TimerEvent: {}
+[6.258861] (norlab_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target norlab_custom_interfaces__cpp\n'}
+[6.269394] (-) TimerEvent: {}
+[6.297209] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[6.301503] (norlab_custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.319056] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.331825] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[6.341764] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.370946] (-) TimerEvent: {}
+[6.406098] (wile_e_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wile_e_interfaces/msg/roboclaw_command__type_support.cpp.o\x1b[0m\n'}
+[6.432666] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.471060] (-) TimerEvent: {}
+[6.482373] (tutorial_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[6.571182] (-) TimerEvent: {}
+[6.671681] (-) TimerEvent: {}
+[6.718722] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 2}
+[6.777068] (-) TimerEvent: {}
+[6.877574] (-) TimerEvent: {}
+[6.978087] (-) TimerEvent: {}
+[7.004830] (norlab_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target norlab_custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[7.048900] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/encoder_state__functions.c.o\x1b[0m\n'}
+[7.054088] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.078778] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[7.079062] (-) TimerEvent: {}
+[7.128464] (wile_e_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wile_e_interfaces/msg/detail/file_command__type_support_c.cpp.o\x1b[0m\n'}
+[7.180851] (-) TimerEvent: {}
+[7.283823] (-) TimerEvent: {}
+[7.342920] (wile_e_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wile_e_interfaces/msg/detail/dds_fastrtps/roboclaw_command__type_support.cpp.o\x1b[0m\n'}
+[7.385061] (wile_e_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wile_e_interfaces/msg/detail/roboclaw_command__type_support.cpp.o\x1b[0m\n'}
+[7.385417] (-) TimerEvent: {}
+[7.488835] (-) TimerEvent: {}
+[7.585001] (tutorial_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[7.589003] (-) TimerEvent: {}
+[7.626631] (wile_e_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wile_e_interfaces/msg/arduino_command__type_support.cpp.o\x1b[0m\n'}
+[7.693075] (-) TimerEvent: {}
+[7.745092] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/motor_state__functions.c.o\x1b[0m\n'}
+[7.797116] (-) TimerEvent: {}
+[7.901106] (-) TimerEvent: {}
+[7.979569] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libnorlab_custom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.987899] (norlab_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target norlab_custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.005061] (-) TimerEvent: {}
+[8.011638] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[8.029019] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/norlab_custom_interfaces/msg/detail/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[8.109072] (-) TimerEvent: {}
+[8.209528] (-) TimerEvent: {}
+[8.249154] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target norlab_custom_interfaces__rosidl_generator_c\n'}
+[8.270558] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/norlab_custom_interfaces/msg/detail/motor_state__type_support.cpp.o\x1b[0m\n'}
+[8.309662] (-) TimerEvent: {}
+[8.410185] (-) TimerEvent: {}
+[8.421252] (wile_e_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wile_e_interfaces/msg/detail/arduino_command__type_support.cpp.o\x1b[0m\n'}
+[8.513099] (-) TimerEvent: {}
+[8.617103] (-) TimerEvent: {}
+[8.711236] (tutorial_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.717229] (-) TimerEvent: {}
+[8.765102] (norlab_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target norlab_custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.772520] (wile_e_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libwile_e_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.796751] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/norlab_custom_interfaces/msg/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[8.817406] (-) TimerEvent: {}
+[8.877163] (tutorial_interfaces) StdoutLine: {'line': b'[ 36%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[8.929093] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.929424] (-) TimerEvent: {}
+[8.929689] (wile_e_interfaces) StdoutLine: {'line': b'[ 42%] Built target wile_e_interfaces__rosidl_typesupport_cpp\n'}
+[8.955146] (wile_e_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.958172] (tutorial_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[8.975921] (wile_e_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wile_e_interfaces/msg/detail/dds_fastrtps/arduino_command__type_support.cpp.o\x1b[0m\n'}
+[8.987725] (norlab_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target norlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.988170] (wile_e_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wile_e_interfaces/msg/detail/roboclaw_command__type_support_c.cpp.o\x1b[0m\n'}
+[9.037085] (-) TimerEvent: {}
+[9.078131] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/norlab_custom_interfaces/msg/detail/dds_fastrtps/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[9.141081] (-) TimerEvent: {}
+[9.245095] (-) TimerEvent: {}
+[9.349062] (-) TimerEvent: {}
+[9.453067] (-) TimerEvent: {}
+[9.557114] (-) TimerEvent: {}
+[9.585010] (wile_e_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wile_e_interfaces/msg/detail/arduino_command__type_support_c.cpp.o\x1b[0m\n'}
+[9.618857] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.661091] (-) TimerEvent: {}
+[9.664362] (tutorial_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[9.761208] (-) TimerEvent: {}
+[9.865060] (-) TimerEvent: {}
+[9.961489] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.965177] (-) TimerEvent: {}
+[10.065784] (-) TimerEvent: {}
+[10.165142] (wile_e_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libwile_e_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.169091] (-) TimerEvent: {}
+[10.179860] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.245200] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.270582] (-) TimerEvent: {}
+[10.305064] (wile_e_interfaces) StdoutLine: {'line': b'[ 53%] Built target wile_e_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.365091] (wile_e_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.370728] (-) TimerEvent: {}
+[10.471437] (-) TimerEvent: {}
+[10.509635] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.571627] (-) TimerEvent: {}
+[10.660251] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 35%] Built target norlab_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.663230] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/norlab_custom_interfaces/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[10.671747] (-) TimerEvent: {}
+[10.717132] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.771881] (-) TimerEvent: {}
+[10.872581] (-) TimerEvent: {}
+[10.929117] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.948997] (norlab_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target norlab_custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.969045] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[10.972901] (-) TimerEvent: {}
+[11.015127] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/norlab_custom_interfaces/msg/detail/encoder_state__type_support_c.cpp.o\x1b[0m\n'}
+[11.020702] (wile_e_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libwile_e_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.073071] (-) TimerEvent: {}
+[11.146674] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[11.174224] (-) TimerEvent: {}
+[11.174633] (wile_e_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wile_e_interfaces/msg/detail/file_command__type_support.c.o\x1b[0m\n'}
+[11.234318] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.276891] (wile_e_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wile_e_interfaces/msg/detail/roboclaw_command__type_support.c.o\x1b[0m\n'}
+[11.277694] (-) TimerEvent: {}
+[11.378186] (-) TimerEvent: {}
+[11.381415] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/norlab_custom_interfaces/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o\x1b[0m\n'}
+[11.415550] (wile_e_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libwile_e_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.475868] (wile_e_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wile_e_interfaces/msg/detail/arduino_command__type_support.c.o\x1b[0m\n'}
+[11.478313] (-) TimerEvent: {}
+[11.511560] (wile_e_interfaces) StdoutLine: {'line': b'[ 65%] Built target wile_e_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[11.561088] (wile_e_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libwile_e_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.578448] (-) TimerEvent: {}
+[11.689095] (wile_e_interfaces) StdoutLine: {'line': b'[ 68%] Built target wile_e_interfaces__rosidl_typesupport_introspection_c\n'}
+[11.690000] (-) TimerEvent: {}
+[11.790521] (-) TimerEvent: {}
+[11.844048] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.890637] (-) TimerEvent: {}
+[11.926349] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[11.932770] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[11.977246] (tutorial_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[11.985263] (wile_e_interfaces) StdoutLine: {'line': b'[ 68%] Built target wile_e_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[11.990915] (-) TimerEvent: {}
+[12.097129] (-) TimerEvent: {}
+[12.098042] (tutorial_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[12.107952] (tutorial_interfaces) StdoutLine: {'line': b'[ 59%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[12.133153] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[12.157237] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[12.185145] (wile_e_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wile_e_interfaces/msg/file_command__type_support.cpp.o\x1b[0m\n'}
+[12.185494] (wile_e_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wile_e_interfaces/msg/roboclaw_command__type_support.cpp.o\x1b[0m\n'}
+[12.196605] (wile_e_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/wile_e_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wile_e_interfaces/msg/arduino_command__type_support.cpp.o\x1b[0m\n'}
+[12.198543] (-) TimerEvent: {}
+[12.209075] (tutorial_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[12.281136] (norlab_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target norlab_custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[12.301077] (-) TimerEvent: {}
+[12.311134] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/norlab_custom_interfaces/msg/detail/encoder_state__type_support.c.o\x1b[0m\n'}
+[12.342406] (wile_e_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libwile_e_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.389183] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.403764] (-) TimerEvent: {}
+[12.404423] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.462656] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/norlab_custom_interfaces/msg/detail/motor_state__type_support.c.o\x1b[0m\n'}
+[12.483309] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[12.498091] (wile_e_interfaces) StdoutLine: {'line': b'[ 76%] Built target wile_e_interfaces__rosidl_typesupport_c\n'}
+[12.503937] (-) TimerEvent: {}
+[12.515263] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 53%] Built target norlab_custom_interfaces__rosidl_typesupport_cpp\n'}
+[12.553076] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.562749] (wile_e_interfaces) StdoutLine: {'line': b'[ 76%] Built target wile_e_interfaces\n'}
+[12.597139] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libnorlab_custom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.604072] (-) TimerEvent: {}
+[12.629193] (wile_e_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.661443] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 58%] Built target norlab_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[12.669140] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/norlab_custom_interfaces/msg/detail/motor_state__type_support_c.cpp.o\x1b[0m\n'}
+[12.704227] (-) TimerEvent: {}
+[12.809069] (-) TimerEvent: {}
+[12.884684] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[12.910162] (-) TimerEvent: {}
+[12.927698] (tutorial_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[12.938717] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[12.939483] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[13.010301] (-) TimerEvent: {}
+[13.022879] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.039770] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.110601] (-) TimerEvent: {}
+[13.169092] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[13.169950] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target norlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[13.210687] (-) TimerEvent: {}
+[13.281494] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.310823] (-) TimerEvent: {}
+[13.393997] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.406993] (norlab_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target norlab_custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[13.410965] (-) TimerEvent: {}
+[13.426169] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/norlab_custom_interfaces/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[13.428464] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/norlab_custom_interfaces/msg/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[13.430869] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[13.478612] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces\n'}
+[13.495392] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.511266] (-) TimerEvent: {}
+[13.512666] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.553353] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target norlab_custom_interfaces__rosidl_typesupport_c\n'}
+[13.564278] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target norlab_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[13.585923] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target norlab_custom_interfaces\n'}
+[13.608803] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.611385] (-) TimerEvent: {}
+[13.711926] (-) TimerEvent: {}
+[13.797913] (wile_e_interfaces) StdoutLine: {'line': b'[ 78%] Built target wile_e_interfaces__py\n'}
+[13.810833] (wile_e_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wile_e_interfaces__rosidl_generator_py\x1b[0m\n'}
+[13.811998] (-) TimerEvent: {}
+[13.834915] (wile_e_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_py.dir/rosidl_generator_py/wile_e_interfaces/msg/_roboclaw_command_s.c.o\x1b[0m\n'}
+[13.838659] (wile_e_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_py.dir/rosidl_generator_py/wile_e_interfaces/msg/_file_command_s.c.o\x1b[0m\n'}
+[13.839461] (wile_e_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_generator_py.dir/rosidl_generator_py/wile_e_interfaces/msg/_arduino_command_s.c.o\x1b[0m\n'}
+[13.912124] (-) TimerEvent: {}
+[14.017187] (-) TimerEvent: {}
+[14.061079] (wile_e_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wile_e_interfaces/libwile_e_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[14.109083] (wile_e_interfaces) StdoutLine: {'line': b'[ 87%] Built target wile_e_interfaces__rosidl_generator_py\n'}
+[14.117334] (-) TimerEvent: {}
+[14.140020] (wile_e_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wile_e_interfaces/_wile_e_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.141381] (wile_e_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wile_e_interfaces/_wile_e_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.149831] (wile_e_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/wile_e_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wile_e_interfaces/_wile_e_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.218587] (-) TimerEvent: {}
+[14.285099] (wile_e_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[14.317229] (wile_e_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[14.318714] (-) TimerEvent: {}
+[14.364107] (wile_e_interfaces) StdoutLine: {'line': b'[ 97%] Built target wile_e_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.371797] (wile_e_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wile_e_interfaces/wile_e_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[14.397103] (wile_e_interfaces) StdoutLine: {'line': b'[100%] Built target wile_e_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[14.415121] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__py\n'}
+[14.418838] (-) TimerEvent: {}
+[14.426439] (wile_e_interfaces) StdoutLine: {'line': b'[100%] Built target wile_e_interfaces__rosidl_typesupport_c__pyext\n'}
+[14.430610] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py\x1b[0m\n'}
+[14.445253] (wile_e_interfaces) JobEnded: {'identifier': 'wile_e_interfaces', 'rc': 'SIGINT'}
+[14.447410] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[14.447674] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[14.449316] (tutorial_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[14.518995] (-) TimerEvent: {}
+[14.588175] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target norlab_custom_interfaces__py\n'}
+[14.603384] (norlab_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target norlab_custom_interfaces__rosidl_generator_py\x1b[0m\n'}
+[14.618299] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/norlab_custom_interfaces/msg/_encoder_state_s.c.o\x1b[0m\n'}
+[14.618704] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/norlab_custom_interfaces/msg/_motor_state_s.c.o\x1b[0m\n'}
+[14.619641] (-) TimerEvent: {}
+[14.633182] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[14.698453] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[14.720462] (-) TimerEvent: {}
+[14.736464] (tutorial_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.737560] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.738363] (tutorial_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.820612] (-) TimerEvent: {}
+[14.829019] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/norlab_custom_interfaces/libnorlab_custom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[14.904327] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[14.909040] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 84%] Built target norlab_custom_interfaces__rosidl_generator_py\n'}
+[14.921510] (-) TimerEvent: {}
+[14.944468] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.945811] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.946175] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.957196] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[14.965628] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[15.021682] (-) TimerEvent: {}
+[15.025189] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[15.072086] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[15.078564] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.101426] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 'SIGINT'}
+[15.121795] (-) TimerEvent: {}
+[15.147615] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[15.159249] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[15.169108] (norlab_custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[15.205232] (norlab_custom_interfaces) StdoutLine: {'line': b'[100%] Built target norlab_custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[15.214159] (norlab_custom_interfaces) StdoutLine: {'line': b'[100%] Built target norlab_custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[15.221558] (norlab_custom_interfaces) StdoutLine: {'line': b'[100%] Built target norlab_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.222148] (-) TimerEvent: {}
+[15.232851] (norlab_custom_interfaces) JobEnded: {'identifier': 'norlab_custom_interfaces', 'rc': 'SIGINT'}
+[15.243710] (yle1) JobSkipped: {'identifier': 'yle1'}
+[15.243962] (py_pubsub) JobSkipped: {'identifier': 'py_pubsub'}
+[15.244220] (py_srvcli) JobSkipped: {'identifier': 'py_srvcli'}
+[15.244248] (wile_e) JobSkipped: {'identifier': 'wile_e'}
+[15.244268] (-) EventReactorShutdown: {}

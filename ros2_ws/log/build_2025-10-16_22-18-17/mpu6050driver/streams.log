@@ -1,0 +1,31 @@
+[0.022s] Invoking command in '/home/bailey/ros2_ws/build/mpu6050driver': /usr/bin/cmake --build /home/bailey/ros2_ws/build/mpu6050driver -- -j4 -l4
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target mpu6050driver[0m
+[0.409s] [ 33%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050driver.cpp.o[0m
+[0.414s] [ 66%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050sensor.cpp.o[0m
+[6.129s] [100%] [32m[1mLinking CXX executable mpu6050driver[0m
+[6.539s] [100%] Built target mpu6050driver
+[6.548s] Invoked command in '/home/bailey/ros2_ws/build/mpu6050driver' returned '0': /usr/bin/cmake --build /home/bailey/ros2_ws/build/mpu6050driver -- -j4 -l4
+[6.562s] Invoking command in '/home/bailey/ros2_ws/build/mpu6050driver': /usr/bin/cmake --install /home/bailey/ros2_ws/build/mpu6050driver
+[6.569s] -- Install configuration: ""
+[6.573s] -- Installing: /home/bailey/ros2_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver
+[6.574s] -- Set runtime path of "/home/bailey/ros2_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver" to ""
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//launch
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//params
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh
+[6.574s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv
+[6.575s] -- Installing: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.dsv
+[6.576s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver
+[6.576s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake
+[6.576s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake
+[6.576s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.xml
+[6.577s] Invoked command in '/home/bailey/ros2_ws/build/mpu6050driver' returned '0': /usr/bin/cmake --install /home/bailey/ros2_ws/build/mpu6050driver

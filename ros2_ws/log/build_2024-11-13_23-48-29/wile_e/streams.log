@@ -1,0 +1,17 @@
+[4.834s] Invoking command in '/home/bailey/ros2_ws/src/wile_e': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data
+[6.257s] running egg_info
+[6.351s] writing ../../build/wile_e/wile_e.egg-info/PKG-INFO
+[6.353s] writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt
+[6.354s] writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt
+[6.356s] writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt
+[6.357s] writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt
+[6.579s] reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[6.582s] adding license file 'LICENSE'
+[6.584s] writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[6.585s] running build
+[6.586s] running build_py
+[6.590s] running install
+[6.625s] running install_lib
+[6.732s] running install_data
+[6.734s] error: can't copy 'resource/wile_e': doesn't exist or not a regular file
+[6.864s] Invoked command in '/home/bailey/ros2_ws/src/wile_e' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data

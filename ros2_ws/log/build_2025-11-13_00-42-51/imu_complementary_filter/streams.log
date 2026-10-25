@@ -1,0 +1,5 @@
+[0.012s] Invoking command in '/home/bailey/ros2_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble /usr/bin/cmake --build /home/bailey/ros2_ws/build/imu_complementary_filter -- -j4 -l4
+[0.033s] [0mCMake Error: The source directory "/home/bailey/ros2_ws/imu_tools/imu_complementary_filter" does not exist.
+[0.033s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.034s] gmake: *** [Makefile:335: cmake_check_build_system] Error 1
+[0.036s] Invoked command in '/home/bailey/ros2_ws/build/imu_complementary_filter' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters:/opt/ros/humble /usr/bin/cmake --build /home/bailey/ros2_ws/build/imu_complementary_filter -- -j4 -l4

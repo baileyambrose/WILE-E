@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000636] (-) JobUnselected: {'identifier': 'imu_complementary_filter'}
+[0.000833] (-) JobUnselected: {'identifier': 'imu_filter_madgwick'}
+[0.000991] (-) JobUnselected: {'identifier': 'imu_tools'}
+[0.001052] (-) JobUnselected: {'identifier': 'mpu_6050_driver'}
+[0.001108] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.001147] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001179] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001226] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001337] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.001365] (-) JobUnselected: {'identifier': 'rviz_imu_plugin'}
+[0.001386] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001405] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001438] (-) JobUnselected: {'identifier': 'wile_e'}
+[0.001461] (-) JobUnselected: {'identifier': 'wile_e_interfaces'}
+[0.001479] (-) JobUnselected: {'identifier': 'yle1'}
+[0.001508] (mpu6050driver) JobQueued: {'identifier': 'mpu6050driver', 'dependencies': OrderedDict()}
+[0.001541] (mpu6050driver) JobStarted: {'identifier': 'mpu6050driver'}
+[0.008118] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'cmake'}
+[0.009407] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'build'}
+[0.010199] (mpu6050driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bailey/ros2_ws/build/mpu6050driver', '--', '-j4', '-l4'], 'cwd': '/home/bailey/ros2_ws/build/mpu6050driver', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('HOME', '/root'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('PWD', '/home/bailey/ros2_ws/build/mpu6050driver'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.066530] (mpu6050driver) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050sensor.cpp.o\x1b[0m\n'}
+[0.102415] (-) TimerEvent: {}
+[0.202755] (-) TimerEvent: {}
+[0.303389] (-) TimerEvent: {}
+[0.403746] (-) TimerEvent: {}
+[0.504342] (-) TimerEvent: {}
+[0.604985] (-) TimerEvent: {}
+[0.705587] (-) TimerEvent: {}
+[0.733856] (mpu6050driver) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable mpu6050driver\x1b[0m\n'}
+[0.805703] (-) TimerEvent: {}
+[0.906425] (-) TimerEvent: {}
+[1.008135] (-) TimerEvent: {}
+[1.108592] (-) TimerEvent: {}
+[1.150958] (mpu6050driver) StdoutLine: {'line': b'[100%] Built target mpu6050driver\n'}
+[1.164526] (mpu6050driver) CommandEnded: {'returncode': 0}
+[1.165155] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'install'}
+[1.172869] (mpu6050driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bailey/ros2_ws/build/mpu6050driver'], 'cwd': '/home/bailey/ros2_ws/build/mpu6050driver', 'env': OrderedDict([('HOSTNAME', 'wile-e'), ('SHLVL', '1'), ('HOME', '/root'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('PWD', '/home/bailey/ros2_ws/build/mpu6050driver'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[1.181320] (mpu6050driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.182693] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver\n'}
+[1.184270] (mpu6050driver) StdoutLine: {'line': b'-- Set runtime path of "/home/bailey/ros2_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver" to ""\n'}
+[1.184434] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//launch\n'}
+[1.184543] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py\n'}
+[1.185875] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//params\n'}
+[1.186014] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml\n'}
+[1.186113] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver\n'}
+[1.186194] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver\n'}
+[1.186262] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh\n'}
+[1.186326] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv\n'}
+[1.189023] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh\n'}
+[1.189121] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv\n'}
+[1.189185] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash\n'}
+[1.189246] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh\n'}
+[1.189306] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh\n'}
+[1.189365] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv\n'}
+[1.189423] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.dsv\n'}
+[1.189482] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver\n'}
+[1.189541] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake\n'}
+[1.189599] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake\n'}
+[1.189657] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.xml\n'}
+[1.190875] (mpu6050driver) CommandEnded: {'returncode': 0}
+[1.208714] (-) TimerEvent: {}
+[1.218610] (mpu6050driver) JobEnded: {'identifier': 'mpu6050driver', 'rc': 0}
+[1.219908] (-) EventReactorShutdown: {}

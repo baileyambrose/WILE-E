@@ -1,0 +1,5 @@
+  File "/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/NN_interface.py", line 74
+    all(x is not None for x in (self.base_lin_vel, self.base_ang_vel, self.orientation,self.shoulder_pos,self.elbow_pos,self.joint_vel)):
+                                                                                                                                        ^
+SyntaxError: invalid syntax
+

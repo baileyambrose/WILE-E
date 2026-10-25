@@ -1,0 +1,38 @@
+[5.259s] Invoking command in '/home/bailey/ros2_ws/src/wile_e': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data
+[6.785s] running egg_info
+[6.786s] creating ../../build/wile_e/wile_e.egg-info
+[6.881s] writing ../../build/wile_e/wile_e.egg-info/PKG-INFO
+[6.883s] writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt
+[6.883s] writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt
+[6.884s] writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt
+[6.884s] writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt
+[6.885s] writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[7.082s] reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[7.083s] adding license file 'LICENSE'
+[7.085s] writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[7.086s] running build
+[7.086s] running build_py
+[7.087s] creating /home/bailey/ros2_ws/build/wile_e/build
+[7.087s] creating /home/bailey/ros2_ws/build/wile_e/build/lib
+[7.088s] creating /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+[7.088s] copying wile_e/__init__.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+[7.089s] copying wile_e/file_reader.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+[7.089s] copying wile_e/publisher_member_function.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+[7.090s] copying wile_e/trigger.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+[7.092s] running install
+[7.116s] running install_lib
+[7.212s] creating /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e
+[7.213s] copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/__init__.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e
+[7.214s] copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/file_reader.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e
+[7.215s] copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/publisher_member_function.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e
+[7.215s] copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/trigger.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e
+[7.218s] byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e/__init__.py to __init__.cpython-312.pyc
+[7.219s] byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e/file_reader.py to file_reader.cpython-312.pyc
+[7.223s] byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[7.225s] byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e/trigger.py to trigger.cpython-312.pyc
+[7.227s] running install_data
+[7.227s] creating /home/bailey/ros2_ws/install/wile_e/share/ament_index
+[7.229s] creating /home/bailey/ros2_ws/install/wile_e/share/ament_index/resource_index
+[7.230s] creating /home/bailey/ros2_ws/install/wile_e/share/ament_index/resource_index/packages
+[7.231s] error: can't copy 'resource/wile_e': doesn't exist or not a regular file
+[7.354s] Invoked command in '/home/bailey/ros2_ws/src/wile_e' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data

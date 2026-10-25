@@ -1,0 +1,10 @@
+float32 right_shoulder
+float32 left_shoulder
+float32 right_elbow
+float32 left_elbow
+float32 right_shoulder_speed
+float32 left_shoulder_speed
+float32 right_elbow_speed
+float32 left_elbow_speed
+float32 right_wheel_speed
+float32 left_wheel_speed

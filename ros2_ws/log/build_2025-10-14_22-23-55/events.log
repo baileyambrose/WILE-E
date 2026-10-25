@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.000636] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000970] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000994] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001013] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.001062] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001080] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001098] (-) JobUnselected: {'identifier': 'wile_e_interfaces'}
+[0.001138] (wile_e) JobQueued: {'identifier': 'wile_e', 'dependencies': OrderedDict([('wile_e_interfaces', '/ros2_ws/install/wile_e_interfaces')])}
+[0.001165] (wile_e) JobStarted: {'identifier': 'wile_e'}
+[0.029100] (wile_e) JobEnded: {'identifier': 'wile_e', 'rc': 1}
+[0.039508] (-) EventReactorShutdown: {}

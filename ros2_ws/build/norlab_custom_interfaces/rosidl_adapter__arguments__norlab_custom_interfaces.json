@@ -1,0 +1,7 @@
+{
+  "package_name": "norlab_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/bailey/ros2_ws/src/norlab_custom_interfaces:msg/EncoderState.msg",
+    "/home/bailey/ros2_ws/src/norlab_custom_interfaces:msg/MotorState.msg"
+  ]
+}

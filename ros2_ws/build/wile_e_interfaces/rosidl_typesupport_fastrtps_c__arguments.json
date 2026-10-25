@@ -1,0 +1,29 @@
+{
+  "package_name": "wile_e_interfaces",
+  "output_dir": "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_typesupport_fastrtps_c/wile_e_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/RoboclawStateBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/ActionCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/RoboclawPowerBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/TeensyData.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/VelocityCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:srv/MotorSensorData.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/RoboclawStateBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/ActionCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/RoboclawPowerBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/TeensyData.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/VelocityCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/srv/MotorSensorData.idl"
+  ]
+}

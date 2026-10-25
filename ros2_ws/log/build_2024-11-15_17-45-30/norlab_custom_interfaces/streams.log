@@ -1,0 +1,270 @@
+[0.061s] Invoking command in '/home/bailey/ros2_ws/build/norlab_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bailey/ros2_ws/src/norlab_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/norlab_custom_interfaces
+[1.014s] -- The C compiler identification is GNU 13.2.0
+[2.121s] -- The CXX compiler identification is GNU 13.2.0
+[2.241s] -- Detecting C compiler ABI info
+[2.799s] -- Detecting C compiler ABI info - done
+[2.837s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.839s] -- Detecting C compile features
+[2.842s] -- Detecting C compile features - done
+[2.895s] -- Detecting CXX compiler ABI info
+[3.443s] -- Detecting CXX compiler ABI info - done
+[3.480s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.480s] -- Detecting CXX compile features
+[3.482s] -- Detecting CXX compile features - done
+[3.512s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.311s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.072s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.456s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.570s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.393s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.428s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.024s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.125s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.225s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.705s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.800s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[7.898s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[8.029s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[11.192s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[15.314s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.941s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.968s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[17.680s] -- Found PythonExtra: /usr/bin/python3  
+[19.943s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[20.230s] -- Configuring done (19.9s)
+[20.466s] -- Generating done (0.2s)
+[20.482s] -- Build files have been written to: /home/bailey/ros2_ws/build/norlab_custom_interfaces
+[20.538s] Invoked command in '/home/bailey/ros2_ws/build/norlab_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bailey/ros2_ws/src/norlab_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/norlab_custom_interfaces
+[20.545s] Invoking command in '/home/bailey/ros2_ws/build/norlab_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bailey/ros2_ws/build/norlab_custom_interfaces -- -j4 -l4
+[20.844s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[20.896s] [  2%] Built target ament_cmake_python_copy_norlab_custom_interfaces
+[22.145s] running egg_info
+[22.150s] creating norlab_custom_interfaces.egg-info
+[22.304s] [  2%] Built target norlab_custom_interfaces__rosidl_generator_type_description
+[22.313s] writing norlab_custom_interfaces.egg-info/PKG-INFO
+[22.314s] writing dependency_links to norlab_custom_interfaces.egg-info/dependency_links.txt
+[22.315s] writing top-level names to norlab_custom_interfaces.egg-info/top_level.txt
+[22.316s] writing manifest file 'norlab_custom_interfaces.egg-info/SOURCES.txt'
+[22.373s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[22.441s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[22.895s] reading manifest file 'norlab_custom_interfaces.egg-info/SOURCES.txt'
+[22.898s] writing manifest file 'norlab_custom_interfaces.egg-info/SOURCES.txt'
+[23.114s] [  6%] Built target ament_cmake_python_build_norlab_custom_interfaces_egg
+[24.387s] [  6%] Built target norlab_custom_interfaces__cpp
+[24.617s] [  9%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/encoder_state__type_support.c.o[0m
+[24.625s] [ 11%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/encoder_state__functions.c.o[0m
+[24.628s] [ 13%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/encoder_state__description.c.o[0m
+[24.632s] [ 15%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/motor_state__description.c.o[0m
+[24.936s] [ 18%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/motor_state__functions.c.o[0m
+[25.098s] [ 20%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/motor_state__type_support.c.o[0m
+[25.528s] [ 22%] [32m[1mLinking C shared library libnorlab_custom_interfaces__rosidl_generator_c.so[0m
+[25.774s] [ 22%] Built target norlab_custom_interfaces__rosidl_generator_c
+[25.849s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[25.853s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.854s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[25.872s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[27.772s] [ 34%] [32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/norlab_custom_interfaces/msg/encoder_state__type_support.cpp.o[0m
+[28.195s] [ 36%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/norlab_custom_interfaces/msg/detail/encoder_state__type_support.c.o[0m
+[28.264s] [ 38%] [32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/norlab_custom_interfaces/msg/detail/dds_fastrtps/encoder_state__type_support.cpp.o[0m
+[28.418s] [ 40%] [32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/norlab_custom_interfaces/msg/detail/encoder_state__type_support_c.cpp.o[0m
+[28.527s] [ 43%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/norlab_custom_interfaces/msg/detail/motor_state__type_support.c.o[0m
+[28.887s] [ 45%] [32m[1mLinking C shared library libnorlab_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[29.167s] [ 45%] Built target norlab_custom_interfaces__rosidl_typesupport_introspection_c
+[29.279s] [ 47%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[31.364s] [ 50%] [32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/norlab_custom_interfaces/msg/motor_state__type_support.cpp.o[0m
+[31.666s] [ 52%] [32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/norlab_custom_interfaces/msg/encoder_state__type_support.cpp.o[0m
+[32.089s] [ 54%] [32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/norlab_custom_interfaces/msg/motor_state__type_support.cpp.o[0m
+[32.512s] [ 56%] [32m[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_c.so[0m
+[32.825s] [ 56%] Built target norlab_custom_interfaces__rosidl_typesupport_c
+[32.917s] [ 59%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[33.520s] [ 61%] [32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/norlab_custom_interfaces/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o[0m
+[33.602s] [ 63%] [32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/norlab_custom_interfaces/msg/detail/motor_state__type_support_c.cpp.o[0m
+[34.707s] [ 65%] [32m[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[35.062s] [ 65%] Built target norlab_custom_interfaces__rosidl_typesupport_cpp
+[35.271s] [ 68%] [32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/norlab_custom_interfaces/msg/detail/encoder_state__type_support.cpp.o[0m
+[35.274s] [ 70%] [32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/norlab_custom_interfaces/msg/detail/motor_state__type_support.cpp.o[0m
+[38.477s] [ 72%] [32m[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[38.501s] [ 75%] [32m[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[38.628s] [ 77%] [32m[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[38.870s] [ 77%] Built target norlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[38.891s] [ 77%] Built target norlab_custom_interfaces__rosidl_typesupport_fastrtps_c
+[39.054s] [ 77%] Built target norlab_custom_interfaces__rosidl_typesupport_introspection_cpp
+[39.172s] [ 77%] Built target norlab_custom_interfaces
+[39.298s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[41.440s] [ 79%] Built target norlab_custom_interfaces__py
+[41.569s] [ 81%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/norlab_custom_interfaces/msg/_encoder_state_s.c.o[0m
+[41.570s] [ 84%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/norlab_custom_interfaces/msg/_motor_state_s.c.o[0m
+[42.817s] [ 86%] [32m[1mLinking C shared library libnorlab_custom_interfaces__rosidl_generator_py.so[0m
+[43.083s] [ 86%] Built target norlab_custom_interfaces__rosidl_generator_py
+[43.212s] [ 90%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[43.215s] [ 90%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[43.224s] [ 93%] [32mBuilding C object CMakeFiles/norlab_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[44.087s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_c.so[0m
+[44.088s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[44.137s] [100%] [32m[1mLinking C shared module rosidl_generator_py/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[44.283s] [100%] Built target norlab_custom_interfaces_s__rosidl_typesupport_c
+[44.294s] [100%] Built target norlab_custom_interfaces_s__rosidl_typesupport_introspection_c
+[44.339s] [100%] Built target norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c
+[44.397s] Invoked command in '/home/bailey/ros2_ws/build/norlab_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bailey/ros2_ws/build/norlab_custom_interfaces -- -j4 -l4
+[45.087s] Invoking command in '/home/bailey/ros2_ws/build/norlab_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bailey/ros2_ws/build/norlab_custom_interfaces
+[45.135s] -- Install configuration: "Release"
+[45.136s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/norlab_custom_interfaces
+[45.137s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/EncoderState.json
+[45.139s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/MotorState.json
+[45.140s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces
+[45.140s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg
+[45.141s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail
+[45.142s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__description.c
+[45.143s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__type_support.h
+[45.144s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__functions.c
+[45.146s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__type_support.c
+[45.147s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__struct.h
+[45.148s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__type_support.c
+[45.149s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__functions.h
+[45.150s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__description.c
+[45.151s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__type_support.h
+[45.152s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__functions.c
+[45.153s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__functions.h
+[45.155s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__struct.h
+[45.156s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[45.157s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/encoder_state.h
+[45.158s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/motor_state.h
+[45.159s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/library_path.sh
+[45.161s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/library_path.dsv
+[45.162s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_generator_c.so
+[45.165s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_generator_c.so" to ""
+[45.166s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces
+[45.166s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg
+[45.167s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[45.167s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail
+[45.168s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[45.169s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__rosidl_typesupport_fastrtps_c.h
+[45.171s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[45.174s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[45.174s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces
+[45.175s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg
+[45.175s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/encoder_state.hpp
+[45.176s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[45.177s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail
+[45.178s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__builder.hpp
+[45.179s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__type_support.hpp
+[45.180s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__traits.hpp
+[45.181s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__struct.hpp
+[45.182s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__type_support.hpp
+[45.183s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__builder.hpp
+[45.184s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__struct.hpp
+[45.186s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__traits.hpp
+[45.187s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/motor_state.hpp
+[45.188s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces
+[45.188s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg
+[45.189s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[45.190s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail
+[45.190s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/dds_fastrtps
+[45.191s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[45.192s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__rosidl_typesupport_fastrtps_cpp.hpp
+[45.194s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[45.197s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[45.197s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces
+[45.198s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg
+[45.198s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[45.199s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail
+[45.200s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[45.201s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__type_support.c
+[45.202s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__type_support.c
+[45.203s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__rosidl_typesupport_introspection_c.h
+[45.205s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_introspection_c.so
+[45.208s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[45.208s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_c.so
+[45.211s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_c.so" to ""
+[45.211s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces
+[45.212s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg
+[45.212s] -- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail
+[45.213s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[45.214s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__type_support.cpp
+[45.215s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__type_support.cpp
+[45.216s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__rosidl_typesupport_introspection_cpp.hpp
+[45.218s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[45.221s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[45.222s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_cpp.so
+[45.228s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[45.229s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/pythonpath.sh
+[45.230s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/pythonpath.dsv
+[45.232s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces-0.0.0-py3.12.egg-info
+[45.234s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[45.235s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[45.236s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[45.237s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[45.238s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces
+[45.239s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/__init__.py
+[45.240s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[45.241s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[45.243s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg
+[45.243s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_motor_state.py
+[45.244s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_encoder_state.py
+[45.245s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/__init__.py
+[45.246s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_encoder_state_s.c
+[45.248s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_motor_state_s.c
+[45.249s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[45.250s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_c.so
+[45.252s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[45.253s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[45.448s] Listing '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces'...
+[45.449s] Compiling '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/__init__.py'...
+[45.450s] Listing '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg'...
+[45.451s] Compiling '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/__init__.py'...
+[45.452s] Compiling '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_encoder_state.py'...
+[45.453s] Compiling '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_motor_state.py'...
+[45.482s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[45.485s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[45.486s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[45.490s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[45.492s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_c.so
+[45.496s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_c.so" to ""
+[45.497s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_generator_py.so
+[45.500s] -- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_generator_py.so" to ""
+[45.500s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/EncoderState.idl
+[45.502s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/MotorState.idl
+[45.503s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/EncoderState.msg
+[45.504s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/MotorState.msg
+[45.505s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/norlab_custom_interfaces
+[45.507s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/norlab_custom_interfaces
+[45.508s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/ament_prefix_path.sh
+[45.509s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/ament_prefix_path.dsv
+[45.510s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/path.sh
+[45.512s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/path.dsv
+[45.513s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/local_setup.bash
+[45.514s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/local_setup.sh
+[45.515s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/local_setup.zsh
+[45.516s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/local_setup.dsv
+[45.517s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/package.dsv
+[45.519s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/ament_index/resource_index/packages/norlab_custom_interfaces
+[45.521s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_generator_cExport.cmake
+[45.523s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_generator_cExport-release.cmake
+[45.526s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[45.529s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[45.532s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_generator_cppExport.cmake
+[45.534s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[45.536s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[45.537s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[45.539s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[45.540s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_cExport.cmake
+[45.542s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_cExport-release.cmake
+[45.543s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[45.545s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[45.546s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[45.548s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_cppExport-release.cmake
+[45.549s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_generator_pyExport.cmake
+[45.551s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_generator_pyExport-release.cmake
+[45.552s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[45.553s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.555s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.556s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[45.557s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[45.558s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[45.560s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[45.561s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfacesConfig.cmake
+[45.562s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfacesConfig-version.cmake
+[45.563s] -- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/package.xml
+[45.572s] Invoked command in '/home/bailey/ros2_ws/build/norlab_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bailey/ros2_ws/build/norlab_custom_interfaces

@@ -1,0 +1,11 @@
+{
+  "package_name": "wile_e_interfaces",
+  "non_idl_tuples": [
+    "/home/bailey/ros2_ws/src/wile_e_interfaces:msg/RoboclawStateBroadcast.msg",
+    "/home/bailey/ros2_ws/src/wile_e_interfaces:msg/ActionCommand.msg",
+    "/home/bailey/ros2_ws/src/wile_e_interfaces:msg/RoboclawPowerBroadcast.msg",
+    "/home/bailey/ros2_ws/src/wile_e_interfaces:msg/TeensyData.msg",
+    "/home/bailey/ros2_ws/src/wile_e_interfaces:msg/VelocityCommand.msg",
+    "/home/bailey/ros2_ws/src/wile_e_interfaces:srv/MotorSensorData.srv"
+  ]
+}

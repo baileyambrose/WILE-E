@@ -1,0 +1,30 @@
+[6.718s] Invoking command in '/home/bailey/ros2_ws/src/wile_e': AMENT_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data
+[8.761s] running egg_info
+[8.915s] writing ../../build/wile_e/wile_e.egg-info/PKG-INFO
+[8.918s] writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt
+[8.921s] writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt
+[8.921s] writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt
+[8.926s] writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt
+[9.286s] reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[9.291s] adding license file 'LICENSE'
+[9.295s] writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[9.296s] running build
+[9.297s] running build_py
+[9.308s] copying wile_e/roboclaw_controller.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+[9.319s] running install
+[9.345s] running install_lib
+[9.516s] copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/roboclaw_controller.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e
+[9.526s] byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e/roboclaw_controller.py to roboclaw_controller.cpython-312.pyc
+[9.536s] running install_data
+[9.537s] copying wile_e/animations/walkcycle.bin -> /home/bailey/ros2_ws/install/wile_e/share/wile_e/animations
+[9.542s] running install_egg_info
+[9.742s] removing '/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e-0.0.0-py3.12.egg-info' (and everything under it)
+[9.744s] Copying ../../build/wile_e/wile_e.egg-info to /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e-0.0.0-py3.12.egg-info
+[9.754s] running install_scripts
+[10.676s] Installing arduino_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[10.680s] Installing command_interpreter script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[10.684s] Installing file_reader script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[10.685s] Installing roboclaw_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[10.687s] Installing trigger script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[10.690s] writing list of installed files to '/home/bailey/ros2_ws/build/wile_e/install.log'
+[10.873s] Invoked command in '/home/bailey/ros2_ws/src/wile_e' returned '0': AMENT_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data

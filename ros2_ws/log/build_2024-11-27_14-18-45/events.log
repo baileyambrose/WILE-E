@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000937] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.002017] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.003303] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.003503] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.003575] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.003642] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003707] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.003773] (-) JobUnselected: {'identifier': 'wile_e_interfaces'}
+[0.004185] (wile_e) JobQueued: {'identifier': 'wile_e', 'dependencies': OrderedDict({'wile_e_interfaces': '/home/bailey/ros2_ws/install/wile_e_interfaces'})}
+[0.004408] (wile_e) JobStarted: {'identifier': 'wile_e'}
+[0.101053] (-) TimerEvent: {}
+[0.203985] (-) TimerEvent: {}
+[0.305056] (-) TimerEvent: {}
+[0.405730] (-) TimerEvent: {}
+[0.507989] (-) TimerEvent: {}
+[0.608647] (-) TimerEvent: {}
+[0.709311] (-) TimerEvent: {}
+[0.809977] (-) TimerEvent: {}
+[0.910538] (-) TimerEvent: {}
+[1.011161] (-) TimerEvent: {}
+[1.112949] (-) TimerEvent: {}
+[1.214961] (-) TimerEvent: {}
+[1.315567] (-) TimerEvent: {}
+[1.416203] (-) TimerEvent: {}
+[1.516906] (-) TimerEvent: {}
+[1.617961] (-) TimerEvent: {}
+[1.718659] (-) TimerEvent: {}
+[1.819384] (-) TimerEvent: {}
+[1.920384] (-) TimerEvent: {}
+[2.021637] (-) TimerEvent: {}
+[2.122247] (-) TimerEvent: {}
+[2.222846] (-) TimerEvent: {}
+[2.323431] (-) TimerEvent: {}
+[2.427204] (-) TimerEvent: {}
+[2.527844] (-) TimerEvent: {}
+[2.628372] (-) TimerEvent: {}
+[2.728897] (-) TimerEvent: {}
+[2.829423] (-) TimerEvent: {}
+[2.931977] (-) TimerEvent: {}
+[3.032641] (-) TimerEvent: {}
+[3.133901] (-) TimerEvent: {}
+[3.234477] (-) TimerEvent: {}
+[3.335108] (-) TimerEvent: {}
+[3.435716] (-) TimerEvent: {}
+[3.538987] (-) TimerEvent: {}
+[3.640516] (-) TimerEvent: {}
+[3.742076] (-) TimerEvent: {}
+[3.842598] (-) TimerEvent: {}
+[3.943251] (-) TimerEvent: {}
+[4.043906] (-) TimerEvent: {}
+[4.144474] (-) TimerEvent: {}
+[4.245173] (-) TimerEvent: {}
+[4.346669] (-) TimerEvent: {}
+[4.448291] (-) TimerEvent: {}
+[4.548923] (-) TimerEvent: {}
+[4.649460] (-) TimerEvent: {}
+[4.750066] (-) TimerEvent: {}
+[4.850998] (-) TimerEvent: {}
+[4.951560] (-) TimerEvent: {}
+[5.052144] (-) TimerEvent: {}
+[5.152734] (-) TimerEvent: {}
+[5.253309] (-) TimerEvent: {}
+[5.355005] (-) TimerEvent: {}
+[5.455717] (-) TimerEvent: {}
+[5.556597] (-) TimerEvent: {}
+[5.660030] (-) TimerEvent: {}
+[5.761164] (-) TimerEvent: {}
+[5.843229] (wile_e) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wile_e', 'build', '--build-base', '/home/bailey/ros2_ws/build/wile_e/build', 'install', '--record', '/home/bailey/ros2_ws/build/wile_e/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bailey/ros2_ws/src/wile_e', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bailey', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bailey/ros2_ws/install/wile_e_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bailey', 'OLDPWD': '/home/bailey', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3715', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bailey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bailey', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/bailey/.local/bin:/home/bailey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OingeJr:@/tmp/.ICE-unix/3682,unix/OingeJr:/tmp/.ICE-unix/3682', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44c7af06_048f_4118_b913_a75867bf4bc7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.7PS8X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/bailey/ros2_ws/install/wile_e_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bailey/ros2_ws/build/wile_e', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bailey/ros2_ws/install/wile_e_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.862021] (-) TimerEvent: {}
+[5.963923] (-) TimerEvent: {}
+[6.064622] (-) TimerEvent: {}
+[6.167463] (-) TimerEvent: {}
+[6.268180] (-) TimerEvent: {}
+[6.372116] (-) TimerEvent: {}
+[6.472779] (-) TimerEvent: {}
+[6.573949] (-) TimerEvent: {}
+[6.676927] (-) TimerEvent: {}
+[6.777558] (-) TimerEvent: {}
+[6.878143] (-) TimerEvent: {}
+[6.978669] (-) TimerEvent: {}
+[7.080490] (-) TimerEvent: {}
+[7.182947] (-) TimerEvent: {}
+[7.283892] (-) TimerEvent: {}
+[7.384499] (-) TimerEvent: {}
+[7.485068] (-) TimerEvent: {}
+[7.585588] (-) TimerEvent: {}
+[7.687998] (-) TimerEvent: {}
+[7.788686] (-) TimerEvent: {}
+[7.832324] (wile_e) StdoutLine: {'line': b'running egg_info\n'}
+[7.888866] (-) TimerEvent: {}
+[7.988239] (wile_e) StdoutLine: {'line': b'writing ../../build/wile_e/wile_e.egg-info/PKG-INFO\n'}
+[7.988872] (-) TimerEvent: {}
+[7.990022] (wile_e) StdoutLine: {'line': b'writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt\n'}
+[7.991538] (wile_e) StdoutLine: {'line': b'writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt\n'}
+[7.992784] (wile_e) StdoutLine: {'line': b'writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt\n'}
+[7.993925] (wile_e) StdoutLine: {'line': b'writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt\n'}
+[8.089056] (-) TimerEvent: {}
+[8.189573] (-) TimerEvent: {}
+[8.281176] (wile_e) StdoutLine: {'line': b"reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'\n"}
+[8.283030] (wile_e) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[8.286064] (wile_e) StdoutLine: {'line': b"writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'\n"}
+[8.288735] (wile_e) StdoutLine: {'line': b'running build\n'}
+[8.289356] (wile_e) StdoutLine: {'line': b'running build_py\n'}
+[8.289727] (-) TimerEvent: {}
+[8.292450] (wile_e) StdoutLine: {'line': b'copying wile_e/file_reader.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[8.294349] (wile_e) StdoutLine: {'line': b'running install\n'}
+[8.320682] (wile_e) StdoutLine: {'line': b'running install_lib\n'}
+[8.389949] (-) TimerEvent: {}
+[8.493671] (-) TimerEvent: {}
+[8.498181] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/file_reader.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e\n'}
+[8.502909] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e/file_reader.py to file_reader.cpython-312.pyc\n'}
+[8.512908] (wile_e) StdoutLine: {'line': b'running install_data\n'}
+[8.514191] (wile_e) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.593937] (-) TimerEvent: {}
+[8.657376] (wile_e) StdoutLine: {'line': b"removing '/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[8.658047] (wile_e) StdoutLine: {'line': b'Copying ../../build/wile_e/wile_e.egg-info to /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e-0.0.0-py3.12.egg-info\n'}
+[8.673493] (wile_e) StdoutLine: {'line': b'running install_scripts\n'}
+[8.694068] (-) TimerEvent: {}
+[8.794607] (-) TimerEvent: {}
+[8.895216] (-) TimerEvent: {}
+[8.995857] (-) TimerEvent: {}
+[9.099049] (-) TimerEvent: {}
+[9.199824] (-) TimerEvent: {}
+[9.300418] (-) TimerEvent: {}
+[9.401047] (-) TimerEvent: {}
+[9.501853] (-) TimerEvent: {}
+[9.602408] (-) TimerEvent: {}
+[9.683261] (wile_e) StdoutLine: {'line': b'Installing arduino_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e\n'}
+[9.684257] (wile_e) StdoutLine: {'line': b'Installing command_interpreter script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e\n'}
+[9.685957] (wile_e) StdoutLine: {'line': b'Installing file_reader script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e\n'}
+[9.687622] (wile_e) StdoutLine: {'line': b'Installing roboclaw_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e\n'}
+[9.689227] (wile_e) StdoutLine: {'line': b'Installing trigger script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e\n'}
+[9.694311] (wile_e) StdoutLine: {'line': b"writing list of installed files to '/home/bailey/ros2_ws/build/wile_e/install.log'\n"}
+[9.702870] (-) TimerEvent: {}
+[9.804043] (-) TimerEvent: {}
+[9.892869] (wile_e) CommandEnded: {'returncode': 0}
+[9.904196] (-) TimerEvent: {}
+[9.954092] (wile_e) JobEnded: {'identifier': 'wile_e', 'rc': 0}
+[9.956721] (-) EventReactorShutdown: {}

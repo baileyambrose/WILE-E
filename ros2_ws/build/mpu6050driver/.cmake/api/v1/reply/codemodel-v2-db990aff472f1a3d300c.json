@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d12c4126625175cec31f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpu6050driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "complementaryfilter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-complementaryfilter-08471b186c4fe13aa5c4.json",
+					"name" : "complementaryfilter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpu6050driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpu6050driver-e8e99c7a153380a04090.json",
+					"name" : "mpu6050driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpu6050driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpu6050driver_uninstall-9e436937817231e5e311.json",
+					"name" : "mpu6050driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ac7355557d510c3cfe7a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bailey/ros2_ws/build/mpu6050driver",
+		"source" : "/home/bailey/ros2_ws/src/ros2_mpu6050_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,13 @@
+float32 right_shoulder
+float32 left_shoulder
+float32 right_elbow
+float32 left_elbow
+float32 right_wheel
+float32 left_wheel
+int16 tail
+int16 head_raise
+int16 head_turn
+uint8 eyes
+uint8 fan
+uint8 headlight
+uint8 data

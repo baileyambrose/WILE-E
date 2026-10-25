@@ -1,0 +1,18 @@
+[4.452s] Invoking command in '/home/bailey/ros2_ws/src/wile_e': AMENT_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data
+[5.867s] running egg_info
+[5.975s] writing ../../build/wile_e/wile_e.egg-info/PKG-INFO
+[5.976s] writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt
+[5.978s] writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt
+[5.979s] writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt
+[5.980s] writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt
+[6.203s] reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[6.204s] adding license file 'LICENSE'
+[6.206s] writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[6.207s] running build
+[6.208s] running build_py
+[6.209s] running install
+[6.234s] running install_lib
+[6.352s] running install_data
+[6.354s] creating /home/bailey/ros2_ws/install/wile_e/share/wile_eanimations
+[6.358s] error: can't copy 'walkcycle': doesn't exist or not a regular file
+[6.495s] Invoked command in '/home/bailey/ros2_ws/src/wile_e' returned '1': AMENT_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data

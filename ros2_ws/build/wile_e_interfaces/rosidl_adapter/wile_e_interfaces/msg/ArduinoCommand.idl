@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wile_e_interfaces/msg/ArduinoCommand.msg
+// generated code does not contain a copyright notice
+
+
+module wile_e_interfaces {
+  module msg {
+    struct ArduinoCommand {
+      uint16 tail;
+
+      uint16 head_raise;
+
+      uint16 head_turn;
+
+      uint8 eyes;
+
+      uint8 fan;
+
+      uint8 headlight;
+
+      uint8 face_detection;
+    };
+  };
+};

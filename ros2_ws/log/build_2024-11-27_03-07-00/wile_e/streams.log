@@ -1,0 +1,27 @@
+[8.542s] Invoking command in '/home/bailey/ros2_ws/src/wile_e': AMENT_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data
+[10.672s] running egg_info
+[10.824s] writing ../../build/wile_e/wile_e.egg-info/PKG-INFO
+[10.954s] writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt
+[10.956s] writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt
+[10.957s] writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt
+[10.958s] writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt
+[11.284s] reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[11.287s] adding license file 'LICENSE'
+[11.292s] writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[11.292s] running build
+[11.293s] running build_py
+[11.296s] running install
+[11.327s] running install_lib
+[11.486s] running install_data
+[11.487s] copying wile_e/animations/walkcycle.bin -> /home/bailey/ros2_ws/install/wile_e/share/wile_e/animations
+[11.489s] running install_egg_info
+[11.646s] removing '/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e-0.0.0-py3.12.egg-info' (and everything under it)
+[11.648s] Copying ../../build/wile_e/wile_e.egg-info to /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e-0.0.0-py3.12.egg-info
+[11.654s] running install_scripts
+[12.748s] Installing arduino_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[12.749s] Installing command_interpreter script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[12.751s] Installing file_reader script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[12.753s] Installing roboclaw_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[12.755s] Installing trigger script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[12.756s] writing list of installed files to '/home/bailey/ros2_ws/build/wile_e/install.log'
+[12.961s] Invoked command in '/home/bailey/ros2_ws/src/wile_e' returned '0': AMENT_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bailey/ros2_ws/install/wile_e_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data

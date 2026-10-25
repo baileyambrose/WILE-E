@@ -1,0 +1,11 @@
+[console_scripts]
+NN_interface = wile_e.NN_interface:main
+accelerometer_interface = wile_e.accelerometer_interface:main
+camera = wile_e.camera:main
+logger = wile_e.logger:main
+remote_receiver = wile_e.remote_receiver:main
+roboclaw_interface = wile_e.roboclaw_interface:main
+sound_generator = wile_e.sound_generator:main
+teensy_interface = wile_e.teensy_interface:main
+visualizer = wile_e.visualizer:main
+

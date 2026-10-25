@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wile_e_interfaces/msg/RoboclawStateBroadcast.msg
+// generated code does not contain a copyright notice
+
+
+module wile_e_interfaces {
+  module msg {
+    struct RoboclawStateBroadcast {
+      float right_shoulder;
+
+      float left_shoulder;
+
+      float right_elbow;
+
+      float left_elbow;
+
+      float right_shoulder_speed;
+
+      float left_shoulder_speed;
+
+      float right_elbow_speed;
+
+      float left_elbow_speed;
+
+      float right_wheel_speed;
+
+      float left_wheel_speed;
+    };
+  };
+};

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: roboclaw-ros
+Version: 0.0.2
+Summary: RoboClaw Driver for ROS 2
+Home-page: UNKNOWN
+Author: Brad Bazemore
+Author-email: bwbazemore@uga.edu
+Maintainer: norlab-marmotte
+Maintainer-email: norlabmarmotte@gmail.com
+License: BSD
+Platform: UNKNOWN
+License-File: LICENCE.md
+
+UNKNOWN
+

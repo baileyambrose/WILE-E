@@ -1,0 +1,9 @@
+In file included from [01m[K/home/bailey/ros2_ws/src/message_filters/test/test_subscriber.cpp:37[m[K:
+[01m[K/home/bailey/ros2_ws/src/message_filters/include/message_filters/subscriber.hpp:38:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/node_interfaces/node_interfaces.hpp: No such file or directory
+   38 | #include [01;31m[K<rclcpp/node_interfaces/node_interfaces.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/message_filters-test_subscriber.dir/build.make:76: CMakeFiles/message_filters-test_subscriber.dir/test/test_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:378: CMakeFiles/message_filters-test_subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

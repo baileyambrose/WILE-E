@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wile_e_interfaces/msg/RoboclawCommand.msg
+// generated code does not contain a copyright notice
+
+
+module wile_e_interfaces {
+  module msg {
+    struct RoboclawCommand {
+      uint16 right_shoulder;
+
+      uint16 left_shoulder;
+
+      uint16 right_elbow;
+
+      uint16 left_elbow;
+
+      uint16 right_wheel;
+
+      uint16 left_wheel;
+    };
+  };
+};

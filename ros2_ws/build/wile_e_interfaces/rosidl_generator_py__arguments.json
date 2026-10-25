@@ -1,0 +1,34 @@
+{
+  "package_name": "wile_e_interfaces",
+  "output_dir": "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_generator_py/wile_e_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/RoboclawStateBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/ActionCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/RoboclawPowerBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/TeensyData.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/VelocityCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:srv/MotorSensorData.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/RoboclawStateBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/ActionCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/RoboclawPowerBroadcast.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/TeensyData.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/msg/VelocityCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces/srv/MotorSensorData.idl"
+  ]
+}

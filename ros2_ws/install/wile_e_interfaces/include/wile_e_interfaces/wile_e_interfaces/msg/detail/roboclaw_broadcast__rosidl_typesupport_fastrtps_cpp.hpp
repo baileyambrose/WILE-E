@@ -1,0 +1,80 @@
+// generated from rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em
+// with input from wile_e_interfaces:msg/RoboclawBroadcast.idl
+// generated code does not contain a copyright notice
+
+#ifndef WILE_E_INTERFACES__MSG__DETAIL__ROBOCLAW_BROADCAST__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
+#define WILE_E_INTERFACES__MSG__DETAIL__ROBOCLAW_BROADCAST__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "wile_e_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
+#include "wile_e_interfaces/msg/detail/roboclaw_broadcast__struct.hpp"
+
+#ifndef _WIN32
+# pragma GCC diagnostic push
+# pragma GCC diagnostic ignored "-Wunused-parameter"
+# ifdef __clang__
+#  pragma clang diagnostic ignored "-Wdeprecated-register"
+#  pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
+# endif
+#endif
+#ifndef _WIN32
+# pragma GCC diagnostic pop
+#endif
+
+#include "fastcdr/Cdr.h"
+
+namespace wile_e_interfaces
+{
+
+namespace msg
+{
+
+namespace typesupport_fastrtps_cpp
+{
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_wile_e_interfaces
+cdr_serialize(
+  const wile_e_interfaces::msg::RoboclawBroadcast & ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_wile_e_interfaces
+cdr_deserialize(
+  eprosima::fastcdr::Cdr & cdr,
+  wile_e_interfaces::msg::RoboclawBroadcast & ros_message);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_wile_e_interfaces
+get_serialized_size(
+  const wile_e_interfaces::msg::RoboclawBroadcast & ros_message,
+  size_t current_alignment);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_wile_e_interfaces
+max_serialized_size_RoboclawBroadcast(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+}  // namespace typesupport_fastrtps_cpp
+
+}  // namespace msg
+
+}  // namespace wile_e_interfaces
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_wile_e_interfaces
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, wile_e_interfaces, msg, RoboclawBroadcast)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // WILE_E_INTERFACES__MSG__DETAIL__ROBOCLAW_BROADCAST__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_

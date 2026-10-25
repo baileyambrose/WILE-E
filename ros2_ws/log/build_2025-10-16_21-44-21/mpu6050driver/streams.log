@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/bailey/ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters /usr/bin/cmake --build /home/bailey/ros2_ws/build/mpu6050driver -- -j4 -l4
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target mpu6050driver[0m
+[0.073s] [ 33%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050sensor.cpp.o[0m
+[0.700s] [ 66%] [32m[1mLinking CXX executable mpu6050driver[0m
+[1.003s] [100%] Built target mpu6050driver
+[1.012s] Invoked command in '/home/bailey/ros2_ws/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters /usr/bin/cmake --build /home/bailey/ros2_ws/build/mpu6050driver -- -j4 -l4
+[1.022s] Invoking command in '/home/bailey/ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters /usr/bin/cmake --install /home/bailey/ros2_ws/build/mpu6050driver
+[1.030s] -- Install configuration: ""
+[1.030s] -- Installing: /home/bailey/ros2_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver
+[1.032s] -- Set runtime path of "/home/bailey/ros2_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver" to ""
+[1.032s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//launch
+[1.032s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py
+[1.032s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//params
+[1.032s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml
+[1.033s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver
+[1.033s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver
+[1.033s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh
+[1.034s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv
+[1.034s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh
+[1.034s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv
+[1.034s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash
+[1.034s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh
+[1.034s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh
+[1.034s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv
+[1.034s] -- Installing: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.dsv
+[1.034s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver
+[1.034s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake
+[1.034s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake
+[1.035s] -- Up-to-date: /home/bailey/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.xml
+[1.037s] Invoked command in '/home/bailey/ros2_ws/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/bailey/ros2_ws/install/wile_e:/home/bailey/ros2_ws/install/py_srvcli:/home/bailey/ros2_ws/install/py_pubsub:/home/bailey/ros2_ws/install/roboclaw_ros:/home/bailey/ros2_ws/install/python_parameters /usr/bin/cmake --install /home/bailey/ros2_ws/build/mpu6050driver

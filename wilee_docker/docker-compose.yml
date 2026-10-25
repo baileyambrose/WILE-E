@@ -1,0 +1,45 @@
+services:
+  ros2:
+    build: .
+    image: ros2_jammy #:humble-ros-base-jammy
+    container_name: ros2_jammy
+    privileged: true
+    network_mode: host
+    volumes:
+      - /home/bailey/ros2_ws:/home/bailey/ros2_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /tmp/camera_data:/tmp/camera_data
+      - /var/run/dbus:/var/run/dbus
+      - /dev:/dev
+      - /opt/vc:/opt/vc
+      #- /run/user/${UID}/pulse:/run/user/${UID}/pulse
+      #- /run/user/$(UID)/pulse/native:/run/user/$(UID)/pulse/native
+    devices:
+      - /dev/gpiomem:/dev/gpiomem
+      - /dev/i2c-1:/dev/i2c-1
+      - /dev/roboclaw_elbows:/dev/roboclaw_elbows
+      - /dev/roboclaw_shoulders:/dev/roboclaw_shoulders
+      - /dev/roboclaw_wheels:/dev/roboclaw_wheels
+      - /dev/teensy:/dev/teensy
+      - /dev/snd
+      - /dev/video0:/dev/video0
+    group_add:
+      - audio
+    #user: "${MY_UID}:${MY_GID}"
+    environment:
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+      - DISPLAY=:0
+      - LD_LIBRARY_PATH=/opt/vc/lib
+      #- PULSE_SERVER=unix:/run/user/${UID}/pulse/native
+    working_dir: /home/bailey/ros2_ws
+    command: bash -c "source /opt/ros/humble/setup.bash && exec bash"
+    stdin_open: true
+    tty: true
+
+#echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+#outside of container: export DISPLAY=:0; xhost local:docker
+#to start container: docker compose up -d; to enter container: docker exec -it ros2_jammy bash
+#colcon build --packages-select wile_e
+#source /opt/ros/humble/setup.bash
+#source install/setup.bash
+#ros2 launch wile_e wile_e_launch.py

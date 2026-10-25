@@ -1,0 +1,6 @@
+[0.035s] Invoking command in '/ros2_ws/build/wile_e_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/wile_e:/ros2_ws/install/py_srvcli:/ros2_ws/install/py_pubsub:/ros2_ws/install/roboclaw_ros:/ros2_ws/install/python_parameters:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/wile_e_interfaces -- -j4 -l4
+[0.213s] [0mCMake Error: The current CMakeCache.txt directory /ros2_ws/build/wile_e_interfaces/CMakeCache.txt is different than the directory /home/bailey/ros2_ws/build/wile_e_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.249s] [0mCMake Error: The source directory "/home/bailey/ros2_ws/src/wile_e_interfaces" does not exist.
+[0.250s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.268s] gmake: *** [Makefile:1355: cmake_check_build_system] Error 1
+[0.333s] Invoked command in '/ros2_ws/build/wile_e_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/wile_e:/ros2_ws/install/py_srvcli:/ros2_ws/install/py_pubsub:/ros2_ws/install/roboclaw_ros:/ros2_ws/install/python_parameters:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/wile_e_interfaces -- -j4 -l4

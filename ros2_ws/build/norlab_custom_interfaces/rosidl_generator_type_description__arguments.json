@@ -1,0 +1,12 @@
+{
+  "package_name": "norlab_custom_interfaces",
+  "output_dir": "/home/bailey/ros2_ws/build/norlab_custom_interfaces/rosidl_generator_type_description/norlab_custom_interfaces",
+  "idl_tuples": [
+    "/home/bailey/ros2_ws/build/norlab_custom_interfaces/rosidl_adapter/norlab_custom_interfaces:msg/EncoderState.idl",
+    "/home/bailey/ros2_ws/build/norlab_custom_interfaces/rosidl_adapter/norlab_custom_interfaces:msg/MotorState.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

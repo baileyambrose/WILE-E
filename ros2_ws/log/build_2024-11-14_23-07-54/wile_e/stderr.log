@@ -1,0 +1,5 @@
+  File "/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e/trigger_website.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+

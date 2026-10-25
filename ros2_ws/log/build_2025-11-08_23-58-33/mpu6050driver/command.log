@@ -1,0 +1,2 @@
+Invoking command in '/home/bailey/ros2_ws/build/mpu6050driver': /usr/bin/cmake --build /home/bailey/ros2_ws/build/mpu6050driver -- -j4 -l4
+Invoked command in '/home/bailey/ros2_ws/build/mpu6050driver' returned '2': /usr/bin/cmake --build /home/bailey/ros2_ws/build/mpu6050driver -- -j4 -l4

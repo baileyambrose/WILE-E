@@ -1,0 +1,5 @@
+  File "/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/teensy_interface.py", line 151
+    else if i == 2*2 or i == 3*2:
+         ^^
+SyntaxError: expected ':'
+

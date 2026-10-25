@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000349] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.000655] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000685] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000706] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.000880] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.000901] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000920] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000938] (-) JobUnselected: {'identifier': 'wile_e_interfaces'}
+[0.000960] (wile_e) JobQueued: {'identifier': 'wile_e', 'dependencies': OrderedDict([('wile_e_interfaces', '/home/bailey/ros2_ws/install/wile_e_interfaces')])}
+[0.000988] (wile_e) JobStarted: {'identifier': 'wile_e'}
+[0.101946] (-) TimerEvent: {}
+[0.202409] (-) TimerEvent: {}
+[0.302867] (-) TimerEvent: {}
+[0.403181] (-) TimerEvent: {}
+[0.503558] (-) TimerEvent: {}
+[0.509931] (wile_e) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wile_e', 'build', '--build-base', '/home/bailey/ros2_ws/build/wile_e/build', 'install', '--record', '/home/bailey/ros2_ws/build/wile_e/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bailey/ros2_ws/src/wile_e', 'env': {'HOSTNAME': 'wile-e', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bailey/ros2_ws/install/wile_e_interfaces/lib', 'HOME': '/root', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/bailey/ros2_ws/install/wile_e_interfaces', 'PWD': '/home/bailey/ros2_ws/build/wile_e', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/bailey/ros2_ws/install/wile_e_interfaces'}, 'shell': False}
+[0.603657] (-) TimerEvent: {}
+[0.675268] (wile_e) StdoutLine: {'line': b'running egg_info\n'}
+[0.676227] (wile_e) StdoutLine: {'line': b'writing ../../build/wile_e/wile_e.egg-info/PKG-INFO\n'}
+[0.676714] (wile_e) StdoutLine: {'line': b'writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt\n'}
+[0.677867] (wile_e) StdoutLine: {'line': b'writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt\n'}
+[0.678925] (wile_e) StdoutLine: {'line': b'writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt\n'}
+[0.680051] (wile_e) StdoutLine: {'line': b'writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt\n'}
+[0.683031] (wile_e) StdoutLine: {'line': b"reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'\n"}
+[0.683835] (wile_e) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.685060] (wile_e) StdoutLine: {'line': b"writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'\n"}
+[0.685539] (wile_e) StdoutLine: {'line': b'running build\n'}
+[0.685637] (wile_e) StdoutLine: {'line': b'running build_py\n'}
+[0.685703] (wile_e) StdoutLine: {'line': b'copying wile_e/trigger.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[0.687295] (wile_e) StdoutLine: {'line': b'copying wile_e/arduino_controller.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[0.687796] (wile_e) StdoutLine: {'line': b'copying wile_e/__init__.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[0.688591] (wile_e) StdoutLine: {'line': b'copying wile_e/command_interpreter.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[0.688698] (wile_e) StdoutLine: {'line': b'copying wile_e/roboclaw.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[0.689143] (wile_e) StdoutLine: {'line': b'copying wile_e/file_reader.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[0.689627] (wile_e) StdoutLine: {'line': b'copying wile_e/trigger_website.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[0.690017] (wile_e) StdoutLine: {'line': b'copying wile_e/roboclaw_controller.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[0.690401] (wile_e) StdoutLine: {'line': b'copying wile_e/publisher_member_function.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[0.690781] (wile_e) StdoutLine: {'line': b'copying wile_e/video_stream.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e\n'}
+[0.691424] (wile_e) StdoutLine: {'line': b'running install\n'}
+[0.691928] (wile_e) StdoutLine: {'line': b'running install_lib\n'}
+[0.692706] (wile_e) StdoutLine: {'line': b'creating /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.693021] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/trigger.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.693474] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/arduino_controller.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.693595] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/__init__.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.693672] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/command_interpreter.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.693742] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/roboclaw.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.693809] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/file_reader.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.694944] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/trigger_website.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.695375] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/roboclaw_controller.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.695784] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/roboclaw_3.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.696195] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/publisher_member_function.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.696603] (wile_e) StdoutLine: {'line': b'copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/video_stream.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e\n'}
+[0.698129] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/trigger.py to trigger.cpython-310.pyc\n'}
+[0.698293] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/arduino_controller.py to arduino_controller.cpython-310.pyc\n'}
+[0.698368] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/__init__.py to __init__.cpython-310.pyc\n'}
+[0.698432] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/command_interpreter.py to command_interpreter.cpython-310.pyc\n'}
+[0.698496] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/roboclaw.py to roboclaw.cpython-310.pyc\n'}
+[0.703751] (-) TimerEvent: {}
+[0.705606] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/file_reader.py to file_reader.cpython-310.pyc\n'}
+[0.706658] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/trigger_website.py to trigger_website.cpython-310.pyc\n'}
+[0.707128] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/roboclaw_controller.py to roboclaw_controller.cpython-310.pyc\n'}
+[0.707594] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/roboclaw_3.py to roboclaw_3.cpython-310.pyc\n'}
+[0.715684] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[0.716176] (wile_e) StdoutLine: {'line': b'byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/video_stream.py to video_stream.cpython-310.pyc\n'}
+[0.716620] (wile_e) StdoutLine: {'line': b'running install_data\n'}
+[0.717395] (wile_e) StdoutLine: {'line': b'copying resource/wile_e -> /home/bailey/ros2_ws/install/wile_e/share/ament_index/resource_index/packages\n'}
+[0.717488] (wile_e) StdoutLine: {'line': b'copying package.xml -> /home/bailey/ros2_ws/install/wile_e/share/wile_e\n'}
+[0.717556] (wile_e) StdoutLine: {'line': b'copying wile_e/animations/walkcycle.bin -> /home/bailey/ros2_ws/install/wile_e/share/wile_e/animations\n'}
+[0.718937] (wile_e) StdoutLine: {'line': b'copying launch/wile_e_launch.py -> /home/bailey/ros2_ws/install/wile_e/share/wile_e\n'}
+[0.719051] (wile_e) StdoutLine: {'line': b'copying wile_e/templates/triggeredpage.html -> /home/bailey/ros2_ws/install/wile_e/share/wile_e/templates\n'}
+[0.719120] (wile_e) StdoutLine: {'line': b'copying wile_e/templates/mainpage.html -> /home/bailey/ros2_ws/install/wile_e/share/wile_e/templates\n'}
+[0.719183] (wile_e) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.720808] (wile_e) StdoutLine: {'line': b'Copying ../../build/wile_e/wile_e.egg-info to /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e-0.0.0-py3.10.egg-info\n'}
+[0.721934] (wile_e) StdoutLine: {'line': b'running install_scripts\n'}
+[0.746474] (wile_e) StdoutLine: {'line': b'Installing arduino_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e\n'}
+[0.746667] (wile_e) StdoutLine: {'line': b'Installing command_interpreter script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e\n'}
+[0.747924] (wile_e) StdoutLine: {'line': b'Installing file_reader script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e\n'}
+[0.749763] (wile_e) StdoutLine: {'line': b'Installing roboclaw_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e\n'}
+[0.750864] (wile_e) StdoutLine: {'line': b'Installing trigger script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e\n'}
+[0.752776] (wile_e) StdoutLine: {'line': b"writing list of installed files to '/home/bailey/ros2_ws/build/wile_e/install.log'\n"}
+[0.803701] (wile_e) CommandEnded: {'returncode': 0}
+[0.804325] (-) TimerEvent: {}
+[0.822345] (wile_e) JobEnded: {'identifier': 'wile_e', 'rc': 0}
+[0.823488] (-) EventReactorShutdown: {}

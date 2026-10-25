@@ -1,0 +1,743 @@
+[0.000000] (-) TimerEvent: {}
+[0.000985] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002068] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002168] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.002235] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.002302] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002366] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002427] (-) JobUnselected: {'identifier': 'wile_e'}
+[0.002488] (-) JobUnselected: {'identifier': 'wile_e_interfaces'}
+[0.002558] (norlab_custom_interfaces) JobQueued: {'identifier': 'norlab_custom_interfaces', 'dependencies': OrderedDict()}
+[0.002642] (norlab_custom_interfaces) JobStarted: {'identifier': 'norlab_custom_interfaces'}
+[0.052753] (norlab_custom_interfaces) JobProgress: {'identifier': 'norlab_custom_interfaces', 'progress': 'cmake'}
+[0.053805] (norlab_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/bailey/ros2_ws/src/norlab_custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/bailey/ros2_ws/install/norlab_custom_interfaces'], 'cwd': '/home/bailey/ros2_ws/build/norlab_custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bailey', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bailey', 'OLDPWD': '/home/bailey', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2076', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bailey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bailey', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/bailey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OingeJr:@/tmp/.ICE-unix/2026,unix/OingeJr:/tmp/.ICE-unix/2026', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2da33bc_be8e_4445_85c4_2d80aa4c3ba5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.CP54W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bailey/ros2_ws/build/norlab_custom_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099193] (-) TimerEvent: {}
+[0.200259] (-) TimerEvent: {}
+[0.301549] (-) TimerEvent: {}
+[0.402661] (-) TimerEvent: {}
+[0.503714] (-) TimerEvent: {}
+[0.605063] (-) TimerEvent: {}
+[0.707507] (-) TimerEvent: {}
+[0.808567] (-) TimerEvent: {}
+[0.909367] (-) TimerEvent: {}
+[1.010201] (-) TimerEvent: {}
+[1.015396] (norlab_custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[1.110507] (-) TimerEvent: {}
+[1.211607] (-) TimerEvent: {}
+[1.312647] (-) TimerEvent: {}
+[1.413996] (-) TimerEvent: {}
+[1.515074] (-) TimerEvent: {}
+[1.616315] (-) TimerEvent: {}
+[1.717249] (-) TimerEvent: {}
+[1.818188] (-) TimerEvent: {}
+[1.919264] (-) TimerEvent: {}
+[2.019968] (-) TimerEvent: {}
+[2.120721] (-) TimerEvent: {}
+[2.122651] (norlab_custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[2.220978] (-) TimerEvent: {}
+[2.243380] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.321272] (-) TimerEvent: {}
+[2.422021] (-) TimerEvent: {}
+[2.522832] (-) TimerEvent: {}
+[2.623607] (-) TimerEvent: {}
+[2.724348] (-) TimerEvent: {}
+[2.801055] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.824513] (-) TimerEvent: {}
+[2.838969] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.841476] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.843729] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.897352] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.924702] (-) TimerEvent: {}
+[3.025451] (-) TimerEvent: {}
+[3.126205] (-) TimerEvent: {}
+[3.227021] (-) TimerEvent: {}
+[3.327761] (-) TimerEvent: {}
+[3.428554] (-) TimerEvent: {}
+[3.445276] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.481674] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.482633] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.484556] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.514227] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.528710] (-) TimerEvent: {}
+[3.629350] (-) TimerEvent: {}
+[3.730044] (-) TimerEvent: {}
+[3.830944] (-) TimerEvent: {}
+[3.931849] (-) TimerEvent: {}
+[4.032655] (-) TimerEvent: {}
+[4.133413] (-) TimerEvent: {}
+[4.234075] (-) TimerEvent: {}
+[4.313251] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.334295] (-) TimerEvent: {}
+[4.435025] (-) TimerEvent: {}
+[4.535636] (-) TimerEvent: {}
+[4.636590] (-) TimerEvent: {}
+[4.737675] (-) TimerEvent: {}
+[4.838397] (-) TimerEvent: {}
+[4.939097] (-) TimerEvent: {}
+[5.039734] (-) TimerEvent: {}
+[5.073943] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.139934] (-) TimerEvent: {}
+[5.240611] (-) TimerEvent: {}
+[5.341280] (-) TimerEvent: {}
+[5.441934] (-) TimerEvent: {}
+[5.457617] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.542129] (-) TimerEvent: {}
+[5.571730] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.642311] (-) TimerEvent: {}
+[5.708513] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.742483] (-) TimerEvent: {}
+[5.843148] (-) TimerEvent: {}
+[5.857276] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.943337] (-) TimerEvent: {}
+[6.043964] (-) TimerEvent: {}
+[6.144612] (-) TimerEvent: {}
+[6.245343] (-) TimerEvent: {}
+[6.346019] (-) TimerEvent: {}
+[6.395540] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[6.429768] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.446186] (-) TimerEvent: {}
+[6.546847] (-) TimerEvent: {}
+[6.647547] (-) TimerEvent: {}
+[6.748244] (-) TimerEvent: {}
+[6.849068] (-) TimerEvent: {}
+[6.949826] (-) TimerEvent: {}
+[7.025862] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[7.049988] (-) TimerEvent: {}
+[7.126933] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[7.150182] (-) TimerEvent: {}
+[7.227606] (norlab_custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.250347] (-) TimerEvent: {}
+[7.351014] (-) TimerEvent: {}
+[7.451689] (-) TimerEvent: {}
+[7.552414] (-) TimerEvent: {}
+[7.653142] (-) TimerEvent: {}
+[7.706902] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[7.753323] (-) TimerEvent: {}
+[7.802013] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[7.853563] (-) TimerEvent: {}
+[7.900116] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[7.953729] (-) TimerEvent: {}
+[8.031363] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[8.053913] (-) TimerEvent: {}
+[8.154704] (-) TimerEvent: {}
+[8.255707] (-) TimerEvent: {}
+[8.356352] (-) TimerEvent: {}
+[8.456917] (-) TimerEvent: {}
+[8.557476] (-) TimerEvent: {}
+[8.658121] (-) TimerEvent: {}
+[8.758909] (-) TimerEvent: {}
+[8.859549] (-) TimerEvent: {}
+[8.960293] (-) TimerEvent: {}
+[9.060899] (-) TimerEvent: {}
+[9.161513] (-) TimerEvent: {}
+[9.262213] (-) TimerEvent: {}
+[9.362907] (-) TimerEvent: {}
+[9.463586] (-) TimerEvent: {}
+[9.564372] (-) TimerEvent: {}
+[9.665339] (-) TimerEvent: {}
+[9.766271] (-) TimerEvent: {}
+[9.867287] (-) TimerEvent: {}
+[9.968374] (-) TimerEvent: {}
+[10.069291] (-) TimerEvent: {}
+[10.170282] (-) TimerEvent: {}
+[10.270967] (-) TimerEvent: {}
+[10.371601] (-) TimerEvent: {}
+[10.472342] (-) TimerEvent: {}
+[10.573170] (-) TimerEvent: {}
+[10.673966] (-) TimerEvent: {}
+[10.774955] (-) TimerEvent: {}
+[10.875984] (-) TimerEvent: {}
+[10.977056] (-) TimerEvent: {}
+[11.077649] (-) TimerEvent: {}
+[11.178370] (-) TimerEvent: {}
+[11.194046] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[11.278570] (-) TimerEvent: {}
+[11.379332] (-) TimerEvent: {}
+[11.479922] (-) TimerEvent: {}
+[11.580482] (-) TimerEvent: {}
+[11.681082] (-) TimerEvent: {}
+[11.781672] (-) TimerEvent: {}
+[11.882426] (-) TimerEvent: {}
+[11.983292] (-) TimerEvent: {}
+[12.084211] (-) TimerEvent: {}
+[12.185242] (-) TimerEvent: {}
+[12.285893] (-) TimerEvent: {}
+[12.386509] (-) TimerEvent: {}
+[12.487133] (-) TimerEvent: {}
+[12.587753] (-) TimerEvent: {}
+[12.688449] (-) TimerEvent: {}
+[12.789266] (-) TimerEvent: {}
+[12.889987] (-) TimerEvent: {}
+[12.990731] (-) TimerEvent: {}
+[13.091473] (-) TimerEvent: {}
+[13.192260] (-) TimerEvent: {}
+[13.292890] (-) TimerEvent: {}
+[13.393483] (-) TimerEvent: {}
+[13.494180] (-) TimerEvent: {}
+[13.594958] (-) TimerEvent: {}
+[13.695860] (-) TimerEvent: {}
+[13.796714] (-) TimerEvent: {}
+[13.897360] (-) TimerEvent: {}
+[13.998019] (-) TimerEvent: {}
+[14.098648] (-) TimerEvent: {}
+[14.199331] (-) TimerEvent: {}
+[14.300021] (-) TimerEvent: {}
+[14.400747] (-) TimerEvent: {}
+[14.501732] (-) TimerEvent: {}
+[14.602857] (-) TimerEvent: {}
+[14.703585] (-) TimerEvent: {}
+[14.804594] (-) TimerEvent: {}
+[14.905284] (-) TimerEvent: {}
+[15.005920] (-) TimerEvent: {}
+[15.106497] (-) TimerEvent: {}
+[15.207203] (-) TimerEvent: {}
+[15.307920] (-) TimerEvent: {}
+[15.315511] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.408205] (-) TimerEvent: {}
+[15.509004] (-) TimerEvent: {}
+[15.610099] (-) TimerEvent: {}
+[15.711128] (-) TimerEvent: {}
+[15.811743] (-) TimerEvent: {}
+[15.912395] (-) TimerEvent: {}
+[16.013036] (-) TimerEvent: {}
+[16.113659] (-) TimerEvent: {}
+[16.214577] (-) TimerEvent: {}
+[16.315538] (-) TimerEvent: {}
+[16.416260] (-) TimerEvent: {}
+[16.516893] (-) TimerEvent: {}
+[16.617535] (-) TimerEvent: {}
+[16.718225] (-) TimerEvent: {}
+[16.818968] (-) TimerEvent: {}
+[16.919937] (-) TimerEvent: {}
+[16.943160] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[16.970612] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[17.020075] (-) TimerEvent: {}
+[17.120652] (-) TimerEvent: {}
+[17.221389] (-) TimerEvent: {}
+[17.322189] (-) TimerEvent: {}
+[17.422976] (-) TimerEvent: {}
+[17.523881] (-) TimerEvent: {}
+[17.624852] (-) TimerEvent: {}
+[17.681763] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[17.725044] (-) TimerEvent: {}
+[17.825904] (-) TimerEvent: {}
+[17.926674] (-) TimerEvent: {}
+[18.027461] (-) TimerEvent: {}
+[18.128227] (-) TimerEvent: {}
+[18.229074] (-) TimerEvent: {}
+[18.329728] (-) TimerEvent: {}
+[18.430507] (-) TimerEvent: {}
+[18.531163] (-) TimerEvent: {}
+[18.631883] (-) TimerEvent: {}
+[18.732735] (-) TimerEvent: {}
+[18.833494] (-) TimerEvent: {}
+[18.934447] (-) TimerEvent: {}
+[19.035099] (-) TimerEvent: {}
+[19.135684] (-) TimerEvent: {}
+[19.236344] (-) TimerEvent: {}
+[19.337132] (-) TimerEvent: {}
+[19.438133] (-) TimerEvent: {}
+[19.538773] (-) TimerEvent: {}
+[19.639403] (-) TimerEvent: {}
+[19.740021] (-) TimerEvent: {}
+[19.840900] (-) TimerEvent: {}
+[19.942015] (-) TimerEvent: {}
+[19.944611] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[20.042239] (-) TimerEvent: {}
+[20.143039] (-) TimerEvent: {}
+[20.232165] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Configuring done (19.9s)\n'}
+[20.243261] (-) TimerEvent: {}
+[20.343945] (-) TimerEvent: {}
+[20.444581] (-) TimerEvent: {}
+[20.468417] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[20.484565] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bailey/ros2_ws/build/norlab_custom_interfaces\n'}
+[20.539846] (norlab_custom_interfaces) CommandEnded: {'returncode': 0}
+[20.542052] (norlab_custom_interfaces) JobProgress: {'identifier': 'norlab_custom_interfaces', 'progress': 'build'}
+[20.544206] (norlab_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bailey/ros2_ws/build/norlab_custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/bailey/ros2_ws/build/norlab_custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bailey', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bailey', 'OLDPWD': '/home/bailey', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2076', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bailey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bailey', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/bailey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OingeJr:@/tmp/.ICE-unix/2026,unix/OingeJr:/tmp/.ICE-unix/2026', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2da33bc_be8e_4445_85c4_2d80aa4c3ba5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.CP54W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bailey/ros2_ws/build/norlab_custom_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[20.548085] (-) TimerEvent: {}
+[20.648623] (-) TimerEvent: {}
+[20.749393] (-) TimerEvent: {}
+[20.845946] (norlab_custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[20.849622] (-) TimerEvent: {}
+[20.897950] (norlab_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_norlab_custom_interfaces\n'}
+[20.949866] (-) TimerEvent: {}
+[21.050515] (-) TimerEvent: {}
+[21.151288] (-) TimerEvent: {}
+[21.251973] (-) TimerEvent: {}
+[21.354233] (-) TimerEvent: {}
+[21.454881] (-) TimerEvent: {}
+[21.555506] (-) TimerEvent: {}
+[21.656235] (-) TimerEvent: {}
+[21.756863] (-) TimerEvent: {}
+[21.857465] (-) TimerEvent: {}
+[21.958133] (-) TimerEvent: {}
+[22.058823] (-) TimerEvent: {}
+[22.147173] (norlab_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[22.151709] (norlab_custom_interfaces) StdoutLine: {'line': b'creating norlab_custom_interfaces.egg-info\n'}
+[22.159019] (-) TimerEvent: {}
+[22.260155] (-) TimerEvent: {}
+[22.306274] (norlab_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target norlab_custom_interfaces__rosidl_generator_type_description\n'}
+[22.315073] (norlab_custom_interfaces) StdoutLine: {'line': b'writing norlab_custom_interfaces.egg-info/PKG-INFO\n'}
+[22.316023] (norlab_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to norlab_custom_interfaces.egg-info/dependency_links.txt\n'}
+[22.317132] (norlab_custom_interfaces) StdoutLine: {'line': b'writing top-level names to norlab_custom_interfaces.egg-info/top_level.txt\n'}
+[22.318296] (norlab_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'norlab_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[22.360344] (-) TimerEvent: {}
+[22.373978] (norlab_custom_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[22.442991] (norlab_custom_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[22.463050] (-) TimerEvent: {}
+[22.563744] (-) TimerEvent: {}
+[22.664459] (-) TimerEvent: {}
+[22.765227] (-) TimerEvent: {}
+[22.867949] (-) TimerEvent: {}
+[22.896634] (norlab_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'norlab_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[22.899325] (norlab_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'norlab_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[22.968328] (-) TimerEvent: {}
+[23.069649] (-) TimerEvent: {}
+[23.116270] (norlab_custom_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_norlab_custom_interfaces_egg\n'}
+[23.169892] (-) TimerEvent: {}
+[23.270519] (-) TimerEvent: {}
+[23.371189] (-) TimerEvent: {}
+[23.471858] (-) TimerEvent: {}
+[23.572513] (-) TimerEvent: {}
+[23.673174] (-) TimerEvent: {}
+[23.773873] (-) TimerEvent: {}
+[23.874522] (-) TimerEvent: {}
+[23.975330] (-) TimerEvent: {}
+[24.076478] (-) TimerEvent: {}
+[24.179046] (-) TimerEvent: {}
+[24.280157] (-) TimerEvent: {}
+[24.383061] (-) TimerEvent: {}
+[24.389254] (norlab_custom_interfaces) StdoutLine: {'line': b'[  6%] Built target norlab_custom_interfaces__cpp\n'}
+[24.483217] (-) TimerEvent: {}
+[24.587101] (-) TimerEvent: {}
+[24.619108] (norlab_custom_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/encoder_state__type_support.c.o\x1b[0m\n'}
+[24.625318] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/encoder_state__functions.c.o\x1b[0m\n'}
+[24.630105] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/encoder_state__description.c.o\x1b[0m\n'}
+[24.634251] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/motor_state__description.c.o\x1b[0m\n'}
+[24.687301] (-) TimerEvent: {}
+[24.788058] (-) TimerEvent: {}
+[24.888831] (-) TimerEvent: {}
+[24.938263] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/motor_state__functions.c.o\x1b[0m\n'}
+[24.992030] (-) TimerEvent: {}
+[25.093175] (-) TimerEvent: {}
+[25.100014] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/norlab_custom_interfaces/msg/detail/motor_state__type_support.c.o\x1b[0m\n'}
+[25.193438] (-) TimerEvent: {}
+[25.294338] (-) TimerEvent: {}
+[25.395403] (-) TimerEvent: {}
+[25.496238] (-) TimerEvent: {}
+[25.529999] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libnorlab_custom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[25.596444] (-) TimerEvent: {}
+[25.697277] (-) TimerEvent: {}
+[25.776280] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target norlab_custom_interfaces__rosidl_generator_c\n'}
+[25.800082] (-) TimerEvent: {}
+[25.850350] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[25.854996] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[25.855848] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[25.873636] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[25.902956] (-) TimerEvent: {}
+[26.003674] (-) TimerEvent: {}
+[26.104639] (-) TimerEvent: {}
+[26.208522] (-) TimerEvent: {}
+[26.313695] (-) TimerEvent: {}
+[26.417298] (-) TimerEvent: {}
+[26.519003] (-) TimerEvent: {}
+[26.619732] (-) TimerEvent: {}
+[26.722960] (-) TimerEvent: {}
+[26.823669] (-) TimerEvent: {}
+[26.928133] (-) TimerEvent: {}
+[27.031939] (-) TimerEvent: {}
+[27.132745] (-) TimerEvent: {}
+[27.233575] (-) TimerEvent: {}
+[27.334596] (-) TimerEvent: {}
+[27.438348] (-) TimerEvent: {}
+[27.539685] (-) TimerEvent: {}
+[27.640645] (-) TimerEvent: {}
+[27.744115] (-) TimerEvent: {}
+[27.772184] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/norlab_custom_interfaces/msg/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[27.844468] (-) TimerEvent: {}
+[27.948679] (-) TimerEvent: {}
+[28.053344] (-) TimerEvent: {}
+[28.154297] (-) TimerEvent: {}
+[28.196243] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/norlab_custom_interfaces/msg/detail/encoder_state__type_support.c.o\x1b[0m\n'}
+[28.255750] (-) TimerEvent: {}
+[28.266211] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/norlab_custom_interfaces/msg/detail/dds_fastrtps/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[28.356077] (-) TimerEvent: {}
+[28.419910] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/norlab_custom_interfaces/msg/detail/encoder_state__type_support_c.cpp.o\x1b[0m\n'}
+[28.459053] (-) TimerEvent: {}
+[28.529192] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/norlab_custom_interfaces/msg/detail/motor_state__type_support.c.o\x1b[0m\n'}
+[28.560006] (-) TimerEvent: {}
+[28.664360] (-) TimerEvent: {}
+[28.765308] (-) TimerEvent: {}
+[28.867001] (-) TimerEvent: {}
+[28.889029] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libnorlab_custom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[28.967323] (-) TimerEvent: {}
+[29.071032] (-) TimerEvent: {}
+[29.169136] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 45%] Built target norlab_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[29.171254] (-) TimerEvent: {}
+[29.277191] (-) TimerEvent: {}
+[29.280919] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[29.379105] (-) TimerEvent: {}
+[29.480045] (-) TimerEvent: {}
+[29.582040] (-) TimerEvent: {}
+[29.685009] (-) TimerEvent: {}
+[29.786047] (-) TimerEvent: {}
+[29.889994] (-) TimerEvent: {}
+[29.991018] (-) TimerEvent: {}
+[30.091928] (-) TimerEvent: {}
+[30.192855] (-) TimerEvent: {}
+[30.294961] (-) TimerEvent: {}
+[30.395863] (-) TimerEvent: {}
+[30.499371] (-) TimerEvent: {}
+[30.600396] (-) TimerEvent: {}
+[30.703985] (-) TimerEvent: {}
+[30.804933] (-) TimerEvent: {}
+[30.905957] (-) TimerEvent: {}
+[31.010041] (-) TimerEvent: {}
+[31.111136] (-) TimerEvent: {}
+[31.212214] (-) TimerEvent: {}
+[31.313027] (-) TimerEvent: {}
+[31.365050] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/norlab_custom_interfaces/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[31.415052] (-) TimerEvent: {}
+[31.525515] (-) TimerEvent: {}
+[31.628045] (-) TimerEvent: {}
+[31.667542] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/norlab_custom_interfaces/msg/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[31.728996] (-) TimerEvent: {}
+[31.830976] (-) TimerEvent: {}
+[31.931957] (-) TimerEvent: {}
+[32.035416] (-) TimerEvent: {}
+[32.091279] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/norlab_custom_interfaces/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[32.138064] (-) TimerEvent: {}
+[32.239005] (-) TimerEvent: {}
+[32.343434] (-) TimerEvent: {}
+[32.444454] (-) TimerEvent: {}
+[32.513747] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[32.546989] (-) TimerEvent: {}
+[32.648018] (-) TimerEvent: {}
+[32.751556] (-) TimerEvent: {}
+[32.826918] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 56%] Built target norlab_custom_interfaces__rosidl_typesupport_c\n'}
+[32.851953] (-) TimerEvent: {}
+[32.919007] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[32.952173] (-) TimerEvent: {}
+[33.055466] (-) TimerEvent: {}
+[33.156448] (-) TimerEvent: {}
+[33.260410] (-) TimerEvent: {}
+[33.361545] (-) TimerEvent: {}
+[33.462743] (-) TimerEvent: {}
+[33.521638] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/norlab_custom_interfaces/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o\x1b[0m\n'}
+[33.564004] (-) TimerEvent: {}
+[33.603870] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/norlab_custom_interfaces/msg/detail/motor_state__type_support_c.cpp.o\x1b[0m\n'}
+[33.665000] (-) TimerEvent: {}
+[33.767991] (-) TimerEvent: {}
+[33.868898] (-) TimerEvent: {}
+[33.970970] (-) TimerEvent: {}
+[34.071902] (-) TimerEvent: {}
+[34.173984] (-) TimerEvent: {}
+[34.277970] (-) TimerEvent: {}
+[34.378857] (-) TimerEvent: {}
+[34.479909] (-) TimerEvent: {}
+[34.580851] (-) TimerEvent: {}
+[34.683006] (-) TimerEvent: {}
+[34.708579] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[34.786047] (-) TimerEvent: {}
+[34.887187] (-) TimerEvent: {}
+[34.991370] (-) TimerEvent: {}
+[35.064086] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target norlab_custom_interfaces__rosidl_typesupport_cpp\n'}
+[35.093998] (-) TimerEvent: {}
+[35.195077] (-) TimerEvent: {}
+[35.272290] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/norlab_custom_interfaces/msg/detail/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[35.275984] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/norlab_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/norlab_custom_interfaces/msg/detail/motor_state__type_support.cpp.o\x1b[0m\n'}
+[35.295291] (-) TimerEvent: {}
+[35.399449] (-) TimerEvent: {}
+[35.500342] (-) TimerEvent: {}
+[35.605379] (-) TimerEvent: {}
+[35.706436] (-) TimerEvent: {}
+[35.809031] (-) TimerEvent: {}
+[35.911132] (-) TimerEvent: {}
+[36.014061] (-) TimerEvent: {}
+[36.115226] (-) TimerEvent: {}
+[36.217052] (-) TimerEvent: {}
+[36.321016] (-) TimerEvent: {}
+[36.422062] (-) TimerEvent: {}
+[36.523116] (-) TimerEvent: {}
+[36.625430] (-) TimerEvent: {}
+[36.729509] (-) TimerEvent: {}
+[36.833446] (-) TimerEvent: {}
+[36.938557] (-) TimerEvent: {}
+[37.039904] (-) TimerEvent: {}
+[37.142001] (-) TimerEvent: {}
+[37.243999] (-) TimerEvent: {}
+[37.348360] (-) TimerEvent: {}
+[37.451987] (-) TimerEvent: {}
+[37.552911] (-) TimerEvent: {}
+[37.656025] (-) TimerEvent: {}
+[37.757185] (-) TimerEvent: {}
+[37.859004] (-) TimerEvent: {}
+[37.962103] (-) TimerEvent: {}
+[38.063032] (-) TimerEvent: {}
+[38.163967] (-) TimerEvent: {}
+[38.268035] (-) TimerEvent: {}
+[38.369187] (-) TimerEvent: {}
+[38.473344] (-) TimerEvent: {}
+[38.475711] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[38.502169] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[38.573651] (-) TimerEvent: {}
+[38.629745] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libnorlab_custom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[38.673977] (-) TimerEvent: {}
+[38.775265] (-) TimerEvent: {}
+[38.871227] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target norlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[38.875563] (-) TimerEvent: {}
+[38.893264] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target norlab_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[38.975770] (-) TimerEvent: {}
+[39.055851] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target norlab_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[39.075957] (-) TimerEvent: {}
+[39.174392] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target norlab_custom_interfaces\n'}
+[39.176126] (-) TimerEvent: {}
+[39.276877] (-) TimerEvent: {}
+[39.300233] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[39.377057] (-) TimerEvent: {}
+[39.477744] (-) TimerEvent: {}
+[39.578525] (-) TimerEvent: {}
+[39.679458] (-) TimerEvent: {}
+[39.780121] (-) TimerEvent: {}
+[39.880841] (-) TimerEvent: {}
+[39.981447] (-) TimerEvent: {}
+[40.082118] (-) TimerEvent: {}
+[40.182730] (-) TimerEvent: {}
+[40.283446] (-) TimerEvent: {}
+[40.384166] (-) TimerEvent: {}
+[40.484773] (-) TimerEvent: {}
+[40.585406] (-) TimerEvent: {}
+[40.686034] (-) TimerEvent: {}
+[40.786626] (-) TimerEvent: {}
+[40.887323] (-) TimerEvent: {}
+[40.987920] (-) TimerEvent: {}
+[41.088492] (-) TimerEvent: {}
+[41.189228] (-) TimerEvent: {}
+[41.290345] (-) TimerEvent: {}
+[41.391101] (-) TimerEvent: {}
+[41.441717] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 79%] Built target norlab_custom_interfaces__py\n'}
+[41.491282] (-) TimerEvent: {}
+[41.570503] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/norlab_custom_interfaces/msg/_encoder_state_s.c.o\x1b[0m\n'}
+[41.571570] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/norlab_custom_interfaces/msg/_motor_state_s.c.o\x1b[0m\n'}
+[41.591506] (-) TimerEvent: {}
+[41.692246] (-) TimerEvent: {}
+[41.792945] (-) TimerEvent: {}
+[41.893695] (-) TimerEvent: {}
+[41.994418] (-) TimerEvent: {}
+[42.095296] (-) TimerEvent: {}
+[42.196412] (-) TimerEvent: {}
+[42.297559] (-) TimerEvent: {}
+[42.398501] (-) TimerEvent: {}
+[42.499355] (-) TimerEvent: {}
+[42.600117] (-) TimerEvent: {}
+[42.700898] (-) TimerEvent: {}
+[42.801664] (-) TimerEvent: {}
+[42.819108] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libnorlab_custom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[42.901918] (-) TimerEvent: {}
+[43.002662] (-) TimerEvent: {}
+[43.085527] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 86%] Built target norlab_custom_interfaces__rosidl_generator_py\n'}
+[43.102985] (-) TimerEvent: {}
+[43.203944] (-) TimerEvent: {}
+[43.213468] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[43.214729] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[43.226301] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/norlab_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[43.305013] (-) TimerEvent: {}
+[43.406970] (-) TimerEvent: {}
+[43.507756] (-) TimerEvent: {}
+[43.609008] (-) TimerEvent: {}
+[43.709837] (-) TimerEvent: {}
+[43.810614] (-) TimerEvent: {}
+[43.911461] (-) TimerEvent: {}
+[44.012404] (-) TimerEvent: {}
+[44.088906] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[44.090189] (norlab_custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[44.113051] (-) TimerEvent: {}
+[44.139220] (norlab_custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[44.213335] (-) TimerEvent: {}
+[44.285332] (norlab_custom_interfaces) StdoutLine: {'line': b'[100%] Built target norlab_custom_interfaces_s__rosidl_typesupport_c\n'}
+[44.295820] (norlab_custom_interfaces) StdoutLine: {'line': b'[100%] Built target norlab_custom_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[44.313582] (-) TimerEvent: {}
+[44.341320] (norlab_custom_interfaces) StdoutLine: {'line': b'[100%] Built target norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[44.398772] (norlab_custom_interfaces) CommandEnded: {'returncode': 0}
+[44.413820] (-) TimerEvent: {}
+[44.514532] (-) TimerEvent: {}
+[44.615348] (-) TimerEvent: {}
+[44.716173] (-) TimerEvent: {}
+[44.816968] (-) TimerEvent: {}
+[44.918049] (-) TimerEvent: {}
+[45.018744] (-) TimerEvent: {}
+[45.041428] (norlab_custom_interfaces) JobProgress: {'identifier': 'norlab_custom_interfaces', 'progress': 'install'}
+[45.088755] (norlab_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bailey/ros2_ws/build/norlab_custom_interfaces'], 'cwd': '/home/bailey/ros2_ws/build/norlab_custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bailey', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bailey', 'OLDPWD': '/home/bailey', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2076', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bailey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bailey', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/bailey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OingeJr:@/tmp/.ICE-unix/2026,unix/OingeJr:/tmp/.ICE-unix/2026', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2da33bc_be8e_4445_85c4_2d80aa4c3ba5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.CP54W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bailey/ros2_ws/build/norlab_custom_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[45.118971] (-) TimerEvent: {}
+[45.136767] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[45.137902] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/norlab_custom_interfaces\n'}
+[45.139700] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/EncoderState.json\n'}
+[45.140905] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/MotorState.json\n'}
+[45.142017] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces\n'}
+[45.142803] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg\n'}
+[45.143379] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail\n'}
+[45.144165] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__description.c\n'}
+[45.145428] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__type_support.h\n'}
+[45.146525] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__functions.c\n'}
+[45.147736] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__type_support.c\n'}
+[45.149003] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__struct.h\n'}
+[45.150093] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__type_support.c\n'}
+[45.151191] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__functions.h\n'}
+[45.152381] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__description.c\n'}
+[45.153517] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__type_support.h\n'}
+[45.154605] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__functions.c\n'}
+[45.155762] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__functions.h\n'}
+[45.156964] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__struct.h\n'}
+[45.158057] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[45.159187] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/encoder_state.h\n'}
+[45.160166] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/motor_state.h\n'}
+[45.161728] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/library_path.sh\n'}
+[45.162909] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/library_path.dsv\n'}
+[45.164415] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_generator_c.so\n'}
+[45.167337] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_generator_c.so" to ""\n'}
+[45.167964] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces\n'}
+[45.168461] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg\n'}
+[45.168958] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[45.169723] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail\n'}
+[45.170262] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[45.171517] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__rosidl_typesupport_fastrtps_c.h\n'}
+[45.173002] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[45.175947] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[45.176592] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces\n'}
+[45.177003] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg\n'}
+[45.177486] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/encoder_state.hpp\n'}
+[45.178224] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[45.179343] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail\n'}
+[45.179975] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__builder.hpp\n'}
+[45.181056] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__type_support.hpp\n'}
+[45.182177] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__traits.hpp\n'}
+[45.183352] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__struct.hpp\n'}
+[45.184540] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__type_support.hpp\n'}
+[45.185651] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__builder.hpp\n'}
+[45.186767] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__struct.hpp\n'}
+[45.187883] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__traits.hpp\n'}
+[45.188985] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/motor_state.hpp\n'}
+[45.190202] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces\n'}
+[45.190706] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg\n'}
+[45.191174] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[45.192247] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail\n'}
+[45.192760] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/dds_fastrtps\n'}
+[45.193465] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[45.194765] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[45.196247] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[45.199142] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[45.199807] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces\n'}
+[45.200199] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg\n'}
+[45.200631] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[45.201470] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail\n'}
+[45.202030] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__rosidl_typesupport_introspection_c.h\n'}
+[45.203279] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__type_support.c\n'}
+[45.204529] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__type_support.c\n'}
+[45.205798] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__rosidl_typesupport_introspection_c.h\n'}
+[45.207246] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[45.209917] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[45.210518] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_c.so\n'}
+[45.213033] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[45.213605] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces\n'}
+[45.214188] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg\n'}
+[45.214531] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail\n'}
+[45.214962] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[45.216008] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/motor_state__type_support.cpp\n'}
+[45.217227] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__type_support.cpp\n'}
+[45.218413] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/include/norlab_custom_interfaces/norlab_custom_interfaces/msg/detail/encoder_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[45.219065] (-) TimerEvent: {}
+[45.220140] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[45.223562] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[45.224413] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_cpp.so\n'}
+[45.228848] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[45.231138] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/pythonpath.sh\n'}
+[45.232418] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/pythonpath.dsv\n'}
+[45.234170] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces-0.0.0-py3.12.egg-info\n'}
+[45.236066] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[45.236836] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[45.238031] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[45.239210] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[45.240455] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces\n'}
+[45.241308] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/__init__.py\n'}
+[45.242365] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[45.243706] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[45.244822] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg\n'}
+[45.245540] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_motor_state.py\n'}
+[45.246687] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_encoder_state.py\n'}
+[45.247758] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/__init__.py\n'}
+[45.248827] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_encoder_state_s.c\n'}
+[45.249867] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_motor_state_s.c\n'}
+[45.250945] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/_norlab_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[45.252184] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[45.253922] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[45.255709] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[45.319228] (-) TimerEvent: {}
+[45.419877] (-) TimerEvent: {}
+[45.449669] (norlab_custom_interfaces) StdoutLine: {'line': b"Listing '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces'...\n"}
+[45.451120] (norlab_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/__init__.py'...\n"}
+[45.452096] (norlab_custom_interfaces) StdoutLine: {'line': b"Listing '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg'...\n"}
+[45.453144] (norlab_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/__init__.py'...\n"}
+[45.454179] (norlab_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_encoder_state.py'...\n"}
+[45.455084] (norlab_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/msg/_motor_state.py'...\n"}
+[45.484181] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[45.486974] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[45.488531] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[45.492317] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[45.494377] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[45.498040] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages/norlab_custom_interfaces/norlab_custom_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[45.498852] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_generator_py.so\n'}
+[45.502121] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/libnorlab_custom_interfaces__rosidl_generator_py.so" to ""\n'}
+[45.502819] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/EncoderState.idl\n'}
+[45.503749] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/MotorState.idl\n'}
+[45.504904] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/EncoderState.msg\n'}
+[45.505974] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/msg/MotorState.msg\n'}
+[45.507501] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/norlab_custom_interfaces\n'}
+[45.509140] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/norlab_custom_interfaces\n'}
+[45.510370] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/ament_prefix_path.sh\n'}
+[45.511524] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[45.512770] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/path.sh\n'}
+[45.513893] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/environment/path.dsv\n'}
+[45.515024] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/local_setup.bash\n'}
+[45.516159] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/local_setup.sh\n'}
+[45.517326] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/local_setup.zsh\n'}
+[45.518471] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/local_setup.dsv\n'}
+[45.519575] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/package.dsv\n'}
+[45.520054] (-) TimerEvent: {}
+[45.521277] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/ament_index/resource_index/packages/norlab_custom_interfaces\n'}
+[45.523294] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[45.524988] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_generator_cExport-release.cmake\n'}
+[45.526876] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[45.530365] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[45.533854] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[45.535685] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[45.537855] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[45.539413] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[45.540932] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[45.542464] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[45.543925] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_cExport-release.cmake\n'}
+[45.545437] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[45.546958] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[45.548534] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[45.550024] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfaces__rosidl_typesupport_cppExport-release.cmake\n'}
+[45.551574] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[45.552978] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/export_norlab_custom_interfaces__rosidl_generator_pyExport-release.cmake\n'}
+[45.554293] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[45.555547] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[45.556888] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[45.558134] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[45.559397] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[45.560673] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[45.562047] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[45.563370] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfacesConfig.cmake\n'}
+[45.564415] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/cmake/norlab_custom_interfacesConfig-version.cmake\n'}
+[45.565558] (norlab_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bailey/ros2_ws/install/norlab_custom_interfaces/share/norlab_custom_interfaces/package.xml\n'}
+[45.573954] (norlab_custom_interfaces) CommandEnded: {'returncode': 0}
+[45.620216] (-) TimerEvent: {}
+[45.720833] (-) TimerEvent: {}
+[45.821617] (-) TimerEvent: {}
+[45.922394] (-) TimerEvent: {}
+[46.023253] (-) TimerEvent: {}
+[46.124049] (-) TimerEvent: {}
+[46.224820] (-) TimerEvent: {}
+[46.317872] (norlab_custom_interfaces) JobEnded: {'identifier': 'norlab_custom_interfaces', 'rc': 0}
+[46.320996] (-) EventReactorShutdown: {}

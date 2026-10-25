@@ -1,0 +1,29 @@
+[5.848s] Invoking command in '/home/bailey/ros2_ws/src/wile_e': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data
+[7.753s] running egg_info
+[7.893s] writing ../../build/wile_e/wile_e.egg-info/PKG-INFO
+[7.895s] writing dependency_links to ../../build/wile_e/wile_e.egg-info/dependency_links.txt
+[7.897s] writing entry points to ../../build/wile_e/wile_e.egg-info/entry_points.txt
+[7.903s] writing requirements to ../../build/wile_e/wile_e.egg-info/requires.txt
+[7.904s] writing top-level names to ../../build/wile_e/wile_e.egg-info/top_level.txt
+[8.192s] reading manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[8.197s] adding license file 'LICENSE'
+[8.198s] writing manifest file '../../build/wile_e/wile_e.egg-info/SOURCES.txt'
+[8.198s] running build
+[8.199s] running build_py
+[8.203s] copying wile_e/roboclaw_controller.py -> /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e
+[8.205s] running install
+[8.239s] running install_lib
+[8.395s] copying /home/bailey/ros2_ws/build/wile_e/build/lib/wile_e/roboclaw_controller.py -> /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e
+[8.400s] byte-compiling /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e/roboclaw_controller.py to roboclaw_controller.cpython-312.pyc
+[8.404s] running install_data
+[8.407s] running install_egg_info
+[8.548s] removing '/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e-0.0.0-py3.12.egg-info' (and everything under it)
+[8.550s] Copying ../../build/wile_e/wile_e.egg-info to /home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages/wile_e-0.0.0-py3.12.egg-info
+[8.557s] running install_scripts
+[9.605s] Installing arduino_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[9.606s] Installing command_interpreter script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[9.608s] Installing file_reader script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[9.610s] Installing roboclaw_controller script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[9.610s] Installing trigger script to /home/bailey/ros2_ws/install/wile_e/lib/wile_e
+[9.613s] writing list of installed files to '/home/bailey/ros2_ws/build/wile_e/install.log'
+[9.809s] Invoked command in '/home/bailey/ros2_ws/src/wile_e' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bailey/ros2_ws/build/wile_e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/wile_e/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/roboclaw_ros/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/bailey/ros2_ws/install/norlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wile_e build --build-base /home/bailey/ros2_ws/build/wile_e/build install --record /home/bailey/ros2_ws/build/wile_e/install.log --single-version-externally-managed install_data

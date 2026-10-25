@@ -1,0 +1,9 @@
+{
+  "package_name": "wile_e_interfaces",
+  "output_dir": "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_generator_type_description/wile_e_interfaces",
+  "idl_tuples": [
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/FileCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/RoboclawCommand.idl",
+    "/home/bailey/ros2_ws/build/wile_e_interfaces/rosidl_adapter/wile_e_interfaces:msg/ArduinoCommand.idl"
+  ]
+}

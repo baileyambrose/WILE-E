@@ -1,0 +1,26 @@
+[0.000000] (-) TimerEvent: {}
+[0.001012] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.002078] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002177] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002243] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.002308] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.002373] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002434] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.003096] (-) JobUnselected: {'identifier': 'wile_e_interfaces'}
+[0.003845] (wile_e) JobQueued: {'identifier': 'wile_e', 'dependencies': OrderedDict({'wile_e_interfaces': '/home/bailey/ros2_ws/install/wile_e_interfaces'})}
+[0.004094] (wile_e) JobStarted: {'identifier': 'wile_e'}
+[0.099222] (-) TimerEvent: {}
+[0.200024] (-) TimerEvent: {}
+[0.300824] (-) TimerEvent: {}
+[0.401531] (-) TimerEvent: {}
+[0.502150] (-) TimerEvent: {}
+[0.602818] (-) TimerEvent: {}
+[0.703397] (-) TimerEvent: {}
+[0.804010] (-) TimerEvent: {}
+[0.904569] (-) TimerEvent: {}
+[1.005159] (-) TimerEvent: {}
+[1.105934] (-) TimerEvent: {}
+[1.206990] (-) TimerEvent: {}
+[1.231776] (wile_e) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 54, in build\n    data_files = get_data_files_mapping(\n                 ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 42, in get_data_files_mapping\n    assert not os.path.isabs(source), \\\n               ^^^^^^^^^^^^^^^^^^^^^\n  File "<frozen posixpath>", line 62, in isabs\nTypeError: expected str, bytes or os.PathLike object, not list\n'}
+[1.235446] (wile_e) JobEnded: {'identifier': 'wile_e', 'rc': 1}
+[1.243064] (-) EventReactorShutdown: {}

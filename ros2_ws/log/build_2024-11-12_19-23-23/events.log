@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.001766] (-) JobUnselected: {'identifier': 'norlab_custom_interfaces'}
+[0.001922] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001996] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002059] (-) JobUnselected: {'identifier': 'roboclaw_ros'}
+[0.002123] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002186] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002256] (python_parameters) JobQueued: {'identifier': 'python_parameters', 'dependencies': OrderedDict()}
+[0.002333] (python_parameters) JobStarted: {'identifier': 'python_parameters'}
+[0.099389] (-) TimerEvent: {}
+[0.201882] (-) TimerEvent: {}
+[0.302978] (-) TimerEvent: {}
+[0.404076] (-) TimerEvent: {}
+[0.504931] (-) TimerEvent: {}
+[0.605503] (-) TimerEvent: {}
+[0.706153] (-) TimerEvent: {}
+[0.806765] (-) TimerEvent: {}
+[0.907386] (-) TimerEvent: {}
+[1.007995] (-) TimerEvent: {}
+[1.108605] (-) TimerEvent: {}
+[1.209306] (-) TimerEvent: {}
+[1.310813] (-) TimerEvent: {}
+[1.413783] (-) TimerEvent: {}
+[1.515268] (-) TimerEvent: {}
+[1.616000] (-) TimerEvent: {}
+[1.716667] (-) TimerEvent: {}
+[1.817450] (-) TimerEvent: {}
+[1.918383] (-) TimerEvent: {}
+[2.019034] (-) TimerEvent: {}
+[2.119652] (-) TimerEvent: {}
+[2.220225] (-) TimerEvent: {}
+[2.320909] (-) TimerEvent: {}
+[2.421450] (-) TimerEvent: {}
+[2.522128] (-) TimerEvent: {}
+[2.622744] (-) TimerEvent: {}
+[2.723300] (-) TimerEvent: {}
+[2.823943] (-) TimerEvent: {}
+[2.924589] (-) TimerEvent: {}
+[3.025194] (-) TimerEvent: {}
+[3.125812] (-) TimerEvent: {}
+[3.226369] (-) TimerEvent: {}
+[3.328208] (-) TimerEvent: {}
+[3.429643] (-) TimerEvent: {}
+[3.531302] (-) TimerEvent: {}
+[3.632223] (-) TimerEvent: {}
+[3.735810] (-) TimerEvent: {}
+[3.837000] (-) TimerEvent: {}
+[3.937986] (-) TimerEvent: {}
+[4.041851] (-) TimerEvent: {}
+[4.143014] (-) TimerEvent: {}
+[4.244754] (-) TimerEvent: {}
+[4.347147] (-) TimerEvent: {}
+[4.449690] (-) TimerEvent: {}
+[4.550858] (-) TimerEvent: {}
+[4.651662] (-) TimerEvent: {}
+[4.752248] (-) TimerEvent: {}
+[4.853024] (-) TimerEvent: {}
+[4.954859] (-) TimerEvent: {}
+[5.057683] (-) TimerEvent: {}
+[5.159156] (-) TimerEvent: {}
+[5.260713] (-) TimerEvent: {}
+[5.362948] (-) TimerEvent: {}
+[5.463677] (-) TimerEvent: {}
+[5.565475] (-) TimerEvent: {}
+[5.666944] (-) TimerEvent: {}
+[5.768436] (-) TimerEvent: {}
+[5.870087] (-) TimerEvent: {}
+[5.971676] (-) TimerEvent: {}
+[6.072738] (-) TimerEvent: {}
+[6.121396] (python_parameters) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/python_parameters', 'build', '--build-base', '/home/bailey/ros2_ws/build/python_parameters/build', 'install', '--record', '/home/bailey/ros2_ws/build/python_parameters/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bailey/ros2_ws/src/python_parameters', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bailey', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bailey', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1927', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bailey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bailey', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OingeJr:@/tmp/.ICE-unix/1877,unix/OingeJr:/tmp/.ICE-unix/1877', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ab8f0206_5d55_4544_99f1_822a328dd622', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.WO7AX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.196', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bailey/ros2_ws/build/python_parameters', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bailey/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.172893] (-) TimerEvent: {}
+[6.273516] (-) TimerEvent: {}
+[6.374194] (-) TimerEvent: {}
+[6.474830] (-) TimerEvent: {}
+[6.575450] (-) TimerEvent: {}
+[6.676126] (-) TimerEvent: {}
+[6.776689] (-) TimerEvent: {}
+[6.877319] (-) TimerEvent: {}
+[6.978043] (-) TimerEvent: {}
+[7.078632] (-) TimerEvent: {}
+[7.179207] (-) TimerEvent: {}
+[7.279852] (-) TimerEvent: {}
+[7.380517] (-) TimerEvent: {}
+[7.481116] (-) TimerEvent: {}
+[7.492757] (python_parameters) StdoutLine: {'line': b'running egg_info\n'}
+[7.581291] (-) TimerEvent: {}
+[7.593896] (python_parameters) StdoutLine: {'line': b'writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO\n'}
+[7.595768] (python_parameters) StdoutLine: {'line': b'writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt\n'}
+[7.597235] (python_parameters) StdoutLine: {'line': b'writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt\n'}
+[7.598106] (python_parameters) StdoutLine: {'line': b'writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt\n'}
+[7.598813] (python_parameters) StdoutLine: {'line': b'writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt\n'}
+[7.681447] (-) TimerEvent: {}
+[7.782066] (-) TimerEvent: {}
+[7.800031] (python_parameters) StdoutLine: {'line': b"reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[7.801668] (python_parameters) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.803877] (python_parameters) StdoutLine: {'line': b"writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[7.804647] (python_parameters) StdoutLine: {'line': b'running build\n'}
+[7.805167] (python_parameters) StdoutLine: {'line': b'running build_py\n'}
+[7.806368] (python_parameters) StdoutLine: {'line': b'running install\n'}
+[7.830358] (python_parameters) StdoutLine: {'line': b'running install_lib\n'}
+[7.882218] (-) TimerEvent: {}
+[7.934883] (python_parameters) StdoutLine: {'line': b'running install_data\n'}
+[7.935665] (python_parameters) StdoutLine: {'line': b'copying launch/python_parameters_launch.py -> /home/bailey/ros2_ws/install/python_parameters/share/python_parameters\n'}
+[7.936401] (python_parameters) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.982356] (-) TimerEvent: {}
+[8.039273] (python_parameters) StdoutLine: {'line': b"removing '/home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[8.040997] (python_parameters) StdoutLine: {'line': b'Copying ../../build/python_parameters/python_parameters.egg-info to /home/bailey/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info\n'}
+[8.046386] (python_parameters) StdoutLine: {'line': b'running install_scripts\n'}
+[8.082500] (-) TimerEvent: {}
+[8.183105] (-) TimerEvent: {}
+[8.283677] (-) TimerEvent: {}
+[8.384235] (-) TimerEvent: {}
+[8.484909] (-) TimerEvent: {}
+[8.585633] (-) TimerEvent: {}
+[8.686232] (-) TimerEvent: {}
+[8.762327] (python_parameters) StdoutLine: {'line': b'Installing minimal_param_node script to /home/bailey/ros2_ws/install/python_parameters/lib/python_parameters\n'}
+[8.763998] (python_parameters) StdoutLine: {'line': b"writing list of installed files to '/home/bailey/ros2_ws/build/python_parameters/install.log'\n"}
+[8.786508] (-) TimerEvent: {}
+[8.887378] (-) TimerEvent: {}
+[8.932231] (python_parameters) CommandEnded: {'returncode': 0}
+[8.975802] (python_parameters) JobEnded: {'identifier': 'python_parameters', 'rc': 0}
+[8.978979] (-) EventReactorShutdown: {}
