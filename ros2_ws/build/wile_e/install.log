@@ -1,3 +1,4 @@
+/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/BNO086_py.py
 /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/accelerometer_interface.py
 /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/NN_test.py
 /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/trigger.py
@@ -19,6 +20,7 @@
 /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/camera.py
 /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/publisher_member_function.py
 /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/teensy_interface.py
+/home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/__pycache__/BNO086_py.cpython-310.pyc
 /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/__pycache__/accelerometer_interface.cpython-310.pyc
 /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/__pycache__/NN_test.cpython-310.pyc
 /home/bailey/ros2_ws/install/wile_e/lib/python3.10/site-packages/wile_e/__pycache__/trigger.cpython-310.pyc

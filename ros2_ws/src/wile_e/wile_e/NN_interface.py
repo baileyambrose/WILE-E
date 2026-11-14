@@ -22,7 +22,7 @@ nn_model.eval()
 compiled_nn_model = torch.compile(nn_model)
 
 ACTION_RATE = 0.02
-CLIP_ACTIONS = 30.0 #configured in rsl_rl_cfg.py
+CLIP_ACTIONS = 50.0 #configured in rsl_rl_cfg.py
 
 SHOULDER_ENCODER_PPR = 5281.1
 ELBOW_ENCODER_PPR = 2*5281.1

@@ -14,6 +14,7 @@ resource/wile_e
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+wile_e/BNO086_py.py
 wile_e/NN_interface.py
 wile_e/NN_test.py
 wile_e/__init__.py

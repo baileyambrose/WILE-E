@@ -48,7 +48,7 @@ class AccelerometerInterfaceNode(Node):
     def init_sensor(self):
         i2c = busio.I2C(board.SCL, board.SDA, frequency=400000)#i2c = I2C(3)
         try:
-            self.imu = BNO08X_I2C(i2c)
+            self.imu = BNO08X_I2C(i2c, address=0x4A)
         except:
             self.get_logger().error('Failed to connect to BNO085 via I2C...')
             raise Exception('Failed to connect to BNO085 via I2')
@@ -77,23 +77,23 @@ class AccelerometerInterfaceNode(Node):
             # get the Linear Acceleration of the robot
             linear_accel[0], linear_accel[1], linear_accel[2] = self.imu.acceleration  
             # get the quaternion representation of the robot's orientation
-            orientation_quat[1], orientation_quat[2], orientation_quat[3], orientation_quat[0] = self.imu.quaternion
+            orientation_quat[0], orientation_quat[1], orientation_quat[2], orientation_quat[3] = self.imu.quaternion
 
-            reflected_quat = self.reflect_quaternion(np.array(orientation_quat))
+            #reflected_quat = self.reflect_quaternion(np.array(orientation_quat))
 
             #fixed_quat = self.offset_quaternion(orientation_quat)
 
-            q = R.from_quat(orientation_quat)
+            #q = R.from_quat(orientation_quat)
 
-            offset1 = R.from_euler('x', 90, degrees=True)
+            #offset1 = R.from_euler('x', 90, degrees=True)
 
-            fixed_quat = (offset1 * q).as_quat()
+            #fixed_quat = (offset1 * q).as_quat()
 
-            self.get_logger().info(f"{q.as_euler('xyz', degrees=True)} -> {fixed_quat}: {(R.from_quat([0, 0.774, 0, -.633])).as_euler('xyz', degrees=True)}")
+            #self.get_logger().info(f"{q.as_euler('xyz', degrees=True)} -> {fixed_quat}: {(R.from_quat([0, 0.774, 0, -.633])).as_euler('xyz', degrees=True)}")
             # calculate the euler representation of the robot's orientation
             #self.__calc_euler_angles_deg()
 
-            roll, pitch, yaw = self.quat_to_rpy(orientation_quat)
+            #roll, pitch, yaw = self.quat_to_rpy(orientation_quat)
 
             #self.get_logger().info(f"roll:{roll}, pitch:{pitch}, yaw:{yaw}")
 
@@ -101,21 +101,21 @@ class AccelerometerInterfaceNode(Node):
             imu_data_msg = Imu()
             #robot_ori_euler_msg = Vector3()
 
-            # IMU X down, Y left, Z forward
+            # IMU X forward, Y left, Z up
             imu_data_msg.angular_velocity.x = gyro[0]
             imu_data_msg.angular_velocity.y = gyro[1]
             imu_data_msg.angular_velocity.z = gyro[2]
-            imu_data_msg.linear_acceleration.x = linear_accel[2]
-            imu_data_msg.linear_acceleration.y = -linear_accel[1]
-            imu_data_msg.linear_acceleration.z = linear_accel[0]
-            imu_data_msg.orientation.x = fixed_quat[1]
-            imu_data_msg.orientation.y = fixed_quat[2]
-            imu_data_msg.orientation.z = fixed_quat[3]
-            imu_data_msg.orientation.w = fixed_quat[0]
+            imu_data_msg.linear_acceleration.x = linear_accel[0] 
+            imu_data_msg.linear_acceleration.y = -linear_accel[1] # Sensor and sim produce some flipped acceleration
+            imu_data_msg.linear_acceleration.z = linear_accel[2] #+9.8m/s^2 at rest
+            imu_data_msg.orientation.x = orientation_quat[0]
+            imu_data_msg.orientation.y = orientation_quat[1]
+            imu_data_msg.orientation.z = orientation_quat[2]
+            imu_data_msg.orientation.w = orientation_quat[3]
 
-            imu_data_msg.angular_velocity.x = roll
-            imu_data_msg.angular_velocity.y = pitch
-            imu_data_msg.angular_velocity.z = yaw
+            #imu_data_msg.angular_velocity.x = roll
+            #imu_data_msg.angular_velocity.y = pitch
+            #imu_data_msg.angular_velocity.z = yaw
 
             self.imu_data_publisher.publish(imu_data_msg)
             #self.get_logger().info(f"{imu_data_msg}")
